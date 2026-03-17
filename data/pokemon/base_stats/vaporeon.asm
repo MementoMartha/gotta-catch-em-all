@@ -10,7 +10,7 @@
 	INCBIN "gfx/pokemon/front/vaporeon.pic", 0, 1 ; sprite dimensions
 	dw VaporeonPicFront, VaporeonPicBack
 
-	db TACKLE, SAND_ATTACK, QUICK_ATTACK, WATER_GUN ; level 1 learnset
+	db TACKLE, TAIL_WHIP, SAND_ATTACK, WATER_GUN ; level 1 learnset
 	db GROWTH_MEDIUM_FAST ; growth rate
 
 	; tm/hm learnset
@@ -20,4 +20,5 @@
 	     SKULL_BASH,   REST,         SUBSTITUTE,   SURF
 	; end
 
-	db 0 ; padding
+	db BANK(VaporeonPicFront)
+	assert BANK(VaporeonPicFront) == BANK(VaporeonPicBack)

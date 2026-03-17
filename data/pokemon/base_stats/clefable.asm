@@ -10,7 +10,7 @@
 	INCBIN "gfx/pokemon/front/clefable.pic", 0, 1 ; sprite dimensions
 	dw ClefablePicFront, ClefablePicBack
 
-	db SING, DOUBLESLAP, MINIMIZE, METRONOME ; level 1 learnset
+	db POUND, GROWL, SING, DOUBLESLAP ; level 1 learnset
 	db GROWTH_FAST ; growth rate
 
 	; tm/hm learnset
@@ -23,4 +23,5 @@
 	     TRI_ATTACK,   SUBSTITUTE,   STRENGTH,     FLASH
 	; end
 
-	db 0 ; padding
+	db BANK(ClefablePicFront)
+	assert BANK(ClefablePicFront) == BANK(ClefablePicBack)

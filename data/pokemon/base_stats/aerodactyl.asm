@@ -10,7 +10,7 @@
 	INCBIN "gfx/pokemon/front/aerodactyl.pic", 0, 1 ; sprite dimensions
 	dw AerodactylPicFront, AerodactylPicBack
 
-	db WING_ATTACK, AGILITY, NO_MOVE, NO_MOVE ; level 1 learnset
+	db ROCK_THROW, WING_ATTACK, AGILITY, NO_MOVE ; level 1 learnset
 	db GROWTH_SLOW ; growth rate
 
 	; tm/hm learnset
@@ -20,4 +20,5 @@
 	     REST,         SUBSTITUTE,   FLY
 	; end
 
-	db 0 ; padding
+	db BANK(AerodactylPicFront)
+	assert BANK(AerodactylPicFront) == BANK(AerodactylPicBack)

@@ -10,7 +10,7 @@
 	INCBIN "gfx/pokemon/front/golduck.pic", 0, 1 ; sprite dimensions
 	dw GolduckPicFront, GolduckPicBack
 
-	db SCRATCH, TAIL_WHIP, DISABLE, NO_MOVE ; level 1 learnset
+	db SCRATCH, WATER_GUN, TAIL_WHIP, DISABLE ; level 1 learnset
 	db GROWTH_MEDIUM_FAST ; growth rate
 
 	; tm/hm learnset
@@ -18,8 +18,9 @@
 	     DOUBLE_EDGE,  BUBBLEBEAM,   WATER_GUN,    ICE_BEAM,     BLIZZARD,     \
 	     HYPER_BEAM,   PAY_DAY,      SUBMISSION,   COUNTER,      SEISMIC_TOSS, \
 	     RAGE,         DIG,          MIMIC,        DOUBLE_TEAM,  BIDE,         \
-	     SWIFT,        SKULL_BASH,   REST,         SUBSTITUTE,   SURF,         \
-	     STRENGTH
+	     SWIFT,        SKULL_BASH,   REST,         TRI_ATTACK,   SUBSTITUTE,   \
+	     SURF,         STRENGTH
 	; end
 
-	db 0 ; padding
+	db BANK(GolduckPicFront)
+	assert BANK(GolduckPicFront) == BANK(GolduckPicBack)

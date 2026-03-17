@@ -18,7 +18,9 @@
 	     DOUBLE_EDGE,  BUBBLEBEAM,   WATER_GUN,    ICE_BEAM,     BLIZZARD,     \
 	     PAY_DAY,      SUBMISSION,   COUNTER,      SEISMIC_TOSS, RAGE,         \
 	     DIG,          MIMIC,        DOUBLE_TEAM,  BIDE,         SWIFT,        \
-	     SKULL_BASH,   REST,         SUBSTITUTE,   SURF,         STRENGTH
+	     SKULL_BASH,   REST,         TRI_ATTACK,   SUBSTITUTE,   SURF,         \
+	     STRENGTH
 	; end
 
-	db 0 ; padding
+	db BANK(PsyduckPicFront)
+	assert BANK(PsyduckPicFront) == BANK(PsyduckPicBack)

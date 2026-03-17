@@ -10,7 +10,7 @@
 	INCBIN "gfx/pokemon/front/pinsir.pic", 0, 1 ; sprite dimensions
 	dw PinsirPicFront, PinsirPicBack
 
-	db VICEGRIP, NO_MOVE, NO_MOVE, NO_MOVE ; level 1 learnset
+	db VICEGRIP, FOCUS_ENERGY, NO_MOVE, NO_MOVE ; level 1 learnset
 	db GROWTH_SLOW ; growth rate
 
 	; tm/hm learnset
@@ -20,4 +20,5 @@
 	     STRENGTH
 	; end
 
-	db 0 ; padding
+	db BANK(PinsirPicFront)
+	assert BANK(PinsirPicFront) == BANK(PinsirPicBack)
