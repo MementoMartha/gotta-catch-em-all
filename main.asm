@@ -196,6 +196,10 @@ INCLUDE "engine/battle/move_effects/heal.asm"
 INCLUDE "engine/battle/move_effects/transform.asm"
 INCLUDE "engine/battle/move_effects/reflect_light_screen.asm"
 
+SECTION "Trainer Parties 1", ROMX
+
+INCLUDE "data/trainers/parties.asm"
+
 
 SECTION "Battle Core", ROMX
 
