@@ -1708,7 +1708,9 @@ wPseudoItemID:: db
 
 wUnusedAlreadyOwnedFlag:: db
 
-	ds 2
+wIsTrainerBattle:: db
+
+wWasTrainerBattle:: db
 
 wEvoStoneItemID:: db
 
