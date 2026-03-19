@@ -68,7 +68,7 @@ DEF FIRST_ROUTE_MAP EQU const_value
 DEF FIRST_INDOOR_MAP EQU const_value
 	map_const REDS_HOUSE_1F,                  4,  4 ; $25
 	map_const REDS_HOUSE_2F,                  4,  4 ; $26
-	map_const BLUES_HOUSE,                    4,  4 ; $27
+	map_const BLUES_HOUSE,                   11,  4 ; $27
 	map_const OAKS_LAB,                       5,  6 ; $28
 	end_indoor_group PALLET_TOWN
 
@@ -192,7 +192,7 @@ DEF FIRST_INDOOR_MAP EQU const_value
 	map_const HALL_OF_FAME,                   5,  4 ; $76
 	end_indoor_group POKEMON_LEAGUE
 
-	map_const UNDERGROUND_PATH_NORTH_SOUTH,   4, 24 ; $77 ; UndergroundPathNorthSouth.blk is actually 4x23
+	map_const UNDERGROUND_PATH_NORTH_SOUTH,   4, 23 ; $77
 	end_indoor_group UNDERGROUND_PATH
 
 	map_const CHAMPIONS_ROOM,                 4,  4 ; $78
