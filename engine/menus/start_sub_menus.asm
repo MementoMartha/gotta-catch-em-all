@@ -158,7 +158,7 @@ StartMenu_Pokemon::
 	jp z, .loop
 	jp CloseTextDisplay
 .surf
-	bit BIT_SOULBADGE, a
+	bit BIT_MARSHBADGE, a
 	jp z, .newBadgeRequired
 	farcall IsSurfingAllowed
 	ld hl, wStatusFlags1

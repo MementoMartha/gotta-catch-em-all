@@ -24,8 +24,8 @@ ItemPrices::
 	bcd3 0     ; CASCADEBADGE
 	bcd3 0     ; THUNDERBADGE
 	bcd3 0     ; RAINBOWBADGE
-	bcd3 0     ; SOULBADGE
 	bcd3 0     ; MARSHBADGE
+	bcd3 0     ; SOULBADGE
 	bcd3 0     ; VOLCANOBADGE
 	bcd3 0     ; EARTHBADGE
 	bcd3 550   ; ESCAPE_ROPE

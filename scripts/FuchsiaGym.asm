@@ -46,7 +46,7 @@ FuchsiaGymKogaPostBattleScript:
 	ld [wJoyIgnore], a
 ; fallthrough
 FuchsiaGymReceiveTM06:
-	ld a, TEXT_FUCHSIAGYM_KOGA_SOUL_BADGE_INFO
+	ld a, TEXT_FUCHSIAGYM_KOGA_MARSH_BADGE_INFO
 	ldh [hTextID], a
 	call DisplayTextID
 	SetEvent EVENT_BEAT_KOGA
@@ -64,9 +64,9 @@ FuchsiaGymReceiveTM06:
 	call DisplayTextID
 .gymVictory
 	ld hl, wObtainedBadges
-	set BIT_SOULBADGE, [hl]
+	set BIT_MARSHBADGE, [hl]
 	ld hl, wBeatGymFlags
-	set BIT_SOULBADGE, [hl]
+	set BIT_MARSHBADGE, [hl]
 
 	; deactivate gym trainers
 	SetEventRange EVENT_BEAT_FUCHSIA_GYM_TRAINER_0, EVENT_BEAT_FUCHSIA_GYM_TRAINER_5
@@ -75,17 +75,17 @@ FuchsiaGymReceiveTM06:
 
 FuchsiaGym_TextPointers:
 	def_text_pointers
-	dw_const FuchsiaGymKogaText,              TEXT_FUCHSIAGYM_KOGA
-	dw_const FuchsiaGymRocker1Text,           TEXT_FUCHSIAGYM_ROCKER1
-	dw_const FuchsiaGymRocker2Text,           TEXT_FUCHSIAGYM_ROCKER2
-	dw_const FuchsiaGymRocker3Text,           TEXT_FUCHSIAGYM_ROCKER3
-	dw_const FuchsiaGymRocker4Text,           TEXT_FUCHSIAGYM_ROCKER4
-	dw_const FuchsiaGymRocker5Text,           TEXT_FUCHSIAGYM_ROCKER5
-	dw_const FuchsiaGymRocker6Text,           TEXT_FUCHSIAGYM_ROCKER6
-	dw_const FuchsiaGymGymGuideText,          TEXT_FUCHSIAGYM_GYM_GUIDE
-	dw_const FuchsiaGymKogaSoulBadgeInfoText, TEXT_FUCHSIAGYM_KOGA_SOUL_BADGE_INFO
-	dw_const FuchsiaGymKogaReceivedTM06Text,  TEXT_FUCHSIAGYM_KOGA_RECEIVED_TM06
-	dw_const FuchsiaGymKogaTM06NoRoomText,    TEXT_FUCHSIAGYM_KOGA_TM06_NO_ROOM
+	dw_const FuchsiaGymKogaText,               TEXT_FUCHSIAGYM_KOGA
+	dw_const FuchsiaGymRocker1Text,            TEXT_FUCHSIAGYM_ROCKER1
+	dw_const FuchsiaGymRocker2Text,            TEXT_FUCHSIAGYM_ROCKER2
+	dw_const FuchsiaGymRocker3Text,            TEXT_FUCHSIAGYM_ROCKER3
+	dw_const FuchsiaGymRocker4Text,            TEXT_FUCHSIAGYM_ROCKER4
+	dw_const FuchsiaGymRocker5Text,            TEXT_FUCHSIAGYM_ROCKER5
+	dw_const FuchsiaGymRocker6Text,            TEXT_FUCHSIAGYM_ROCKER6
+	dw_const FuchsiaGymGymGuideText,           TEXT_FUCHSIAGYM_GYM_GUIDE
+	dw_const FuchsiaGymKogaMarshBadgeInfoText, TEXT_FUCHSIAGYM_KOGA_MARSH_BADGE_INFO
+	dw_const FuchsiaGymKogaReceivedTM06Text,   TEXT_FUCHSIAGYM_KOGA_RECEIVED_TM06
+	dw_const FuchsiaGymKogaTM06NoRoomText,     TEXT_FUCHSIAGYM_KOGA_TM06_NO_ROOM
 
 FuchsiaGymTrainerHeaders:
 	def_trainers 2
@@ -122,8 +122,8 @@ FuchsiaGymKogaText:
 	ld hl, wStatusFlags3
 	set BIT_TALKED_TO_TRAINER, [hl]
 	set BIT_PRINT_END_BATTLE_TEXT, [hl]
-	ld hl, .ReceivedSoulBadgeText
-	ld de, .ReceivedSoulBadgeText
+	ld hl, .ReceivedMarshBadgeText
+	ld de, .ReceivedMarshBadgeText
 	call SaveEndBattleTextPointers
 	ldh a, [hSpriteIndex]
 	ld [wSpriteIndex], a
@@ -142,16 +142,16 @@ FuchsiaGymKogaText:
 	text_far _FuchsiaGymKogaBeforeBattleText
 	text_end
 
-.ReceivedSoulBadgeText:
-	text_far _FuchsiaGymKogaReceivedSoulBadgeText
+.ReceivedMarshBadgeText:
+	text_far _FuchsiaGymKogaReceivedMarshBadgeText
 	text_end
 
 .PostBattleAdviceText:
 	text_far _FuchsiaGymKogaPostBattleAdviceText
 	text_end
 
-FuchsiaGymKogaSoulBadgeInfoText:
-	text_far _FuchsiaGymKogaSoulBadgeInfoText
+FuchsiaGymKogaMarshBadgeInfoText:
+	text_far _FuchsiaGymKogaMarshBadgeInfoText
 	text_end
 
 FuchsiaGymKogaReceivedTM06Text:

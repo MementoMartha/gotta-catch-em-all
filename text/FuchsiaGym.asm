@@ -16,11 +16,11 @@ _FuchsiaGymKogaBeforeBattleText::
 	cont "techniques!"
 	done
 
-_FuchsiaGymKogaReceivedSoulBadgeText::
+_FuchsiaGymKogaReceivedMarshBadgeText::
 	text "Humph!"
 	line "You have proven"
 	cont "your worth!"
 
 	para "Here! Take the"
-	line "SOULBADGE!"
+	line "MARSHBADGE!"
 	prompt

@@ -44,7 +44,7 @@ SaffronGymSabrinaPostBattle:
 	ld [wJoyIgnore], a
 
 SaffronGymSabrinaReceiveTM46Script:
-	ld a, TEXT_SAFFRONGYM_SABRINA_MARSH_BADGE_INFO
+	ld a, TEXT_SAFFRONGYM_SABRINA_SOUL_BADGE_INFO
 	ldh [hTextID], a
 	call DisplayTextID
 	SetEvent EVENT_BEAT_SABRINA
@@ -62,9 +62,9 @@ SaffronGymSabrinaReceiveTM46Script:
 	call DisplayTextID
 .gymVictory
 	ld hl, wObtainedBadges
-	set BIT_MARSHBADGE, [hl]
+	set BIT_SOULBADGE, [hl]
 	ld hl, wBeatGymFlags
-	set BIT_MARSHBADGE, [hl]
+	set BIT_SOULBADGE, [hl]
 
 	; deactivate gym trainers
 	SetEventRange EVENT_BEAT_SAFFRON_GYM_TRAINER_0, EVENT_BEAT_SAFFRON_GYM_TRAINER_6
@@ -82,7 +82,7 @@ SaffronGym_TextPointers:
 	dw_const SaffronGymYoungster3Text,            TEXT_SAFFRONGYM_YOUNGSTER3
 	dw_const SaffronGymYoungster4Text,            TEXT_SAFFRONGYM_YOUNGSTER4
 	dw_const SaffronGymGymGuideText,              TEXT_SAFFRONGYM_GYM_GUIDE
-	dw_const SaffronGymSabrinaMarshBadgeInfoText, TEXT_SAFFRONGYM_SABRINA_MARSH_BADGE_INFO
+	dw_const SaffronGymSabrinaSoulBadgeInfoText,  TEXT_SAFFRONGYM_SABRINA_SOUL_BADGE_INFO
 	dw_const SaffronGymSabrinaReceivedTM46Text,   TEXT_SAFFRONGYM_SABRINA_RECEIVED_TM46
 	dw_const SaffronGymSabrinaTM46NoRoomText,     TEXT_SAFFRONGYM_SABRINA_TM46_NO_ROOM
 
@@ -123,8 +123,8 @@ SaffronGymSabrinaText:
 	ld hl, wStatusFlags3
 	set BIT_TALKED_TO_TRAINER, [hl]
 	set BIT_PRINT_END_BATTLE_TEXT, [hl]
-	ld hl, .ReceivedMarshBadgeText
-	ld de, .ReceivedMarshBadgeText
+	ld hl, .ReceivedSoulBadgeText
+	ld de, .ReceivedSoulBadgeText
 	call SaveEndBattleTextPointers
 	ldh a, [hSpriteIndex]
 	ld [wSpriteIndex], a
@@ -141,8 +141,8 @@ SaffronGymSabrinaText:
 	text_far _SaffronGymSabrinaText
 	text_end
 
-.ReceivedMarshBadgeText:
-	text_far _SaffronGymSabrinaReceivedMarshBadgeText
+.ReceivedSoulBadgeText:
+	text_far _SaffronGymSabrinaReceivedSoulBadgeText
 	sound_get_key_item ; actually plays the second channel of SFX_BALL_POOF due to the wrong music bank being loaded
 	text_promptbutton
 	text_end
@@ -151,8 +151,8 @@ SaffronGymSabrinaText:
 	text_far _SaffronGymSabrinaPostBattleAdviceText
 	text_end
 
-SaffronGymSabrinaMarshBadgeInfoText:
-	text_far _SaffronGymSabrinaMarshBadgeInfoText
+SaffronGymSabrinaSoulBadgeInfoText:
+	text_far _SaffronGymSabrinaSoulBadgeInfoText
 	text_end
 
 SaffronGymSabrinaReceivedTM46Text:

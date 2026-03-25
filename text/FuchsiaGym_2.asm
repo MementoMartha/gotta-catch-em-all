@@ -9,12 +9,12 @@ _FuchsiaGymKogaPostBattleAdviceText::
 	line "terrorize foes!"
 	done
 
-_FuchsiaGymKogaSoulBadgeInfoText::
+_FuchsiaGymKogaMarshBadgeInfoText::
 	text "Now that you have"
-	line "the SOULBADGE,"
-	cont "the DEFENSE of"
-	cont "your #MON"
-	cont "increases!"
+	line "the MARSHBADGE,"
+	cont "your #MON will"
+	cont "have increased"
+	cont "SPEED."
 
 	para "It also lets you"
 	line "SURF outside of"

@@ -3864,7 +3864,7 @@ CheckForDisobedience:
 	bit BIT_EARTHBADGE, [hl]
 	ld a, 101
 	jr nz, .next
-	bit BIT_MARSHBADGE, [hl]
+	bit BIT_SOULBADGE, [hl]
 	ld a, 70
 	jr nz, .next
 	bit BIT_RAINBOWBADGE, [hl]
@@ -6506,7 +6506,7 @@ ApplyBadgeStatBoosts:
 ; the order of boosts matches the order they are laid out in RAM
 ; Boulder (bit 0) - attack
 ; Thunder (bit 2) - defense
-; Soul (bit 4) - speed
+; Marsh (bit 4) - speed
 ; Volcano (bit 6) - special
 .loop
 	srl b

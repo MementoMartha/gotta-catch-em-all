@@ -16,7 +16,7 @@ _SaffronGymSabrinaText::
 	cont "you my powers!"
 	done
 
-_SaffronGymSabrinaReceivedMarshBadgeText::
+_SaffronGymSabrinaReceivedSoulBadgeText::
 	text "I'm"
 	line "shocked!"
 	cont "But, a loss is a"
@@ -27,7 +27,7 @@ _SaffronGymSabrinaReceivedMarshBadgeText::
 	cont "to win!"
 
 	para "You earned the"
-	line "MARSHBADGE!@"
+	line "SOULBADGE!@"
 	text_end
 
 _SaffronGymSabrinaPostBattleAdviceText::
@@ -37,8 +37,8 @@ _SaffronGymSabrinaPostBattleAdviceText::
 	cont "realize it!"
 	done
 
-_SaffronGymSabrinaMarshBadgeInfoText::
-	text "The MARSHBADGE"
+_SaffronGymSabrinaSoulBadgeInfoText::
+	text "The SOULBADGE"
 	line "makes #MON up"
 	cont "to L70 obey you!"
 

@@ -41,8 +41,8 @@ ItemUsePtrTable:
 	dw ItemUseRock       ; CASCADEBADGE
 	dw UnusableItem      ; THUNDERBADGE
 	dw UnusableItem      ; RAINBOWBADGE
-	dw UnusableItem      ; SOULBADGE
 	dw UnusableItem      ; MARSHBADGE
+	dw UnusableItem      ; SOULBADGE
 	dw UnusableItem      ; VOLCANOBADGE
 	dw UnusableItem      ; EARTHBADGE
 	dw ItemUseEscapeRope ; ESCAPE_ROPE

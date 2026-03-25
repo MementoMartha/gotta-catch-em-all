@@ -46,7 +46,7 @@ _CeruleanBadgeHouseCascadeBadgeText::
 	prompt
 
 _CeruleanBadgeHouseThunderBadgeText::
-	text "The SPEED of all"
+	text "The DEFENSE of all"
 	line "#MON increases"
 	cont "a little bit."
 
@@ -67,8 +67,8 @@ _CeruleanBadgeHouseRainbowBadgeText::
 	cont "side of battle."
 	prompt
 
-_CeruleanBadgeHouseSoulBadgeText::
-	text "The DEFENSE of all"
+_CeruleanBadgeHouseMarshBadgeText::
+	text "The SPEED of all"
 	line "#MON increases"
 	cont "a little bit."
 
@@ -77,7 +77,7 @@ _CeruleanBadgeHouseSoulBadgeText::
 	cont "of battle."
 	prompt
 
-_CeruleanBadgeHouseMarshBadgeText::
+_CeruleanBadgeHouseSoulBadgeText::
 	text "#MON up to L70"
 	line "will obey you."
 
