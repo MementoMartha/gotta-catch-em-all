@@ -1,30 +1,26 @@
 Route25WildMons:
-	def_grass_wildmons 15 ; encounter rate
-IF DEF(_RED)
-	db  8, WEEDLE
-	db  9, KAKUNA
-	db 13, PIDGEY
-	db 12, ODDISH
-	db 13, ODDISH
-	db 12, ABRA
-	db 14, ODDISH
-	db 10, ABRA
-	db  7, METAPOD
-	db  8, CATERPIE
-ENDC
-IF DEF(_BLUE)
-	db  8, CATERPIE
-	db  9, METAPOD
-	db 13, PIDGEY
-	db 12, BELLSPROUT
-	db 13, BELLSPROUT
-	db 12, ABRA
-	db 14, BELLSPROUT
-	db 10, ABRA
-	db  7, KAKUNA
-	db  8, WEEDLE
-ENDC
+	def_grass_wildmons 25 ; encounter rate
+	db 13, ODDISH		; 20%
+	db 12, PIDGEY		; 20%
+	db 14, ODDISH		; 10%
+	db 12, BELLSPROUT	; 10%
+	db 13, VENONAT		; 10%
+	db 13, PSYDUCK		; 10%
+	db 13, BELLSPROUT	;  5%
+	db 10, ABRA 		;  5%
+	db 14, VENONAT		;  4%
+	db 11, ABRA 		;  4%
+	db 14, VENONAT		;  1%
+	db 12, ABRA 		;  1%
 	end_grass_wildmons
 
 	def_water_wildmons 0 ; encounter rate
 	end_water_wildmons
+
+	; Grass Encounters:
+	; ODDISH    	- 30% (LV 13-14)
+	; PIDGEY    	- 20% (LV 12)
+	; BELLSPROUT	- 15% (LV 12-13)
+	; VENONAT   	- 15% (LV 13-14)
+	; PSYDUCK   	- 10% (LV 13)
+	; ABRA      	- 10% (LV 10-12)

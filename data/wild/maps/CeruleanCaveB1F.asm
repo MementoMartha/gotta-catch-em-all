@@ -1,21 +1,28 @@
 CeruleanCaveB1FWildMons:
 	def_grass_wildmons 25 ; encounter rate
-	db 55, RHYDON
-	db 55, MAROWAK
-	db 55, ELECTRODE
-	db 64, CHANSEY
-	db 64, PARASECT
-	db 64, RAICHU
-IF DEF(_RED)
-	db 57, ARBOK
-ENDC
-IF DEF(_BLUE)
-	db 57, SANDSLASH
-ENDC
-	db 65, DITTO
-	db 63, DITTO
-	db 67, DITTO
+	db 55, HYPNO		; 20%
+	db 55, KADABRA		; 20%
+	db 57, CLEFAIRY		; 10%
+	db 57, RHYDON		; 10%
+	db 57, RAICHU   	; 10%
+	db 58, DITTO		; 10%
+	db 58, TANGELA  	;  5%
+	db 59, DITTO		;  5%
+	db 58, LICKITUNG  	;  4%
+	db 59, DITTO 		;  4%
+	db 58, LICKITUNG 	;  1%
+	db 60, DITTO 		;  1%
 	end_grass_wildmons
 
 	def_water_wildmons 0 ; encounter rate
 	end_water_wildmons
+
+	; Land Encounters:
+	; HYPNO     	- 20% (LV 55)
+	; KADABRA   	- 20% (LV 55)
+	; DITTO     	- 20% (LV 58-60)
+	; CLEFAIRY  	- 10% (LV 57)
+	; RHYDON    	- 10% (LV 57)
+	; RAICHU    	- 10% (LV 57)
+	; TANGELA   	-  5% (LV 58)
+	; LICKITUNG 	-  5% (LV 58)

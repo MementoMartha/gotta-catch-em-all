@@ -1,26 +1,25 @@
 Route23WildMons:
 	def_grass_wildmons 10 ; encounter rate
-IF DEF(_RED)
-	db 26, EKANS
-ENDC
-IF DEF(_BLUE)
-	db 26, SANDSHREW
-ENDC
-	db 33, DITTO
-	db 26, SPEAROW
-	db 38, FEAROW
-	db 38, DITTO
-	db 38, FEAROW
-IF DEF(_RED)
-	db 41, ARBOK
-ENDC
-IF DEF(_BLUE)
-	db 41, SANDSLASH
-ENDC
-	db 43, DITTO
-	db 41, FEAROW
-	db 43, FEAROW
+	db 38, ARBOK		; 20%
+	db 38, SANDSLASH	; 20%
+	db 38, FEAROW		; 10%
+	db 38, PRIMEAPE		; 10%
+	db 39, ARBOK		; 10%
+	db 39, SANDSLASH	; 10%
+	db 39, FEAROW		;  5%
+	db 39, PRIMEAPE		;  5%
+	db 38, EXEGGCUTE	;  4%
+	db 39, EXEGGCUTE 	;  4%
+	db 38, EXEGGCUTE	;  1%
+	db 39, EXEGGCUTE 	;  1%
 	end_grass_wildmons
 
 	def_water_wildmons 0 ; encounter rate
 	end_water_wildmons
+
+	; Grass Encounters:
+	; ARBOK     	- 30% (LV 38-39)
+	; SANDSLASH 	- 30% (LV 38-39)
+	; FEAROW    	- 15% (LV 38-39)
+	; PRIMEAPE  	- 15% (LV 38-39)
+	; EXEGGCUTE 	- 10% (LV 38-39)
