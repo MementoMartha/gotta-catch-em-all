@@ -33,7 +33,7 @@ _Route10Hiker1AfterBattleText::
 	done
 
 _Route10SuperNerd2BattleText::
-	text "Hi kid, want to"
+	text "Hi, kid, want to"
 	line "see my #MON?"
 	done
 

@@ -47,7 +47,7 @@ _SSAnneKitchenCook7MainCourseIsText::
 	prompt
 
 SSAnneKitchenCook7SalmonDuSaladText::
-	text "Salmon du Salad!"
+	text "Salade de Salmon!"
 
 	para "Les guests may"
 	line "gripe it's fish"

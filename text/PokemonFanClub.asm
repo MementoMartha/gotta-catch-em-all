@@ -47,8 +47,8 @@ _PokemonFanClubChairmanIntroText::
 
 	para "So..."
 
-	para "Did you come"
-	line "visit to hear"
+	para "Did you come to"
+	line "hear me brag"
 	cont "about my #MON?"
 	done
 
@@ -69,7 +69,7 @@ _PokemonFanClubChairmanStoryText::
 	cont "love it!"
 
 	para "Hug it...when..."
-	cont "sleeping...warm"
+	line "sleeping...warm"
 	cont "and cuddly..."
 	cont "spectacular..."
 	cont "ravishing..."

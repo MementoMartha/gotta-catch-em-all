@@ -123,28 +123,28 @@ _CeruleanCitySuperNerd2Text::
 	done
 
 _CeruleanCityGuardText::
-	text "The people here"
-	line "were robbed."
+	text "These poor people"
+	line "here were robbed."
 
-	para "It's obvious that"
-	line "TEAM ROCKET is"
-	cont "behind this most"
-	cont "heinous crime!"
+	para "We're positive"
+	line "that TEAM ROCKET"
+	cont "is behind this"
+	cont "terrible deed."
 
 	para "Even our POLICE"
-	line "force has trouble"
+	line "FORCE has trouble"
 	cont "with the ROCKETs!"
 	done
 
 _CeruleanCityCooltrainerF1SlowbroUseSonicboomText::
 	text "OK! SLOWBRO!"
-	line "Use SONICBOOM!"
-	cont "Come on, SLOWBRO"
-	cont "pay attention!"
+	line "Use WATER GUN!"
+	cont "Please, SLOWBRO!"
+	cont "Pay attention!"
 	done
 
 _CeruleanCityCooltrainerF1SlowbroPunchText::
-	text "SLOWBRO punch!"
+	text "SLOWBRO, HEADBUTT!"
 	line "No! You blew it"
 	cont "again!"
 	done
@@ -153,8 +153,8 @@ _CeruleanCityCooltrainerF1SlowbroWithdrawText::
 	text "SLOWBRO, WITHDRAW!"
 	line "No! That's wrong!"
 
-	para "It's so hard to"
-	line "control #MON!"
+	para "Training #MON"
+	line "is difficult!"
 
 	para "Your #MON's"
 	line "obedience depends"

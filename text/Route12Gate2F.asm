@@ -5,7 +5,7 @@ _Route12Gate2FBrunetteGirlYouCanHaveThisText::
 
 	para "You can have this"
 	line "TM. I don't need"
-	cont "it any more..."
+	cont "it anymore..."
 	prompt
 
 _Route12Gate2FBrunetteGirlReceivedTM39Text::

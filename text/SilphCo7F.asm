@@ -79,7 +79,7 @@ _SilphCo7FSilphWorkerM4SafeAtLastText::
 	done
 
 _SilphCo7FRocket1BattleText::
-	text "Oh ho! I smell a"
+	text "Aha! I smell a"
 	line "little rat!"
 	done
 
@@ -167,7 +167,7 @@ _SilphCo7FRivalWaitedHereText::
 	done
 
 _SilphCo7FRivalDefeatedText::
-	text "Oh ho!"
+	text "Oho!"
 	line "So, you are ready"
 	cont "for BOSS ROCKET!"
 	prompt

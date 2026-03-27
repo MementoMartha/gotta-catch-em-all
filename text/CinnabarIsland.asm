@@ -13,7 +13,7 @@ _CinnabarIslandGirlText::
 _CinnabarIslandGamblerText::
 	text "Scientists conduct"
 	line "experiments in"
-	cont "the burned out"
+	cont "the burned-out"
 	cont "building."
 	done
 

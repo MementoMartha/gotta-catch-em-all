@@ -56,8 +56,8 @@ _Route25CooltrainerF1BattleText::
 	done
 
 _Route25CooltrainerF1EndBattleText::
-	text "I was in"
-	line "bad condition!"
+	text "I'm in"
+	line "a slump!"
 	prompt
 
 _Route25CooltrainerF1AfterBattleText::

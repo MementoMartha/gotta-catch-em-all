@@ -58,7 +58,7 @@ _FuchsiaCityGymSignText::
 	cont "LEADER: KOGA"
 
 	para "The Poisonous"
-	line "Ninja Master"
+	line "Ninja Master!"
 	done
 
 _FuchsiaCityChanseySignText::

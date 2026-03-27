@@ -73,7 +73,7 @@ _SilphCo2FRocket1EndBattleText::
 	prompt
 
 _SilphCo2FRocket1AfterBattleText::
-	text "Diamond shaped"
+	text "Diamond-shaped"
 	line "tiles are"
 	cont "teleport blocks!"
 

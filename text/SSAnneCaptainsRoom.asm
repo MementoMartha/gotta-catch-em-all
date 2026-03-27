@@ -28,7 +28,7 @@ _SSAnneCaptainsRoomCaptainIFeelMuchBetterText::
 	para "Teach it to your"
 	line "#MON and you"
 	cont "can see it CUT"
-	cont "any time!"
+	cont "anytime!"
 	prompt
 
 _SSAnneCaptainsRoomCaptainReceivedHM01Text::
@@ -42,7 +42,7 @@ _SSAnneCaptainsRoomCaptainNotSickAnymoreText::
 	text "CAPTAIN: Whew!"
 
 	para "Now that I'm not"
-	line "sick any more, I"
+	line "sick anymore, I"
 	cont "guess it's time."
 	done
 

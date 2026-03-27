@@ -10,7 +10,7 @@ _Route14CooltrainerM1EndBattleText::
 	prompt
 
 _Route14CooltrainerM1AfterBattleText::
-	text "You have some HMs"
+	text "You have some HMs,"
 	line "right? #MON"
 	cont "can't ever forget"
 	cont "those moves."

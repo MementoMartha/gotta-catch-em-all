@@ -1,10 +1,10 @@
 _CeladonCityLittleGirlText::
 	text "I got my KOFFING"
-	line "in CINNABAR!"
+	line "from my friend!"
 
-	para "It's nice, but it"
-	line "breathes poison"
-	cont "when it's angry!"
+	para "We get along now,"
+	line "because I was"
+	cont "very nice to it!"
 	done
 
 _CeladonCityGramps1Text::
@@ -113,7 +113,7 @@ _CeladonCityGymSignText::
 	line "#MON GYM"
 	cont "LEADER: ERIKA"
 
-	para "The Nature Loving"
+	para "The Nature-Loving"
 	line "Princess!"
 	done
 

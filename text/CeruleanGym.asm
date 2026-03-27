@@ -15,6 +15,8 @@ _CeruleanGymMistyPreBattleText::
 	line "all-out offensive"
 	cont "with water-type"
 	cont "#MON!"
+
+	para "Are you ready?"
 	done
 
 _CeruleanGymMistyTM11ExplanationText::
@@ -35,7 +37,7 @@ _CeruleanGymMistyCascadeBadgeInfoText::
 
 	para "There's more, you"
 	line "can now use CUT"
-	cont "any time!"
+	cont "anytime!"
 
 	para "You can CUT down"
 	line "small bushes to"
@@ -56,8 +58,8 @@ _CeruleanGymMistyTM11NoRoomText::
 	done
 
 _CeruleanGymMistyReceivedCascadeBadgeText::
-	text "Wow!"
-	line "You're too much!"
+	text "I can't"
+	line "believe I lost!"
 
 	para "All right!"
 
@@ -127,7 +129,7 @@ _CeruleanGymGymGuideBeatMistyText::
 	text "You beat MISTY!"
 	line "What'd I tell ya?"
 
-	para "You and me kid,"
+	para "You and me, kid,"
 	line "we make a pretty"
 	cont "darn good team!"
 	done

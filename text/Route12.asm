@@ -109,7 +109,7 @@ _Route12Fisher4EndBattleText::
 _Route12Fisher4AfterBattleText::
 	text "It's all right."
 	line "Losing doesn't"
-	cont "bug me any more."
+	cont "bug me anymore."
 	done
 
 _Route12Fisher5BattleText::

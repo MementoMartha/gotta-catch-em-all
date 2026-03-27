@@ -133,7 +133,7 @@ _Route17Biker9AfterBattleText::
 	done
 
 _Route17Biker10BattleText::
-	text "Get lost kid!"
+	text "Get lost, kid!"
 	line "I'm bushed!"
 	done
 

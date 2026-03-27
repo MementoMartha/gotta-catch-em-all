@@ -59,9 +59,9 @@ _Route22RivalBeforeBattleText2::
 	line "the BADGEs too?"
 	cont "That's cool!"
 
-	para "Then I'll whip you"
-	line "<PLAYER> as a"
-	cont "warm up for"
+	para "Then I'll whip"
+	line "you, <PLAYER>, as"
+	cont "a warmup for"
 	cont "#MON LEAGUE!"
 
 	para "Come on!"

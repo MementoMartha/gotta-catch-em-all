@@ -32,7 +32,7 @@ _BikeShopExchangedVoucherText::
 
 _BikeShopComeAgainText::
 	text "Come back again"
-	line "some time!"
+	line "sometime!"
 	done
 
 _BikeShopClerkHowDoYouLikeYourBicycleText::
