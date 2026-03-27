@@ -915,9 +915,10 @@ EngineerData:
 	end_trainer
 
 
-UnusedJugglerData:
-	def_trainer_class UNUSED_JUGGLER
+JackyData:
+	def_trainer_class JACKY
 ; none
+
 
 FisherData:
 	def_trainer_class FISHER
@@ -1272,30 +1273,9 @@ BeautyData:
 	end_trainer
 
 
-PsychicData:
-	def_trainer_class PSYCHIC_TR
-; Saffron Gym
-	def_trainer 1, 31
-	tr_mon KADABRA
-	tr_mon SLOWPOKE
-	tr_mon MR_MIME
-	tr_mon KADABRA
-	end_trainer
-
-	def_trainer 2, 34
-	tr_mon MR_MIME
-	tr_mon KADABRA
-	end_trainer
-
-	def_trainer 3, 33
-	tr_mon SLOWPOKE
-	tr_mon SLOWPOKE
-	tr_mon SLOWBRO
-	end_trainer
-
-	def_trainer 4, 38
-	tr_mon SLOWBRO
-	end_trainer
+FirefighterData:
+	def_trainer_class FIREFIGHTER
+; none
 
 
 RockerData:
@@ -1650,6 +1630,7 @@ ProfOakData:
 ChiefData:
 	def_trainer_class CHIEF
 ; none
+
 
 ScientistData:
 	def_trainer_class SCIENTIST
@@ -2140,23 +2121,17 @@ CooltrainerFData:
 	end_trainer
 
 
-BrunoData:
- 	def_trainer_class BRUNO
+RickyData:
+ 	def_trainer_class RICKY
  	def_trainer 1, TRAINERTYPE_MULTI_LEVELS
- 	tr_mon 53, ONIX
-		tr_moves ROCK_SLIDE, SCREECH, SLAM, DIG
- 	tr_mon 55, HITMONCHAN
-		tr_moves ICE_PUNCH, THUNDERPUNCH, FIRE_PUNCH, DOUBLE_TEAM
- 	tr_mon 55, HITMONLEE
-		tr_moves DOUBLE_KICK, MEGA_KICK, HI_JUMP_KICK, DOUBLE_TEAM
- 	tr_mon 56, ONIX
-		tr_moves ROCK_SLIDE, SCREECH, SLAM, EARTHQUAKE
- 	tr_mon 58, MACHAMP
-		tr_moves LEER, KARATE_CHOP, STRENGTH, SUBMISSION
+ 	tr_mon 6, RATTATA
+		tr_moves TACKLE, TAIL_WHIP
+ 	tr_mon 8, LICKITUNG
+		tr_moves LICK, SUPERSONIC, DOUBLESLAP
  	end_trainer
 
 
- BrockData:
+BrockData:
  	def_trainer_class BROCK
  	def_trainer 1, TRAINERTYPE_MULTI_LEVELS
  	tr_mon 12, GEODUDE
@@ -2165,7 +2140,8 @@ BrunoData:
 		tr_moves TACKLE, SCREECH, BIND, BIDE
  	end_trainer
 
- MistyData:
+
+MistyData:
  	def_trainer_class MISTY
  	def_trainer 1, TRAINERTYPE_MULTI_LEVELS
  	tr_mon 18, STARYU
@@ -2175,7 +2151,7 @@ BrunoData:
  	end_trainer
 
 
- LtSurgeData:
+LtSurgeData:
  	def_trainer_class LT_SURGE
  	def_trainer 1, TRAINERTYPE_MULTI_LEVELS
  	tr_mon 21, VOLTORB
@@ -2187,7 +2163,7 @@ BrunoData:
  	end_trainer
  
  
- ErikaData:
+ErikaData:
  	def_trainer_class ERIKA
  	def_trainer 1, TRAINERTYPE_MULTI_LEVELS
  	tr_mon 29, VICTREEBEL
@@ -2199,7 +2175,7 @@ BrunoData:
  	end_trainer
  
  
- KogaData:
+KogaData:
  	def_trainer_class KOGA
  	def_trainer 1, TRAINERTYPE_MULTI_LEVELS
  	tr_mon 37, KOFFING
@@ -2213,7 +2189,7 @@ BrunoData:
  	end_trainer
  
  
- BlaineData:
+BlaineData:
  	def_trainer_class BLAINE
  	def_trainer 1, TRAINERTYPE_MULTI_LEVELS
  	tr_mon 42, GROWLITHE
@@ -2227,7 +2203,7 @@ BrunoData:
  	end_trainer
  
  
- SabrinaData:
+SabrinaData:
  	def_trainer_class SABRINA
  	def_trainer 1, TRAINERTYPE_MULTI_LEVELS
  	tr_mon 38, KADABRA
@@ -2420,22 +2396,22 @@ Rival3Data:
  	tr_mon 65, CHARIZARD
 		tr_moves RAGE, SLASH, FIRE_BLAST, FIRE_SPIN
  	end_trainer
- 
- 
- LoreleiData:
- 	def_trainer_class LORELEI
- 	def_trainer 1, TRAINERTYPE_MULTI_LEVELS
- 	tr_mon 54, DEWGONG
-		tr_moves BUBBLEBEAM, AURORA_BEAM, REST, TAKE_DOWN
- 	tr_mon 53, CLOYSTER
-		tr_moves SUPERSONIC, CLAMP, ICE_BEAM, SPIKE_CANNON
- 	tr_mon 54, SLOWBRO
-		tr_moves PSYCHIC_M, SURF, WITHDRAW, AMNESIA
-	tr_mon 56, JYNX
-		tr_moves DOUBLESLAP, ICE_PUNCH, LOVELY_KISS, THRASH
- 	tr_mon 56, LAPRAS
-		tr_moves BODY_SLAM, CONFUSE_RAY, BLIZZARD, HYDRO_PUMP
- 	end_trainer
+
+
+FriendData:
+	def_trainer_class FRIEND
+; Unused
+	def_trainer 1, 5
+	tr_mon BULBASAUR
+	end_trainer
+
+	def_trainer 2, 5
+	tr_mon CHARMANDER
+	end_trainer
+
+	def_trainer 3, 5
+	tr_mon SQUIRTLE
+	end_trainer
 
 
 ChannelerData:
@@ -2555,6 +2531,64 @@ ChannelerData:
 	tr_mon GASTLY
 	tr_mon HAUNTER
 	end_trainer
+
+
+PsychicData:
+	def_trainer_class PSYCHIC_TR
+; Saffron Gym
+	def_trainer 1, 31
+	tr_mon KADABRA
+	tr_mon SLOWPOKE
+	tr_mon MR_MIME
+	tr_mon KADABRA
+	end_trainer
+
+	def_trainer 2, 34
+	tr_mon MR_MIME
+	tr_mon KADABRA
+	end_trainer
+
+	def_trainer 3, 33
+	tr_mon SLOWPOKE
+	tr_mon SLOWPOKE
+	tr_mon SLOWBRO
+	end_trainer
+
+	def_trainer 4, 38
+	tr_mon SLOWBRO
+	end_trainer
+
+
+BrunoData:
+ 	def_trainer_class BRUNO
+ 	def_trainer 1, TRAINERTYPE_MULTI_LEVELS
+ 	tr_mon 53, ONIX
+		tr_moves ROCK_SLIDE, SCREECH, SLAM, DIG
+ 	tr_mon 55, HITMONCHAN
+		tr_moves ICE_PUNCH, THUNDERPUNCH, FIRE_PUNCH, DOUBLE_TEAM
+ 	tr_mon 55, HITMONLEE
+		tr_moves DOUBLE_KICK, MEGA_KICK, HI_JUMP_KICK, DOUBLE_TEAM
+ 	tr_mon 56, ONIX
+		tr_moves ROCK_SLIDE, SCREECH, SLAM, EARTHQUAKE
+ 	tr_mon 58, MACHAMP
+		tr_moves LEER, KARATE_CHOP, STRENGTH, SUBMISSION
+ 	end_trainer
+
+
+LoreleiData:
+ 	def_trainer_class LORELEI
+ 	def_trainer 1, TRAINERTYPE_MULTI_LEVELS
+ 	tr_mon 54, DEWGONG
+		tr_moves BUBBLEBEAM, AURORA_BEAM, REST, TAKE_DOWN
+ 	tr_mon 53, CLOYSTER
+		tr_moves SUPERSONIC, CLAMP, ICE_BEAM, SPIKE_CANNON
+ 	tr_mon 54, SLOWBRO
+		tr_moves PSYCHIC_M, SURF, WITHDRAW, AMNESIA
+	tr_mon 56, JYNX
+		tr_moves DOUBLESLAP, ICE_PUNCH, LOVELY_KISS, THRASH
+ 	tr_mon 56, LAPRAS
+		tr_moves BODY_SLAM, CONFUSE_RAY, BLIZZARD, HYDRO_PUMP
+ 	end_trainer
 
 
 AgathaData:

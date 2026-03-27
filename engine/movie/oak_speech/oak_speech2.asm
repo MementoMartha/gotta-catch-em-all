@@ -86,8 +86,8 @@ ChooseFriendName:
 	jr z, .customName
 	call ClearScreen
 	call Delay3
-	ld de, Rival1Pic            ; placeholder
-	ld b, BANK(Rival1Pic)       ; placeholder
+	ld de, FriendPic
+	ld b, BANK(FriendPic)
 	call IntroDisplayPicCenteredOrUpperRight
 .done
 	ld hl, HerNameIsText

@@ -16,7 +16,7 @@ TrainerAIPointers:
 	dbw 3, GenericAI
 	dbw 3, GenericAI
 	dbw 3, GenericAI
-	dbw 3, JugglerAI ; unused_juggler
+	dbw 3, JackyAI ; jacky
 	dbw 3, GenericAI
 	dbw 3, GenericAI
 	dbw 3, GenericAI
@@ -29,14 +29,14 @@ TrainerAIPointers:
 	dbw 3, GenericAI
 	dbw 2, BlackbeltAI ; blackbelt
 	dbw 3, GenericAI ; rival1
-	dbw 3, GenericAI
-	dbw 1, GenericAI ; chief
+	dbw 3, ProfOakAI ; oak
+	dbw 1, ChiefAI ; chief
 	dbw 3, GenericAI
 	dbw 1, GiovanniAI ; giovanni
 	dbw 3, GenericAI
 	dbw 2, CooltrainerMAI ; cooltrainerm
 	dbw 1, CooltrainerFAI ; cooltrainerf
-	dbw 2, BrunoAI ; bruno
+	dbw 1, RickyAI ; ricky
 	dbw 5, BrockAI ; brock
 	dbw 1, MistyAI ; misty
 	dbw 1, LtSurgeAI ; surge
@@ -47,8 +47,11 @@ TrainerAIPointers:
 	dbw 3, GenericAI
 	dbw 1, Rival2AI ; rival2
 	dbw 1, Rival3AI ; rival3
-	dbw 2, LoreleiAI ; lorelei
+	dbw 3, GenericAI ; friend
 	dbw 3, GenericAI
+	dbw 3, GenericAI
+	dbw 2, BrunoAI ; bruno
+	dbw 2, LoreleiAI ; lorelei
 	dbw 2, AgathaAI ; agatha
 	dbw 1, LanceAI ; lance
 	assert_table_length NUM_TRAINERS

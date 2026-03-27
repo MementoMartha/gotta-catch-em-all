@@ -27,13 +27,13 @@ ENDM
 	trainer_const BIKER          ; $0A
 	trainer_const BURGLAR        ; $0B
 	trainer_const ENGINEER       ; $0C
-	trainer_const UNUSED_JUGGLER ; $0D
+	trainer_const JACKY          ; $0D
 	trainer_const FISHER         ; $0E
 	trainer_const SWIMMER        ; $0F
 	trainer_const CUE_BALL       ; $10
 	trainer_const GAMBLER        ; $11
 	trainer_const BEAUTY         ; $12
-	trainer_const PSYCHIC_TR     ; $13
+	trainer_const FIREFIGHTER    ; $13
 	trainer_const ROCKER         ; $14
 	trainer_const JUGGLER        ; $15
 	trainer_const TAMER          ; $16
@@ -47,7 +47,7 @@ ENDM
 	trainer_const ROCKET         ; $1E
 	trainer_const COOLTRAINER_M  ; $1F
 	trainer_const COOLTRAINER_F  ; $20
-	trainer_const BRUNO          ; $21
+	trainer_const RICKY          ; $21
 	trainer_const BROCK          ; $22
 	trainer_const MISTY          ; $23
 	trainer_const LT_SURGE       ; $24
@@ -58,8 +58,11 @@ ENDM
 	trainer_const GENTLEMAN      ; $29
 	trainer_const RIVAL2         ; $2A
 	trainer_const RIVAL3         ; $2B
-	trainer_const LORELEI        ; $2C
+	trainer_const FRIEND         ; $2C
 	trainer_const CHANNELER      ; $2D
-	trainer_const AGATHA         ; $2E
-	trainer_const LANCE          ; $2F
+	trainer_const PSYCHIC_TR     ; $2E
+	trainer_const BRUNO          ; $2F
+	trainer_const LORELEI        ; $30
+	trainer_const AGATHA         ; $31
+	trainer_const LANCE          ; $32
 DEF NUM_TRAINERS EQU const_value - 1

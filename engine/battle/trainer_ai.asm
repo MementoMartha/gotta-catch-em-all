@@ -319,6 +319,11 @@ TrainerAI:
 
 INCLUDE "data/trainers/ai_pointers.asm"
 
+JackyAI:
+	cp 6 percent + 1
+	ret nc
+	jp AIUseXAttack
+
 JugglerAI:
 	cp 25 percent + 1
 	ret nc
@@ -328,6 +333,19 @@ BlackbeltAI:
 	cp 13 percent - 1
 	ret nc
 	jp AIUseXAttack
+
+ProfOakAI:
+	cp 25 percent + 1
+	ret nc
+	ld a, 5
+	call AICheckIfHPBelowFraction
+	ret nc
+	jp AIUseHyperPotion
+
+ChiefAI:
+	cp 25 percent + 1
+	ret nc
+	jp AIUseDireHit
 
 GiovanniAI:
 	cp 25 percent + 1
@@ -340,10 +358,8 @@ CooltrainerMAI:
 	jp AIUseXAttack
 
 CooltrainerFAI:
-	; The intended 25% chance to consider switching will not apply.
-	; Uncomment the line below to fix this.
 	cp 25 percent + 1
-	; ret nc
+	ret nc
 	ld a, 10
 	call AICheckIfHPBelowFraction
 	jp c, AIUseHyperPotion
@@ -351,6 +367,11 @@ CooltrainerFAI:
 	call AICheckIfHPBelowFraction
 	ret nc
 	jp AISwitchIfEnoughMons
+
+RickyAI:
+	cp 25 percent + 1
+	ret nc
+	jp AIUseXAccuracy
 
 BrockAI:
 ; if his active monster has a status condition, use a full heal
@@ -411,6 +432,11 @@ Rival3AI:
 	ret nc
 	jp AIUseFullRestore
 
+BrunoAI:
+	cp 25 percent + 1
+	ret nc
+	jp AIUseXDefend
+
 LoreleiAI:
 	cp 50 percent + 1
 	ret nc
@@ -418,11 +444,6 @@ LoreleiAI:
 	call AICheckIfHPBelowFraction
 	ret nc
 	jp AIUseSuperPotion
-
-BrunoAI:
-	cp 25 percent + 1
-	ret nc
-	jp AIUseXDefend
 
 AgathaAI:
 	cp 8 percent
@@ -633,7 +654,7 @@ AICureStatus:
 	res BADLY_POISONED, [hl]
 	ret
 
-AIUseXAccuracy: ; unreferenced
+AIUseXAccuracy:
 	call AIPlayRestoringSFX
 	ld hl, wEnemyBattleStatus2
 	set USING_X_ACCURACY, [hl]
@@ -647,7 +668,7 @@ AIUseGuardSpec:
 	ld a, GUARD_SPEC
 	jp AIPrintItemUse
 
-AIUseDireHit: ; unreferenced
+AIUseDireHit:
 	call AIPlayRestoringSFX
 	ld hl, wEnemyBattleStatus2
 	set GETTING_PUMPED, [hl]

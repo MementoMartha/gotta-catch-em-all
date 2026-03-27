@@ -1209,7 +1209,7 @@ wTrainerClass:: db
 
 wTrainerPicPointer:: dw
 
-	ds 1
+wTrainerPicBank:: db
 
 UNION
 wTempMoveNameBuffer:: ds MOVE_NAME_LENGTH

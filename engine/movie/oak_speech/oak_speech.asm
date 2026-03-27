@@ -105,8 +105,8 @@ OakSpeech:
 	call ChooseRivalName
 	call GBFadeOutToWhite
 	call ClearScreen
-	ld de, Rival1Pic		; placeholder
-	lb bc, BANK(Rival1Pic), $00	; placeholder
+	ld de, FriendPic
+	lb bc, BANK(FriendPic), $00
 	call IntroDisplayPicCenteredOrUpperRight
 	call FadeInIntroPic
 	ld hl, IntroduceFriendText

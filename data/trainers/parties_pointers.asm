@@ -12,13 +12,13 @@ TrainerDataPointers:
 	dba BikerData
 	dba BurglarData
 	dba EngineerData
-	dba UnusedJugglerData
+	dba JackyData
 	dba FisherData
 	dba SwimmerData
 	dba CueBallData
 	dba GamblerData
 	dba BeautyData
-	dba PsychicData
+	dba FirefighterData
 	dba RockerData
 	dba JugglerData
 	dba TamerData
@@ -32,7 +32,7 @@ TrainerDataPointers:
 	dba RocketData
 	dba CooltrainerMData
 	dba CooltrainerFData
-	dba BrunoData
+	dba RickyData
 	dba BrockData
 	dba MistyData
 	dba LtSurgeData
@@ -43,8 +43,11 @@ TrainerDataPointers:
 	dba GentlemanData
 	dba Rival2Data
 	dba Rival3Data
-	dba LoreleiData
+	dba FriendData
 	dba ChannelerData
+	dba PsychicData
+	dba BrunoData
+	dba LoreleiData
 	dba AgathaData
 	dba LanceData
 	assert_table_length NUM_TRAINERS
