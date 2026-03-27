@@ -82,7 +82,7 @@ ToggleableObjectStates:
 	toggle_object_state ROUTE2_HP_UP,      ON
 
 	toggleable_objects_for ROUTE_4
-	toggle_object_state ROUTE4_TM_WHIRLWIND, ON
+	toggle_object_state ROUTE4_TM_HEADBUTT, ON
 
 	toggleable_objects_for ROUTE_9
 	toggle_object_state ROUTE9_TM_TELEPORT, ON

@@ -14,9 +14,10 @@
 	db GROWTH_MEDIUM_FAST ; growth rate
 
 	; tm/hm learnset
-	tmhm TOXIC,        BODY_SLAM,    HYPER_BEAM,   RAGE,         MEGA_DRAIN,   \
-	     THUNDERBOLT,  THUNDER,      MIMIC,        DOUBLE_TEAM,  BIDE,         \
-	     SELFDESTRUCT, FIRE_BLAST,   REST,         EXPLOSION,    SUBSTITUTE
+	tmhm HEADBUTT,     TOXIC,        BODY_SLAM,    HYPER_BEAM,   RAGE,         \
+	     MEGA_DRAIN,   THUNDERBOLT,  THUNDER,      MIMIC,        DOUBLE_TEAM,  \
+	     BIDE,         SELFDESTRUCT, FIRE_BLAST,   REST,         EXPLOSION,    \    
+	     SUBSTITUTE
 	; end
 
 	db BANK(MukPicFront)
