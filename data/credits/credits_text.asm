@@ -69,7 +69,7 @@ CreditsTextPointers:
 	assert_table_length NUM_CRED_STRINGS
 
 CredSlogan:
-	db -8, "GOTTA CATCH 'EM ALL@"
+	db -9, "GOTTA CATCH 'EM ALL!@"
 CredStaff:
 	db -6, "STAFF CREDITS@"
 CredTajiri:
