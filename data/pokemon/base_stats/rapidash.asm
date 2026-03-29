@@ -10,14 +10,15 @@
 	INCBIN "gfx/pokemon/front/rapidash.pic", 0, 1 ; sprite dimensions
 	dw RapidashPicFront, RapidashPicBack
 
-	db EMBER, TAIL_WHIP, STOMP, GROWL ; level 1 learnset
+	db TACKLE, GROWL, TAIL_WHIP, EMBER ; level 1 learnset
 	db GROWTH_MEDIUM_FAST ; growth rate
 
 	; tm/hm learnset
-	tmhm HEADBUTT,     TOXIC,        HORN_DRILL,   BODY_SLAM,    TAKE_DOWN,    \
-	     DOUBLE_EDGE,  HYPER_BEAM,   PAY_DAY,      RAGE,         MIMIC,        \
-	     DOUBLE_TEAM,  REFLECT,      BIDE,         FIRE_BLAST,   SWIFT,        \
-	     SKULL_BASH,   REST,         SUBSTITUTE
+	tmhm SWORDS_DANCE, HEADBUTT,     TOXIC,        HORN_DRILL,   BODY_SLAM,    \
+	     TAKE_DOWN,    DOUBLE_EDGE,  HYPER_BEAM,   PAY_DAY,      RAGE,         \
+	     SOLARBEAM,    MIMIC,        DOUBLE_TEAM,  REFLECT,      BIDE,         \
+	     FIRE_BLAST,   SWIFT,        SKULL_BASH,   REST,         SUBSTITUTE,   \
+	     STRENGTH
 	; end
 
 	db BANK(RapidashPicFront)

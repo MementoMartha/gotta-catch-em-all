@@ -16,8 +16,9 @@
 	; tm/hm learnset
 	tmhm SWORDS_DANCE, HEADBUTT,     TOXIC,        BODY_SLAM,    TAKE_DOWN,    \
 	     DOUBLE_EDGE,  BUBBLEBEAM,   WATER_GUN,    ICE_BEAM,     BLIZZARD,     \
-	     HYPER_BEAM,   RAGE,         MIMIC,        DOUBLE_TEAM,  BIDE,         \
-	     REST,         SUBSTITUTE,   CUT,          SURF,         STRENGTH
+	     HYPER_BEAM,   RAGE,         DIG,          MIMIC,        DOUBLE_TEAM,  \
+	     BIDE,         REST,         ROCK_SLIDE,   SUBSTITUTE,   CUT,          \
+	     SURF,         STRENGTH
 	; end
 
 	db BANK(KinglerPicFront)

@@ -16,8 +16,8 @@
 	; tm/hm learnset
 	tmhm SWORDS_DANCE, HEADBUTT,     TOXIC,        BODY_SLAM,    TAKE_DOWN,    \
 	     DOUBLE_EDGE,  HYPER_BEAM,   SUBMISSION,   SEISMIC_TOSS, RAGE,         \
-	     MIMIC,        DOUBLE_TEAM,  BIDE,         REST,         SUBSTITUTE,   \
-	     CUT,          STRENGTH
+	     EARTHQUAKE,   DIG,          MIMIC,        DOUBLE_TEAM,  BIDE,         \
+	     REST,         ROCK_SLIDE,   SUBSTITUTE,   CUT,          STRENGTH
 	; end
 
 	db BANK(PinsirPicFront)

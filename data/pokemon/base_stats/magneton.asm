@@ -17,7 +17,7 @@
 	tmhm HEADBUTT,     TOXIC,        TAKE_DOWN,    DOUBLE_EDGE,  HYPER_BEAM,   \
 	     RAGE,         THUNDERBOLT,  THUNDER,      TELEPORT,     MIMIC,        \
 	     DOUBLE_TEAM,  REFLECT,      BIDE,         SWIFT,        REST,         \
-	     THUNDER_WAVE, SUBSTITUTE,   FLASH
+	     THUNDER_WAVE, EXPLOSION,    TRI_ATTACK,   SUBSTITUTE,   FLASH
 	; end
 
 	db BANK(MagnetonPicFront)

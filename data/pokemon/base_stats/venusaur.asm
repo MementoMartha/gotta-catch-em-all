@@ -16,8 +16,8 @@
 	; tm/hm learnset
 	tmhm SWORDS_DANCE, HEADBUTT,     TOXIC,        BODY_SLAM,    TAKE_DOWN,    \
 	     DOUBLE_EDGE,  HYPER_BEAM,   RAGE,         MEGA_DRAIN,   SOLARBEAM,    \
-	     MIMIC,        DOUBLE_TEAM,  REFLECT,      BIDE,         REST,         \
-	     SUBSTITUTE,   CUT
+	     EARTHQUAKE,   MIMIC,        DOUBLE_TEAM,  REFLECT,      BIDE,         \
+	     REST,         SUBSTITUTE,   CUT,          STRENGTH,     FLASH
 	; end
 
 	db BANK(VenusaurPicFront)

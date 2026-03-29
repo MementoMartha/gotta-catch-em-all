@@ -17,7 +17,8 @@
 	tmhm SWORDS_DANCE, HEADBUTT,     TOXIC,        TAKE_DOWN,    DOUBLE_EDGE,  \
 	     BUBBLEBEAM,   WATER_GUN,    ICE_BEAM,     BLIZZARD,     RAGE,         \
 	     MEGA_DRAIN,   MIMIC,        DOUBLE_TEAM,  REFLECT,      BIDE,         \
-	     SKULL_BASH,   REST,         SUBSTITUTE,   CUT,          SURF
+	     SWIFT,        SKULL_BASH,   REST,         SUBSTITUTE,   CUT,          \
+	     SURF
 	; end
 
 	db BANK(TentacoolPicFront)

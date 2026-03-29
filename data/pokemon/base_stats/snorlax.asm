@@ -10,7 +10,7 @@
 	INCBIN "gfx/pokemon/front/snorlax.pic", 0, 1 ; sprite dimensions
 	dw SnorlaxPicFront, SnorlaxPicBack
 
-	db HEADBUTT, AMNESIA, REST, NO_MOVE ; level 1 learnset
+	db TACKLE, AMNESIA, DEFENSE_CURL, REST ; level 1 learnset
 	db GROWTH_SLOW ; growth rate
 
 	; tm/hm learnset
@@ -18,10 +18,10 @@
 	     TAKE_DOWN,    DOUBLE_EDGE,  BUBBLEBEAM,   WATER_GUN,    ICE_BEAM,     \
 	     BLIZZARD,     HYPER_BEAM,   PAY_DAY,      SUBMISSION,   COUNTER,      \
 	     SEISMIC_TOSS, RAGE,         SOLARBEAM,    THUNDERBOLT,  THUNDER,      \
-	     EARTHQUAKE,   FISSURE,      PSYCHIC_M,    MIMIC,        DOUBLE_TEAM,  \
-	     REFLECT,      BIDE,         METRONOME,    SELFDESTRUCT, FIRE_BLAST,   \
-	     SKULL_BASH,   REST,         PSYWAVE,      ROCK_SLIDE,   SUBSTITUTE,   \
-	     SURF,         STRENGTH
+	     EARTHQUAKE,   FISSURE,      DIG,          PSYCHIC_M,    MIMIC,        \
+	     DOUBLE_TEAM,  REFLECT,      BIDE,         METRONOME,    SELFDESTRUCT, \
+	     FIRE_BLAST,   SKULL_BASH,   REST,         PSYWAVE,      ROCK_SLIDE,   \
+	     SUBSTITUTE,   SURF,         STRENGTH
 	; end
 
 	db BANK(SnorlaxPicFront)

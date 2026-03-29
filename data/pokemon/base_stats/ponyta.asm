@@ -10,14 +10,14 @@
 	INCBIN "gfx/pokemon/front/ponyta.pic", 0, 1 ; sprite dimensions
 	dw PonytaPicFront, PonytaPicBack
 
-	db EMBER, NO_MOVE, NO_MOVE, NO_MOVE ; level 1 learnset
+	db TACKLE, GROWL, TAIL_WHIP, NO_MOVE ; level 1 learnset
 	db GROWTH_MEDIUM_FAST ; growth rate
 
 	; tm/hm learnset
 	tmhm HEADBUTT,     TOXIC,        HORN_DRILL,   BODY_SLAM,    TAKE_DOWN,    \
-	     DOUBLE_EDGE,  RAGE,         MIMIC,        DOUBLE_TEAM,  REFLECT,      \
-	     BIDE,         FIRE_BLAST,   SWIFT,        SKULL_BASH,   REST,         \         
-	     SUBSTITUTE
+	     DOUBLE_EDGE,  RAGE,         SOLARBEAM,    MIMIC,        DOUBLE_TEAM,  \
+	     REFLECT,      BIDE,         FIRE_BLAST,   SWIFT,        SKULL_BASH,   \         
+	     REST,         SUBSTITUTE,   STRENGTH
 	; end
 
 	db BANK(PonytaPicFront)

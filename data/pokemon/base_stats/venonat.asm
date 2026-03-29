@@ -16,8 +16,8 @@
 	; tm/hm learnset
 	tmhm HEADBUTT,     TOXIC,        TAKE_DOWN,    DOUBLE_EDGE,  RAGE,         \
 	     MEGA_DRAIN,   SOLARBEAM,    PSYCHIC_M,    MIMIC,        DOUBLE_TEAM,  \
-	     REFLECT,      BIDE,         REST,         PSYWAVE,      SUBSTITUTE,   \
-	     FLASH
+	     REFLECT,      BIDE,         SWIFT,        REST,         PSYWAVE,      \
+	     SUBSTITUTE,   FLASH
 	; end
 
 	db BANK(VenonatPicFront)

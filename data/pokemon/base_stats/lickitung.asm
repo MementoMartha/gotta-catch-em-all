@@ -17,10 +17,10 @@
 	tmhm MEGA_PUNCH,   SWORDS_DANCE, MEGA_KICK,    HEADBUTT,     TOXIC,        \
 	     BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  BUBBLEBEAM,   WATER_GUN,    \
 	     ICE_BEAM,     BLIZZARD,     HYPER_BEAM,   SUBMISSION,   COUNTER,      \
-	     SEISMIC_TOSS, RAGE,         THUNDERBOLT,  THUNDER,      EARTHQUAKE,   \
-	     FISSURE,      MIMIC,        DOUBLE_TEAM,  BIDE,         FIRE_BLAST,   \
-	     SKULL_BASH,   REST,         SUBSTITUTE,   CUT,          SURF,         \
-	     STRENGTH
+	     SEISMIC_TOSS, RAGE,         SOLARBEAM,    THUNDERBOLT,  THUNDER,      \
+	     EARTHQUAKE,   FISSURE,      DIG,          MIMIC,        DOUBLE_TEAM,  \
+	     BIDE,         FIRE_BLAST,   SKULL_BASH,   DREAM_EATER,  REST,         \
+	     ROCK_SLIDE,   SUBSTITUTE,   CUT,          SURF,         STRENGTH
 	; end
 
 	db BANK(LickitungPicFront)

@@ -14,11 +14,12 @@
 	db GROWTH_MEDIUM_FAST ; growth rate
 
 	; tm/hm learnset
-	tmhm HEADBUTT,     TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  \
-	     BUBBLEBEAM,   WATER_GUN,    ICE_BEAM,     BLIZZARD,     HYPER_BEAM,   \
-	     RAGE,         THUNDERBOLT,  THUNDER,      DIG,          MIMIC,        \
-	     DOUBLE_TEAM,  BIDE,         SWIFT,        SKULL_BASH,   REST,         \
-	     SUBSTITUTE
+	tmhm SWORDS_DANCE, HEADBUTT,     TOXIC,        BODY_SLAM,    TAKE_DOWN,    \
+	     DOUBLE_EDGE,  BUBBLEBEAM,   WATER_GUN,    ICE_BEAM,     BLIZZARD,     \
+	     HYPER_BEAM,   COUNTER,      RAGE,         THUNDERBOLT,  THUNDER,      \
+	     DIG,          MIMIC,        DOUBLE_TEAM,  BIDE,         SWIFT,        \
+	     SKULL_BASH,   REST,         THUNDER_WAVE, SUBSTITUTE,   CUT,          \
+	     STRENGTH
 	; end
 
 	db BANK(RaticatePicFront)

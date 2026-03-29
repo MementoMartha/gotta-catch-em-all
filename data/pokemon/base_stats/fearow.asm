@@ -16,8 +16,8 @@
 	; tm/hm learnset
 	tmhm RAZOR_WIND,   HEADBUTT,     TOXIC,        TAKE_DOWN,    DOUBLE_EDGE,  \
 	     HYPER_BEAM,   PAY_DAY,      RAGE,         MIMIC,        DOUBLE_TEAM,  \
-	     BIDE,         SWIFT,        SKY_ATTACK,   REST,         SUBSTITUTE,   \
-	     FLY
+	     BIDE,         SWIFT,        SKY_ATTACK,   REST,         TRI_ATTACK,   \
+	     SUBSTITUTE,   FLY
 	; end
 
 	db BANK(FearowPicFront)

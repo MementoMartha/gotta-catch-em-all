@@ -15,9 +15,9 @@
 
 	; tm/hm learnset
 	tmhm SWORDS_DANCE, HEADBUTT,     TOXIC,        TAKE_DOWN,    DOUBLE_EDGE,  \
-	     HYPER_BEAM,   RAGE,         MEGA_DRAIN,   MIMIC,        DOUBLE_TEAM,  \
-	     REFLECT,      BIDE,         SWIFT,        SKULL_BASH,   REST,         \
-	     SUBSTITUTE,   CUT
+	     HYPER_BEAM,   RAGE,         MEGA_DRAIN,   SOLARBEAM,    MIMIC,        \
+	     DOUBLE_TEAM,  REFLECT,      BIDE,         SWIFT,        SKULL_BASH,   \
+	     REST,         SUBSTITUTE,   CUT,          FLASH
 	; end
 
 	db BANK(BeedrillPicFront)

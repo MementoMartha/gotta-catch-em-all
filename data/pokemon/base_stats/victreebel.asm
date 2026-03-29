@@ -17,7 +17,7 @@
 	tmhm SWORDS_DANCE, HEADBUTT,     TOXIC,        BODY_SLAM,    TAKE_DOWN,    \
 	     DOUBLE_EDGE,  HYPER_BEAM,   RAGE,         MEGA_DRAIN,   SOLARBEAM,    \
 	     MIMIC,        DOUBLE_TEAM,  REFLECT,      BIDE,         REST,         \
-	     SUBSTITUTE,   CUT
+	     SUBSTITUTE,   CUT,          FLASH
 	; end
 
 	db BANK(VictreebelPicFront)

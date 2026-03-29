@@ -17,9 +17,9 @@
 	tmhm MEGA_PUNCH,   MEGA_KICK,    HEADBUTT,     TOXIC,        BODY_SLAM,    \
 	     TAKE_DOWN,    DOUBLE_EDGE,  BUBBLEBEAM,   WATER_GUN,    ICE_BEAM,     \
 	     BLIZZARD,     PAY_DAY,      SUBMISSION,   COUNTER,      SEISMIC_TOSS, \
-	     RAGE,         DIG,          MIMIC,        DOUBLE_TEAM,  BIDE,         \
-	     SWIFT,        SKULL_BASH,   REST,         TRI_ATTACK,   SUBSTITUTE,   \
-	     SURF,         STRENGTH
+	     RAGE,         DIG,          PSYCHIC_M,    MIMIC,        DOUBLE_TEAM,  \
+	     BIDE,         METRONOME,    SWIFT,        SKULL_BASH,   REST,         \
+	     TRI_ATTACK,   SUBSTITUTE,   SURF,         STRENGTH,     FLASH
 	; end
 
 	db BANK(PsyduckPicFront)

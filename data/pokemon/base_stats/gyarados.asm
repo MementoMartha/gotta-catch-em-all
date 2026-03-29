@@ -16,9 +16,10 @@
 	; tm/hm learnset
 	tmhm HEADBUTT,     TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  \
 	     BUBBLEBEAM,   WATER_GUN,    ICE_BEAM,     BLIZZARD,     HYPER_BEAM,   \
-	     RAGE,         DRAGON_RAGE,  THUNDERBOLT,  THUNDER,      MIMIC,        \
-	     DOUBLE_TEAM,  REFLECT,      BIDE,         FIRE_BLAST,   SKULL_BASH,   \
-	     REST,         SUBSTITUTE,   SURF,         STRENGTH
+	     RAGE,         DRAGON_RAGE,  THUNDERBOLT,  THUNDER,      EARTHQUAKE,   \
+	     MIMIC,        DOUBLE_TEAM,  REFLECT,      BIDE,         FIRE_BLAST,   \
+	     SKULL_BASH,   REST,         THUNDER_WAVE, SUBSTITUTE,   SURF,         \
+	     STRENGTH		 
 	; end
 
 	db BANK(GyaradosPicFront)

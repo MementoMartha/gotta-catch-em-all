@@ -17,9 +17,10 @@
 	tmhm MEGA_PUNCH,   MEGA_KICK,    HEADBUTT,     TOXIC,        BODY_SLAM,    \
 	     TAKE_DOWN,    DOUBLE_EDGE,  BUBBLEBEAM,   WATER_GUN,    ICE_BEAM,     \
 	     BLIZZARD,     HYPER_BEAM,   SUBMISSION,   COUNTER,      SEISMIC_TOSS, \
-	     RAGE,         EARTHQUAKE,   FISSURE,      PSYCHIC_M,    MIMIC,        \
-	     DOUBLE_TEAM,  BIDE,         METRONOME,    SKULL_BASH,   REST,         \
-	     PSYWAVE,      SUBSTITUTE,   SURF,         STRENGTH
+	     RAGE,         EARTHQUAKE,   FISSURE,      DIG,          PSYCHIC_M,     \
+	     MIMIC,        DOUBLE_TEAM,  BIDE,         METRONOME,    SWIFT,        \
+	     SKULL_BASH,   REST,         PSYWAVE,      ROCK_SLIDE,   SUBSTITUTE,   \
+	     SURF,         STRENGTH
 	; end
 
 	db BANK(PoliwrathPicFront)

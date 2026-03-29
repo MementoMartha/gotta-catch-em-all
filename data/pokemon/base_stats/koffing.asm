@@ -10,13 +10,14 @@
 	INCBIN "gfx/pokemon/front/koffing.pic", 0, 1 ; sprite dimensions
 	dw KoffingPicFront, KoffingPicBack
 
-	db TACKLE, SMOG, NO_MOVE, NO_MOVE ; level 1 learnset
+	db TACKLE, POISON_GAS, NO_MOVE, NO_MOVE ; level 1 learnset
 	db GROWTH_MEDIUM_FAST ; growth rate
 
 	; tm/hm learnset
-	tmhm HEADBUTT,     TOXIC,        RAGE,         THUNDERBOLT,  THUNDER,      \
-	     MIMIC,        DOUBLE_TEAM,  BIDE,         SELFDESTRUCT, FIRE_BLAST,   \
-	     REST,         EXPLOSION,    SUBSTITUTE
+	tmhm HEADBUTT,     TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  \
+	     RAGE,         THUNDERBOLT,  THUNDER,      MIMIC,        DOUBLE_TEAM,  \
+	     BIDE,         SELFDESTRUCT, FIRE_BLAST,   REST,         PSYWAVE,      \
+	     EXPLOSION,    SUBSTITUTE,   FLASH
 	; end
 
 	db BANK(KoffingPicFront)
