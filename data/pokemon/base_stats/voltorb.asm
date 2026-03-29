@@ -15,7 +15,7 @@
 
 	; tm/hm learnset
 	tmhm HEADBUTT,     TOXIC,        TAKE_DOWN,    DOUBLE_EDGE,  RAGE,         \
-	     THUNDERBOLT,  THUNDER,      TELEPORT,     MIMIC,        DOUBLE_TEAM,  \
+	     THUNDERBOLT,  THUNDER,      MIMIC,        DOUBLE_TEAM,  LIGHT_SCREEN, \
 	     REFLECT,      BIDE,         SELFDESTRUCT, SWIFT,        REST,         \
 	     THUNDER_WAVE, EXPLOSION,    SUBSTITUTE,   FLASH
 	; end

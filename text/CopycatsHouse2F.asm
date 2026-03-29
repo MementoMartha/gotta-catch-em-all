@@ -15,7 +15,7 @@ _CopycatsHouse2FCopycatDoYouLikePokemonText::
 	line "favorite hobby!"
 	prompt
 
-_CopycatsHouse2FCopycatTM31PreReceiveText::
+_CopycatsHouse2FCopycatTM30PreReceiveText::
 	text "Oh wow!"
 	line "A # DOLL!"
 
@@ -26,26 +26,26 @@ _CopycatsHouse2FCopycatTM31PreReceiveText::
 	line "this, then!"
 	prompt
 
-_CopycatsHouse2FCopycatReceivedTM31Text::
+_CopycatsHouse2FCopycatReceivedTM30Text::
 	text "<PLAYER> received"
 	line "@"
 	text_ram wStringBuffer
 	text "!@"
 	text_end
 
-_CopycatsHouse2FCopycatTM31Explanation1Text::
+_CopycatsHouse2FCopycatTM30Explanation1Text::
 	text_start
 
-	para "TM31 contains my"
+	para "TM30 contains my"
 	line "favorite, MIMIC!"
 
 	para "Use it on a good"
 	line "#MON!@"
 	text_end
 
-_CopycatsHouse2FCopycatTM31Explanation2Text::
+_CopycatsHouse2FCopycatTM30Explanation2Text::
 	text "<PLAYER>: Hi!"
-	line "Thanks for TM31!"
+	line "Thanks for TM30!"
 
 	para "<PLAYER>: Pardon?"
 
@@ -57,7 +57,7 @@ _CopycatsHouse2FCopycatTM31Explanation2Text::
 	line "It's a scream!"
 	done
 
-_CopycatsHouse2FCopycatTM31NoRoomText::
+_CopycatsHouse2FCopycatTM30NoRoomText::
 	text "Don't you want"
 	line "this?@"
 	text_end

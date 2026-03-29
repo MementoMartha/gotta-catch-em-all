@@ -85,7 +85,7 @@ ToggleableObjectStates:
 	toggle_object_state ROUTE4_TM_HEADBUTT, ON
 
 	toggleable_objects_for ROUTE_9
-	toggle_object_state ROUTE9_TM_TELEPORT, ON
+	toggle_object_state ROUTE9_TM_DOUBLE_TEAM, ON
 
 	toggleable_objects_for ROUTE_12
 	toggle_object_state ROUTE12_SNORLAX,    ON
@@ -370,10 +370,10 @@ ToggleableObjectStates:
 	toggle_object_state SAFARIZONENORTH_TM_SKULL_BASH, ON
 
 	toggleable_objects_for SAFARI_ZONE_WEST
-	toggle_object_state SAFARIZONEWEST_MAX_POTION,     ON
-	toggle_object_state SAFARIZONEWEST_TM_DOUBLE_TEAM, ON
-	toggle_object_state SAFARIZONEWEST_MAX_REVIVE,     ON
-	toggle_object_state SAFARIZONEWEST_GOLD_TEETH,     ON
+	toggle_object_state SAFARIZONEWEST_MAX_POTION,      ON
+	toggle_object_state SAFARIZONEWEST_TM_LIGHT_SCREEN, ON
+	toggle_object_state SAFARIZONEWEST_MAX_REVIVE,      ON
+	toggle_object_state SAFARIZONEWEST_GOLD_TEETH,      ON
 
 	toggleable_objects_for SAFARI_ZONE_CENTER
 	toggle_object_state SAFARIZONECENTER_NUGGET, ON

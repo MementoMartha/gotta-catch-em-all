@@ -16,9 +16,9 @@
 	; tm/hm learnset
 	tmhm SWORDS_DANCE, HEADBUTT,     TOXIC,        BODY_SLAM,    TAKE_DOWN,    \
 	     DOUBLE_EDGE,  HYPER_BEAM,   COUNTER,      RAGE,         MEGA_DRAIN,   \
-	     SOLARBEAM,    DIG,          MIMIC,        DOUBLE_TEAM,  REFLECT,      \
-	     BIDE,         SKULL_BASH,   REST,         SUBSTITUTE,   CUT,          \
-	     FLASH
+	     SOLARBEAM,    DIG,          MIMIC,        DOUBLE_TEAM,  LIGHT_SCREEN, \
+	     REFLECT,      BIDE,         SKULL_BASH,   REST,         SUBSTITUTE,   \
+	     CUT,          FLASH
 	; end
 
 	db BANK(ParasectPicFront)

@@ -30,8 +30,8 @@ TechnicalMachinePrices:
 	nybble 5 ; TM27
 	nybble 2 ; TM28
 	nybble 4 ; TM29
-	nybble 1 ; TM30
-	nybble 2 ; TM31
+	nybble 2 ; TM30
+	nybble 1 ; TM31
 	nybble 1 ; TM32
 	nybble 1 ; TM33
 	nybble 2 ; TM34

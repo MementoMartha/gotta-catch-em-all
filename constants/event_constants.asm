@@ -193,7 +193,7 @@
 
 ; Saffron City events
 	const_next $340
-	const EVENT_GOT_TM31
+	const EVENT_GOT_TM30
 	const_skip 15
 	const EVENT_DEFEATED_FIGHTING_DOJO
 	const EVENT_BEAT_KARATE_MASTER

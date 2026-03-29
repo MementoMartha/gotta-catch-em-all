@@ -16,8 +16,8 @@
 	; tm/hm learnset
 	tmhm RAZOR_WIND,   SWORDS_DANCE, HEADBUTT,     TOXIC,        TAKE_DOWN,    \
 	     DOUBLE_EDGE,  HYPER_BEAM,   COUNTER,      RAGE,         MIMIC,        \
-	     DOUBLE_TEAM,  BIDE,         SWIFT,        SKULL_BASH,   REST,         \
-	     SUBSTITUTE,   CUT
+	     DOUBLE_TEAM,  LIGHT_SCREEN, BIDE,         SWIFT,        SKULL_BASH,   \
+	     REST,         SUBSTITUTE,   CUT
 	; end
 
 	db BANK(ScytherPicFront)

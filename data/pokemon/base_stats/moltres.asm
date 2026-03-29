@@ -16,8 +16,8 @@
 	; tm/hm learnset
 	tmhm RAZOR_WIND,   HEADBUTT,     TOXIC,        TAKE_DOWN,    DOUBLE_EDGE,  \
 	     HYPER_BEAM,   RAGE,         SOLARBEAM,    MIMIC,        DOUBLE_TEAM,  \
-	     REFLECT,      BIDE,         FIRE_BLAST,   SWIFT,        SKY_ATTACK,   \
-	     REST,         SUBSTITUTE,   FLY
+	     LIGHT_SCREEN, REFLECT,      BIDE,         FIRE_BLAST,   SWIFT,        \
+	     SKY_ATTACK,   REST,         SUBSTITUTE,   FLY
 	; end
 
 	db BANK(MoltresPicFront)
