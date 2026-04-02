@@ -4,14 +4,14 @@
 	;   hp  atk  def  spd  spc
 
 	db GROUND, GROUND ; type
-	db 75 ; catch rate
-	db 124 ; base exp
+	db 120 ; catch rate
+	db 137 ; base exp
 
 	INCBIN "gfx/pokemon/front/marowak.pic", 0, 1 ; sprite dimensions
 	dw MarowakPicFront, MarowakPicBack
 
 	db BONE_CLUB, GROWL, LEER, NO_MOVE ; level 1 learnset
-	db GROWTH_MEDIUM_FAST ; growth rate
+	db GROWTH_MEDIUM_SLOW ; growth rate
 
 	; tm/hm learnset
 	tmhm MEGA_PUNCH,   SWORDS_DANCE, MEGA_KICK,    HEADBUTT,     TOXIC,        \

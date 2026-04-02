@@ -4,14 +4,14 @@
 	;   hp  atk  def  spd  spc
 
 	db WATER, WATER ; type
-	db 75 ; catch rate
+	db 45 ; catch rate
 	db 174 ; base exp
 
 	INCBIN "gfx/pokemon/front/golduck.pic", 0, 1 ; sprite dimensions
 	dw GolduckPicFront, GolduckPicBack
 
-	db SCRATCH, WATER_GUN, TAIL_WHIP, DISABLE ; level 1 learnset
-	db GROWTH_MEDIUM_FAST ; growth rate
+	db SCRATCH, TAIL_WHIP, WATER_GUN, DISABLE ; level 1 learnset
+	db GROWTH_MEDIUM_SLOW ; growth rate
 
 	; tm/hm learnset
 	tmhm MEGA_PUNCH,   MEGA_KICK,    HEADBUTT,     TOXIC,        BODY_SLAM,    \

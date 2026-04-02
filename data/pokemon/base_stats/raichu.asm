@@ -4,14 +4,14 @@
 	;   hp  atk  def  spd  spc
 
 	db ELECTRIC, ELECTRIC ; type
-	db 75 ; catch rate
-	db 122 ; base exp
+	db 90 ; catch rate
+	db 145 ; base exp
 
 	INCBIN "gfx/pokemon/front/raichu.pic", 0, 1 ; sprite dimensions
 	dw RaichuPicFront, RaichuPicBack
 
-	db THUNDERSHOCK, GROWL, TAIL_WHIP, THUNDER_WAVE; level 1 learnset
-	db GROWTH_MEDIUM_FAST ; growth rate
+	db THUNDERSHOCK, GROWL, TAIL_WHIP, NO_MOVE ; level 1 learnset
+	db GROWTH_MEDIUM_SLOW ; growth rate
 
 	; tm/hm learnset
 	tmhm MEGA_PUNCH,   MEGA_KICK,    HEADBUTT,     TOXIC,        BODY_SLAM,    \

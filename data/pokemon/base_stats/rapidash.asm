@@ -4,14 +4,14 @@
 	;   hp  atk  def  spd  spc
 
 	db FIRE, FIRE ; type
-	db 60 ; catch rate
+	db 45 ; catch rate
 	db 192 ; base exp
 
 	INCBIN "gfx/pokemon/front/rapidash.pic", 0, 1 ; sprite dimensions
 	dw RapidashPicFront, RapidashPicBack
 
 	db TACKLE, GROWL, TAIL_WHIP, EMBER ; level 1 learnset
-	db GROWTH_MEDIUM_FAST ; growth rate
+	db GROWTH_MEDIUM_SLOW ; growth rate
 
 	; tm/hm learnset
 	tmhm SWORDS_DANCE, HEADBUTT,     TOXIC,        HORN_DRILL,   BODY_SLAM,    \

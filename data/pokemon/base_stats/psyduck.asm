@@ -10,8 +10,8 @@
 	INCBIN "gfx/pokemon/front/psyduck.pic", 0, 1 ; sprite dimensions
 	dw PsyduckPicFront, PsyduckPicBack
 
-	db SCRATCH, NO_MOVE, NO_MOVE, NO_MOVE ; level 1 learnset
-	db GROWTH_MEDIUM_FAST ; growth rate
+	db SCRATCH, TAIL_WHIP, NO_MOVE, NO_MOVE ; level 1 learnset
+	db GROWTH_MEDIUM_SLOW ; growth rate
 
 	; tm/hm learnset
 	tmhm MEGA_PUNCH,   MEGA_KICK,    HEADBUTT,     TOXIC,        BODY_SLAM,    \
