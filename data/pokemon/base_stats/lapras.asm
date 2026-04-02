@@ -15,11 +15,11 @@
 
 	; tm/hm learnset
 	tmhm HEADBUTT,     TOXIC,        HORN_DRILL,   BODY_SLAM,    TAKE_DOWN,    \
-	     DOUBLE_EDGE,  BUBBLEBEAM,   WATER_GUN,    ICE_BEAM,     BLIZZARD,     \
-	     HYPER_BEAM,   RAGE,         SOLARBEAM,    DRAGON_RAGE,  THUNDERBOLT,  \
-	     THUNDER,      EARTHQUAKE,   FISSURE,      PSYCHIC_M,    MIMIC,        \
-	     DOUBLE_TEAM,  REFLECT,      BIDE,         SKULL_BASH,   DREAM_EATER,  \
-	     REST,         PSYWAVE,      SUBSTITUTE,   SURF,         STRENGTH
+	     DOUBLE_EDGE,  BUBBLEBEAM,   ICE_BEAM,     BLIZZARD,     HYPER_BEAM,   \
+	     RAGE,         SOLARBEAM,    DRAGON_RAGE,  THUNDERBOLT,  THUNDER,      \
+	     EARTHQUAKE,   FISSURE,      PSYCHIC_M,    MIMIC,        DOUBLE_TEAM,  \
+	     REFLECT,      BIDE,         SKULL_BASH,   DREAM_EATER,  REST,         \
+	     PSYWAVE,      SUBSTITUTE,   SURF,         STRENGTH
 	; end
 
 	db BANK(LaprasPicFront)

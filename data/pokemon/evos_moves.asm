@@ -486,7 +486,7 @@ GyaradosEvosMoves:
 	db 35, BUBBLE
 	db 40, THRASH
 	db 45, HYDRO_PUMP
-	db 59, HYPER_BEAM
+	db 50, HYPER_BEAM
 	db 0
 
 ShellderEvosMoves:
@@ -494,11 +494,12 @@ ShellderEvosMoves:
 	db EVOLVE_ITEM, WATER_STONE, 1, CLOYSTER
 	db 0
 ; Learnset
-	db 18, SUPERSONIC
-	db 23, CLAMP
-	db 30, AURORA_BEAM
-	db 39, LEER
-	db 50, ICE_BEAM
+	db 18, WATER_GUN
+	db 23, SUPERSONIC
+	db 29, CLAMP
+	db 36, AURORA_BEAM
+	db 44, LEER
+	db 53, ICE_BEAM
 	db 0
 
 TentacoolEvosMoves:
@@ -905,7 +906,7 @@ SeelEvosMoves:
 	db EVOLVE_LEVEL, 34, DEWGONG
 	db 0
 ; Learnset
-	db 30, GROWL
+	db 30, HEADBUTT
 	db 35, AURORA_BEAM
 	db 40, REST
 	db 45, TAKE_DOWN
@@ -959,10 +960,11 @@ FarfetchdEvosMoves:
 	db 0
 ; Learnset
 	db 7, LEER
-	db 15, FURY_ATTACK
-	db 23, SWORDS_DANCE
+	db 13, WING_ATTACK
+	db 19, FURY_ATTACK
+	db 25, SWORDS_DANCE
 	db 31, AGILITY
-	db 39, SLASH
+	db 37, SLASH
 	db 0
 
 VenonatEvosMoves:
@@ -1585,8 +1587,8 @@ DewgongEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 30, GROWL
-	db 35, AURORA_BEAM
+	db 30, HEADBUTT
+	db 38, AURORA_BEAM
 	db 44, REST
 	db 50, TAKE_DOWN
 	db 56, ICE_BEAM
@@ -1596,6 +1598,13 @@ MissingNo79EvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
+	db 7, LEER
+	db 13, WING_ATTACK
+	db 19, FURY_ATTACK
+	db 28, SWORDS_DANCE
+	db 35, AGILITY
+	db 42, SLASH
+	db 49, DRILL_PECK
 	db 0
 
 MissingNo7AEvosMoves:
@@ -1778,11 +1787,12 @@ CloysterEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 18, SUPERSONIC
-	db 23, CLAMP
-	db 30, AURORA_BEAM
-	db 39, LEER
-	db 50, ICE_BEAM
+	db 18, WATER_GUN
+	db 23, SUPERSONIC
+	db 29, CLAMP
+	db 36, AURORA_BEAM
+	db 44, LEER
+	db 53, ICE_BEAM
 	db 63, SPIKE_CANNON
 	db 0
 
@@ -2061,11 +2071,11 @@ PonytaEvosMoves:
 ; Learnset
 	db 15, TAIL_WHIP
 	db 19, EMBER
-	db 23, STOMP
-	db 30, FIRE_SPIN
-	db 36, LOW_KICK
-	db 43, TAKE_DOWN
-	db 50, AGILITY
+	db 25, STOMP
+	db 31, FIRE_SPIN
+	db 37, LOW_KICK
+	db 44, TAKE_DOWN
+	db 51, AGILITY
 	db 0
 
 RapidashEvosMoves:
@@ -2078,8 +2088,8 @@ RapidashEvosMoves:
 	db 30, FIRE_SPIN
 	db 36, LOW_KICK
 	db 40, FURY_ATTACK
-	db 48, TAKE_DOWN
-	db 56, AGILITY
+	db 49, TAKE_DOWN
+	db 57, AGILITY
 	db 0
 
 RattataEvosMoves:

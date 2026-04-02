@@ -15,9 +15,9 @@
 
 	; tm/hm learnset
 	tmhm HEADBUTT,     TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  \
-	     HYPER_BEAM,   RAGE,         THUNDERBOLT,  THUNDER,      MIMIC,        \
-	     DOUBLE_TEAM,  BIDE,         SELFDESTRUCT, FIRE_BLAST,   REST,         \
-	     PSYWAVE,      EXPLOSION,    SUBSTITUTE,   FLASH
+	     FLAMETHROWER, HYPER_BEAM,   RAGE,         THUNDERBOLT,  THUNDER,      \
+	     MIMIC,        DOUBLE_TEAM,  BIDE,         SELFDESTRUCT, FIRE_BLAST,   \
+	     REST,         PSYWAVE,      EXPLOSION,    SUBSTITUTE,   FLASH
 	; end
 
 	db BANK(WeezingPicFront)

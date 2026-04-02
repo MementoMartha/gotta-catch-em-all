@@ -12,7 +12,7 @@ TechnicalMachinePrices:
 	nybble 3 ; TM09
 	nybble 4 ; TM10
 	nybble 2 ; TM11
-	nybble 1 ; TM12
+	nybble 4 ; TM12
 	nybble 4 ; TM13
 	nybble 5 ; TM14
 	nybble 5 ; TM15
@@ -24,7 +24,7 @@ TechnicalMachinePrices:
 	nybble 5 ; TM21
 	nybble 5 ; TM22
 	nybble 5 ; TM23
-	nybble 2 ; TM24
+	nybble 4 ; TM24
 	nybble 5 ; TM25
 	nybble 4 ; TM26
 	nybble 5 ; TM27

@@ -15,9 +15,9 @@
 
 	; tm/hm learnset
 	tmhm HEADBUTT,     TOXIC,        HORN_DRILL,   BODY_SLAM,    TAKE_DOWN,    \
-	     DOUBLE_EDGE,  RAGE,         SOLARBEAM,    MIMIC,        DOUBLE_TEAM,  \
-	     REFLECT,      BIDE,         FIRE_BLAST,   SWIFT,        SKULL_BASH,   \         
-	     REST,         SUBSTITUTE,   STRENGTH
+	     DOUBLE_EDGE,  FLAMETHROWER, RAGE,         SOLARBEAM,    MIMIC,        \
+	     DOUBLE_TEAM,  REFLECT,      BIDE,         FIRE_BLAST,   SWIFT,        \         
+	     SKULL_BASH,   REST,         SUBSTITUTE,   STRENGTH
 	; end
 
 	db BANK(PonytaPicFront)

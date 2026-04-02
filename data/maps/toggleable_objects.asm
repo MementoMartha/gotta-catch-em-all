@@ -223,7 +223,6 @@ ToggleableObjectStates:
 	toggle_object_state MTMOON1F_RARE_CANDY,   ON
 	toggle_object_state MTMOON1F_ESCAPE_ROPE,  ON
 	toggle_object_state MTMOON1F_POTION2,      ON
-	toggle_object_state MTMOON1F_TM_WATER_GUN, ON
 
 	toggleable_objects_for MT_MOON_B2F
 	toggle_object_state MTMOONB2F_DOME_FOSSIL,   ON

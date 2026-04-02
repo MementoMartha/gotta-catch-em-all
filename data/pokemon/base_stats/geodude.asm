@@ -15,10 +15,10 @@
 
 	; tm/hm learnset
 	tmhm MEGA_PUNCH,   HEADBUTT,     TOXIC,        BODY_SLAM,    TAKE_DOWN,    \
-	     DOUBLE_EDGE,  SUBMISSION,   COUNTER,      SEISMIC_TOSS, RAGE,         \
-	     EARTHQUAKE,   FISSURE,      DIG,          MIMIC,        DOUBLE_TEAM,  \
-	     BIDE,         METRONOME,    SELFDESTRUCT, FIRE_BLAST,   REST,         \
-	     EXPLOSION,    ROCK_SLIDE,   SUBSTITUTE,   STRENGTH
+	     DOUBLE_EDGE,  FLAMETHROWER, SUBMISSION,   COUNTER,      SEISMIC_TOSS, \
+	     RAGE,         EARTHQUAKE,   FISSURE,      DIG,          MIMIC,        \
+	     DOUBLE_TEAM,  BIDE,         METRONOME,    SELFDESTRUCT, FIRE_BLAST,   \
+	     REST,         EXPLOSION,    ROCK_SLIDE,   SUBSTITUTE,   STRENGTH
 	; end
 
 	db BANK(GeodudePicFront)

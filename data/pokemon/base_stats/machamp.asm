@@ -15,11 +15,11 @@
 
 	; tm/hm learnset
 	tmhm MEGA_PUNCH,   MEGA_KICK,    HEADBUTT,     TOXIC,        BODY_SLAM,    \
-	     TAKE_DOWN,    DOUBLE_EDGE,  HYPER_BEAM,   SUBMISSION,   COUNTER,      \
-	     SEISMIC_TOSS, RAGE,         EARTHQUAKE,   FISSURE,      DIG,          \
-	     MIMIC,        DOUBLE_TEAM,  LIGHT_SCREEN, BIDE,         METRONOME,    \
-	     FIRE_BLAST,   SKULL_BASH,   REST,         ROCK_SLIDE,   SUBSTITUTE,   \
-	     STRENGTH
+	     TAKE_DOWN,    DOUBLE_EDGE,  FLAMETHROWER, HYPER_BEAM,   SUBMISSION,   \
+	     COUNTER,      SEISMIC_TOSS, RAGE,         EARTHQUAKE,   FISSURE,      \
+	     DIG,          MIMIC,        DOUBLE_TEAM,  LIGHT_SCREEN, BIDE,         \
+	     METRONOME,    FIRE_BLAST,   SKULL_BASH,   REST,         ROCK_SLIDE,   \
+	     SUBSTITUTE,   STRENGTH
 	; end
 
 	db BANK(MachampPicFront)
