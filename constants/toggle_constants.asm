@@ -196,199 +196,198 @@ ENDM
 	const TOGGLE_MT_MOON_1F_ITEM_3             ; 69 X
 	const TOGGLE_MT_MOON_1F_ITEM_4             ; 6A X
 	const TOGGLE_MT_MOON_1F_ITEM_5             ; 6B X
-	const TOGGLE_MT_MOON_1F_ITEM_6             ; 6C X
 
 	toggle_consts_for MT_MOON_B2F
-	const TOGGLE_MT_MOON_B2F_FOSSIL_1          ; 6D
-	const TOGGLE_MT_MOON_B2F_FOSSIL_2          ; 6E
-	const TOGGLE_MT_MOON_B2F_ITEM_1            ; 6F X
-	const TOGGLE_MT_MOON_B2F_ITEM_2            ; 70 X
+	const TOGGLE_MT_MOON_B2F_FOSSIL_1          ; 6C
+	const TOGGLE_MT_MOON_B2F_FOSSIL_2          ; 6D
+	const TOGGLE_MT_MOON_B2F_ITEM_1            ; 6E X
+	const TOGGLE_MT_MOON_B2F_ITEM_2            ; 6F X
 
 	toggle_consts_for SS_ANNE_2F
-	const TOGGLE_SS_ANNE_2F_RIVAL              ; 71
+	const TOGGLE_SS_ANNE_2F_RIVAL              ; 70
 
 	toggle_consts_for SS_ANNE_1F_ROOMS
-	const TOGGLE_SS_ANNE_1F_ROOMS_ITEM         ; 72 X
+	const TOGGLE_SS_ANNE_1F_ROOMS_ITEM         ; 71 X
 
 	toggle_consts_for SS_ANNE_2F_ROOMS
-	const TOGGLE_SS_ANNE_2F_ROOMS_ITEM_1       ; 73 X
-	const TOGGLE_SS_ANNE_2F_ROOMS_ITEM_2       ; 74 X
+	const TOGGLE_SS_ANNE_2F_ROOMS_ITEM_1       ; 72 X
+	const TOGGLE_SS_ANNE_2F_ROOMS_ITEM_2       ; 73 X
 
 	toggle_consts_for SS_ANNE_B1F_ROOMS
-	const TOGGLE_SS_ANNE_B1F_ROOMS_ITEM_1      ; 75 X
-	const TOGGLE_SS_ANNE_B1F_ROOMS_ITEM_2      ; 76 X
-	const TOGGLE_SS_ANNE_B1F_ROOMS_ITEM_3      ; 77 X
+	const TOGGLE_SS_ANNE_B1F_ROOMS_ITEM_1      ; 74 X
+	const TOGGLE_SS_ANNE_B1F_ROOMS_ITEM_2      ; 75 X
+	const TOGGLE_SS_ANNE_B1F_ROOMS_ITEM_3      ; 76 X
 
 	toggle_consts_for VICTORY_ROAD_3F
-	const TOGGLE_VICTORY_ROAD_3F_ITEM_1        ; 78 X
-	const TOGGLE_VICTORY_ROAD_3F_ITEM_2        ; 79 X
-	const TOGGLE_VICTORY_ROAD_3F_BOULDER       ; 7A
+	const TOGGLE_VICTORY_ROAD_3F_ITEM_1        ; 77 X
+	const TOGGLE_VICTORY_ROAD_3F_ITEM_2        ; 78 X
+	const TOGGLE_VICTORY_ROAD_3F_BOULDER       ; 79
 
 	toggle_consts_for ROCKET_HIDEOUT_B1F
-	const TOGGLE_ROCKET_HIDEOUT_B1F_ITEM_1     ; 7B X
-	const TOGGLE_ROCKET_HIDEOUT_B1F_ITEM_2     ; 7C X
+	const TOGGLE_ROCKET_HIDEOUT_B1F_ITEM_1     ; 7A X
+	const TOGGLE_ROCKET_HIDEOUT_B1F_ITEM_2     ; 7B X
 
 	toggle_consts_for ROCKET_HIDEOUT_B2F
-	const TOGGLE_ROCKET_HIDEOUT_B2F_ITEM_1     ; 7D X
-	const TOGGLE_ROCKET_HIDEOUT_B2F_ITEM_2     ; 7E X
-	const TOGGLE_ROCKET_HIDEOUT_B2F_ITEM_3     ; 7F X
-	const TOGGLE_ROCKET_HIDEOUT_B2F_ITEM_4     ; 80 X
+	const TOGGLE_ROCKET_HIDEOUT_B2F_ITEM_1     ; 7C X
+	const TOGGLE_ROCKET_HIDEOUT_B2F_ITEM_2     ; 7D X
+	const TOGGLE_ROCKET_HIDEOUT_B2F_ITEM_3     ; 7E X
+	const TOGGLE_ROCKET_HIDEOUT_B2F_ITEM_4     ; 7F X
 
 	toggle_consts_for ROCKET_HIDEOUT_B3F
-	const TOGGLE_ROCKET_HIDEOUT_B3F_ITEM_1     ; 81 X
-	const TOGGLE_ROCKET_HIDEOUT_B3F_ITEM_2     ; 82 X
+	const TOGGLE_ROCKET_HIDEOUT_B3F_ITEM_1     ; 80 X
+	const TOGGLE_ROCKET_HIDEOUT_B3F_ITEM_2     ; 81 X
 
 	toggle_consts_for ROCKET_HIDEOUT_B4F
-	const TOGGLE_ROCKET_HIDEOUT_B4F_GIOVANNI   ; 83
-	const TOGGLE_ROCKET_HIDEOUT_B4F_ITEM_1     ; 84 X
-	const TOGGLE_ROCKET_HIDEOUT_B4F_ITEM_2     ; 85 X
-	const TOGGLE_ROCKET_HIDEOUT_B4F_ITEM_3     ; 86 X
-	const TOGGLE_ROCKET_HIDEOUT_B4F_ITEM_4     ; 87
-	const TOGGLE_ROCKET_HIDEOUT_B4F_ITEM_5     ; 88
+	const TOGGLE_ROCKET_HIDEOUT_B4F_GIOVANNI   ; 82
+	const TOGGLE_ROCKET_HIDEOUT_B4F_ITEM_1     ; 83 X
+	const TOGGLE_ROCKET_HIDEOUT_B4F_ITEM_2     ; 84 X
+	const TOGGLE_ROCKET_HIDEOUT_B4F_ITEM_3     ; 85 X
+	const TOGGLE_ROCKET_HIDEOUT_B4F_ITEM_4     ; 86
+	const TOGGLE_ROCKET_HIDEOUT_B4F_ITEM_5     ; 87
 
 	toggle_consts_for SILPH_CO_2F
-	const TOGGLE_SILPH_CO_2F_1                 ; 89 XXX never (de)activated?
-	const TOGGLE_SILPH_CO_2F_2                 ; 8A
-	const TOGGLE_SILPH_CO_2F_3                 ; 8B
-	const TOGGLE_SILPH_CO_2F_4                 ; 8C
-	const TOGGLE_SILPH_CO_2F_5                 ; 8D
+	const TOGGLE_SILPH_CO_2F_1                 ; 88 XXX never (de)activated?
+	const TOGGLE_SILPH_CO_2F_2                 ; 89
+	const TOGGLE_SILPH_CO_2F_3                 ; 8A
+	const TOGGLE_SILPH_CO_2F_4                 ; 8B
+	const TOGGLE_SILPH_CO_2F_5                 ; 8C
 
 	toggle_consts_for SILPH_CO_3F
-	const TOGGLE_SILPH_CO_3F_1                 ; 8E
-	const TOGGLE_SILPH_CO_3F_2                 ; 8F
-	const TOGGLE_SILPH_CO_3F_ITEM              ; 90 X
+	const TOGGLE_SILPH_CO_3F_1                 ; 8D
+	const TOGGLE_SILPH_CO_3F_2                 ; 8E
+	const TOGGLE_SILPH_CO_3F_ITEM              ; 8F X
 
 	toggle_consts_for SILPH_CO_4F
-	const TOGGLE_SILPH_CO_4F_1                 ; 91
-	const TOGGLE_SILPH_CO_4F_2                 ; 92
-	const TOGGLE_SILPH_CO_4F_3                 ; 93
-	const TOGGLE_SILPH_CO_4F_ITEM_1            ; 94 X
-	const TOGGLE_SILPH_CO_4F_ITEM_2            ; 95 X
-	const TOGGLE_SILPH_CO_4F_ITEM_3            ; 96 X
+	const TOGGLE_SILPH_CO_4F_1                 ; 90
+	const TOGGLE_SILPH_CO_4F_2                 ; 91
+	const TOGGLE_SILPH_CO_4F_3                 ; 92
+	const TOGGLE_SILPH_CO_4F_ITEM_1            ; 93 X
+	const TOGGLE_SILPH_CO_4F_ITEM_2            ; 94 X
+	const TOGGLE_SILPH_CO_4F_ITEM_3            ; 95 X
 
 	toggle_consts_for SILPH_CO_5F
-	const TOGGLE_SILPH_CO_5F_1                 ; 97
-	const TOGGLE_SILPH_CO_5F_2                 ; 98
-	const TOGGLE_SILPH_CO_5F_3                 ; 99
-	const TOGGLE_SILPH_CO_5F_4                 ; 9A
-	const TOGGLE_SILPH_CO_5F_ITEM_1            ; 9B X
-	const TOGGLE_SILPH_CO_5F_ITEM_2            ; 9C X
-	const TOGGLE_SILPH_CO_5F_ITEM_3            ; 9D X
+	const TOGGLE_SILPH_CO_5F_1                 ; 96
+	const TOGGLE_SILPH_CO_5F_2                 ; 97
+	const TOGGLE_SILPH_CO_5F_3                 ; 98
+	const TOGGLE_SILPH_CO_5F_4                 ; 99
+	const TOGGLE_SILPH_CO_5F_ITEM_1            ; 9A X
+	const TOGGLE_SILPH_CO_5F_ITEM_2            ; 9B X
+	const TOGGLE_SILPH_CO_5F_ITEM_3            ; 9C X
 
 	toggle_consts_for SILPH_CO_6F
-	const TOGGLE_SILPH_CO_6F_1                 ; 9E
-	const TOGGLE_SILPH_CO_6F_2                 ; 9F
-	const TOGGLE_SILPH_CO_6F_3                 ; A0
-	const TOGGLE_SILPH_CO_6F_ITEM_1            ; A1 X
-	const TOGGLE_SILPH_CO_6F_ITEM_2            ; A2 X
+	const TOGGLE_SILPH_CO_6F_1                 ; 9D
+	const TOGGLE_SILPH_CO_6F_2                 ; 9E
+	const TOGGLE_SILPH_CO_6F_3                 ; 9F
+	const TOGGLE_SILPH_CO_6F_ITEM_1            ; A0 X
+	const TOGGLE_SILPH_CO_6F_ITEM_2            ; A1 X
 
 	toggle_consts_for SILPH_CO_7F
-	const TOGGLE_SILPH_CO_7F_1                 ; A3
-	const TOGGLE_SILPH_CO_7F_2                 ; A4
-	const TOGGLE_SILPH_CO_7F_3                 ; A5
-	const TOGGLE_SILPH_CO_7F_4                 ; A6
-	const TOGGLE_SILPH_CO_7F_RIVAL             ; A7
-	const TOGGLE_SILPH_CO_7F_ITEM_1            ; A8 X
-	const TOGGLE_SILPH_CO_7F_ITEM_2            ; A9 X
-	const TOGGLE_SILPH_CO_7F_8                 ; AA XXX sprite doesn't exist
+	const TOGGLE_SILPH_CO_7F_1                 ; A2
+	const TOGGLE_SILPH_CO_7F_2                 ; A3
+	const TOGGLE_SILPH_CO_7F_3                 ; A4
+	const TOGGLE_SILPH_CO_7F_4                 ; A5
+	const TOGGLE_SILPH_CO_7F_RIVAL             ; A6
+	const TOGGLE_SILPH_CO_7F_ITEM_1            ; A7 X
+	const TOGGLE_SILPH_CO_7F_ITEM_2            ; A8 X
+	const TOGGLE_SILPH_CO_7F_8                 ; A9 XXX sprite doesn't exist
 
 	toggle_consts_for SILPH_CO_8F
-	const TOGGLE_SILPH_CO_8F_1                 ; AB
-	const TOGGLE_SILPH_CO_8F_2                 ; AC
-	const TOGGLE_SILPH_CO_8F_3                 ; AD
+	const TOGGLE_SILPH_CO_8F_1                 ; AA
+	const TOGGLE_SILPH_CO_8F_2                 ; AB
+	const TOGGLE_SILPH_CO_8F_3                 ; AC
 
 	toggle_consts_for SILPH_CO_9F
-	const TOGGLE_SILPH_CO_9F_1                 ; AE
-	const TOGGLE_SILPH_CO_9F_2                 ; AF
-	const TOGGLE_SILPH_CO_9F_3                 ; B0
+	const TOGGLE_SILPH_CO_9F_1                 ; AD
+	const TOGGLE_SILPH_CO_9F_2                 ; AE
+	const TOGGLE_SILPH_CO_9F_3                 ; AF
 
 	toggle_consts_for SILPH_CO_10F
-	const TOGGLE_SILPH_CO_10F_1                ; B1
-	const TOGGLE_SILPH_CO_10F_2                ; B2
-	const TOGGLE_SILPH_CO_10F_3                ; B3 XXX never (de)activated?
-	const TOGGLE_SILPH_CO_10F_ITEM_1           ; B4 X
-	const TOGGLE_SILPH_CO_10F_ITEM_2           ; B5 X
-	const TOGGLE_SILPH_CO_10F_ITEM_3           ; B6 X
+	const TOGGLE_SILPH_CO_10F_1                ; B0
+	const TOGGLE_SILPH_CO_10F_2                ; B1
+	const TOGGLE_SILPH_CO_10F_3                ; B2 XXX never (de)activated?
+	const TOGGLE_SILPH_CO_10F_ITEM_1           ; B3 X
+	const TOGGLE_SILPH_CO_10F_ITEM_2           ; B4 X
+	const TOGGLE_SILPH_CO_10F_ITEM_3           ; B5 X
 
 	toggle_consts_for SILPH_CO_11F
-	const TOGGLE_SILPH_CO_11F_1                ; B7
-	const TOGGLE_SILPH_CO_11F_2                ; B8
-	const TOGGLE_SILPH_CO_11F_3                ; B9
+	const TOGGLE_SILPH_CO_11F_1                ; B6
+	const TOGGLE_SILPH_CO_11F_2                ; B7
+	const TOGGLE_SILPH_CO_11F_3                ; B8
 
 	toggle_consts_for UNUSED_MAP_F4
-	const TOGGLE_UNUSED_MAP_F4_1               ; BA XXX sprite doesn't exist
+	const TOGGLE_UNUSED_MAP_F4_1               ; B9 XXX sprite doesn't exist
 
 	toggle_consts_for POKEMON_MANSION_2F
-	const TOGGLE_POKEMON_MANSION_2F_ITEM       ; BB X
+	const TOGGLE_POKEMON_MANSION_2F_ITEM       ; BA X
 
 	toggle_consts_for POKEMON_MANSION_3F
-	const TOGGLE_POKEMON_MANSION_3F_ITEM_1     ; BC X
-	const TOGGLE_POKEMON_MANSION_3F_ITEM_2     ; BD X
+	const TOGGLE_POKEMON_MANSION_3F_ITEM_1     ; BB X
+	const TOGGLE_POKEMON_MANSION_3F_ITEM_2     ; BC X
 
 	toggle_consts_for POKEMON_MANSION_B1F
-	const TOGGLE_POKEMON_MANSION_B1F_ITEM_1    ; BE X
-	const TOGGLE_POKEMON_MANSION_B1F_ITEM_2    ; BF X
-	const TOGGLE_POKEMON_MANSION_B1F_ITEM_3    ; C0 X
-	const TOGGLE_POKEMON_MANSION_B1F_ITEM_4    ; C1 X
-	const TOGGLE_POKEMON_MANSION_B1F_ITEM_5    ; C2 X
+	const TOGGLE_POKEMON_MANSION_B1F_ITEM_1    ; BD X
+	const TOGGLE_POKEMON_MANSION_B1F_ITEM_2    ; BE X
+	const TOGGLE_POKEMON_MANSION_B1F_ITEM_3    ; BF X
+	const TOGGLE_POKEMON_MANSION_B1F_ITEM_4    ; C0 X
+	const TOGGLE_POKEMON_MANSION_B1F_ITEM_5    ; C1 X
 
 	toggle_consts_for SAFARI_ZONE_EAST
-	const TOGGLE_SAFARI_ZONE_EAST_ITEM_1       ; C3 X
-	const TOGGLE_SAFARI_ZONE_EAST_ITEM_2       ; C4 X
-	const TOGGLE_SAFARI_ZONE_EAST_ITEM_3       ; C5 X
-	const TOGGLE_SAFARI_ZONE_EAST_ITEM_4       ; C6 X
+	const TOGGLE_SAFARI_ZONE_EAST_ITEM_1       ; C2 X
+	const TOGGLE_SAFARI_ZONE_EAST_ITEM_2       ; C3 X
+	const TOGGLE_SAFARI_ZONE_EAST_ITEM_3       ; C4 X
+	const TOGGLE_SAFARI_ZONE_EAST_ITEM_4       ; C5 X
 
 	toggle_consts_for SAFARI_ZONE_NORTH
-	const TOGGLE_SAFARI_ZONE_NORTH_ITEM_1      ; C7 X
-	const TOGGLE_SAFARI_ZONE_NORTH_ITEM_2      ; C8 X
+	const TOGGLE_SAFARI_ZONE_NORTH_ITEM_1      ; C6 X
+	const TOGGLE_SAFARI_ZONE_NORTH_ITEM_2      ; C7 X
 
 	toggle_consts_for SAFARI_ZONE_WEST
-	const TOGGLE_SAFARI_ZONE_WEST_ITEM_1       ; C9 X
-	const TOGGLE_SAFARI_ZONE_WEST_ITEM_2       ; CA X
-	const TOGGLE_SAFARI_ZONE_WEST_ITEM_3       ; CB X
-	const TOGGLE_SAFARI_ZONE_WEST_ITEM_4       ; CC X
+	const TOGGLE_SAFARI_ZONE_WEST_ITEM_1       ; C8 X
+	const TOGGLE_SAFARI_ZONE_WEST_ITEM_2       ; C9 X
+	const TOGGLE_SAFARI_ZONE_WEST_ITEM_3       ; CA X
+	const TOGGLE_SAFARI_ZONE_WEST_ITEM_4       ; CB X
 
 	toggle_consts_for SAFARI_ZONE_CENTER
-	const TOGGLE_SAFARI_ZONE_CENTER_ITEM       ; CD X
+	const TOGGLE_SAFARI_ZONE_CENTER_ITEM       ; CC X
 
 	toggle_consts_for CERULEAN_CAVE_2F
-	const TOGGLE_CERULEAN_CAVE_2F_ITEM_1       ; CE X
-	const TOGGLE_CERULEAN_CAVE_2F_ITEM_2       ; CF X
-	const TOGGLE_CERULEAN_CAVE_2F_ITEM_3       ; D0 X
+	const TOGGLE_CERULEAN_CAVE_2F_ITEM_1       ; CD X
+	const TOGGLE_CERULEAN_CAVE_2F_ITEM_2       ; CE X
+	const TOGGLE_CERULEAN_CAVE_2F_ITEM_3       ; CF X
 
 	toggle_consts_for CERULEAN_CAVE_B1F
-	const TOGGLE_MEWTWO                        ; D1 X
-	const TOGGLE_CERULEAN_CAVE_B1F_ITEM_1      ; D2 X
-	const TOGGLE_CERULEAN_CAVE_B1F_ITEM_2      ; D3 X
+	const TOGGLE_MEWTWO                        ; D0 X
+	const TOGGLE_CERULEAN_CAVE_B1F_ITEM_1      ; D1 X
+	const TOGGLE_CERULEAN_CAVE_B1F_ITEM_2      ; D2 X
 
 	toggle_consts_for VICTORY_ROAD_1F
-	const TOGGLE_VICTORY_ROAD_1F_ITEM_1        ; D4 X
-	const TOGGLE_VICTORY_ROAD_1F_ITEM_2        ; D5 X
+	const TOGGLE_VICTORY_ROAD_1F_ITEM_1        ; D3 X
+	const TOGGLE_VICTORY_ROAD_1F_ITEM_2        ; D4 X
 
 	toggle_consts_for CHAMPIONS_ROOM
-	const TOGGLE_CHAMPIONS_ROOM_OAK            ; D6
+	const TOGGLE_CHAMPIONS_ROOM_OAK            ; D5
 
 	toggle_consts_for SEAFOAM_ISLANDS_1F
-	const TOGGLE_SEAFOAM_ISLANDS_1F_BOULDER_1  ; D7
-	const TOGGLE_SEAFOAM_ISLANDS_1F_BOULDER_2  ; D8
+	const TOGGLE_SEAFOAM_ISLANDS_1F_BOULDER_1  ; D6
+	const TOGGLE_SEAFOAM_ISLANDS_1F_BOULDER_2  ; D7
 
 	toggle_consts_for SEAFOAM_ISLANDS_B1F
-	const TOGGLE_SEAFOAM_ISLANDS_B1F_BOULDER_1 ; D9
-	const TOGGLE_SEAFOAM_ISLANDS_B1F_BOULDER_2 ; DA
+	const TOGGLE_SEAFOAM_ISLANDS_B1F_BOULDER_1 ; D8
+	const TOGGLE_SEAFOAM_ISLANDS_B1F_BOULDER_2 ; D9
 
 	toggle_consts_for SEAFOAM_ISLANDS_B2F
-	const TOGGLE_SEAFOAM_ISLANDS_B2F_BOULDER_1 ; DB
-	const TOGGLE_SEAFOAM_ISLANDS_B2F_BOULDER_2 ; DC
+	const TOGGLE_SEAFOAM_ISLANDS_B2F_BOULDER_1 ; DA
+	const TOGGLE_SEAFOAM_ISLANDS_B2F_BOULDER_2 ; DB
 
 	toggle_consts_for SEAFOAM_ISLANDS_B3F
-	const TOGGLE_SEAFOAM_ISLANDS_B3F_BOULDER_1 ; DD
-	const TOGGLE_SEAFOAM_ISLANDS_B3F_BOULDER_2 ; DE
-	const TOGGLE_SEAFOAM_ISLANDS_B3F_BOULDER_3 ; DF
-	const TOGGLE_SEAFOAM_ISLANDS_B3F_BOULDER_4 ; E0
+	const TOGGLE_SEAFOAM_ISLANDS_B3F_BOULDER_1 ; DC
+	const TOGGLE_SEAFOAM_ISLANDS_B3F_BOULDER_2 ; DD
+	const TOGGLE_SEAFOAM_ISLANDS_B3F_BOULDER_3 ; DE
+	const TOGGLE_SEAFOAM_ISLANDS_B3F_BOULDER_4 ; DF
 
 	toggle_consts_for SEAFOAM_ISLANDS_B4F
-	const TOGGLE_SEAFOAM_ISLANDS_B4F_BOULDER_1 ; E1
-	const TOGGLE_SEAFOAM_ISLANDS_B4F_BOULDER_2 ; E2
-	const TOGGLE_ARTICUNO                      ; E3 X
+	const TOGGLE_SEAFOAM_ISLANDS_B4F_BOULDER_1 ; E0
+	const TOGGLE_SEAFOAM_ISLANDS_B4F_BOULDER_2 ; E1
+	const TOGGLE_ARTICUNO                      ; E2 X
 
 DEF NUM_TOGGLEABLE_OBJECTS EQU const_value
