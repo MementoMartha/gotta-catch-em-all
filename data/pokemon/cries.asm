@@ -26,7 +26,7 @@ CryData::
 	mon_cry SFX_CRY_04, $00, $80 ; Rhyhorn
 	mon_cry SFX_CRY_1B, $00, $80 ; Lapras
 	mon_cry SFX_CRY_15, $00, $80 ; Arcanine
-	mon_cry SFX_CRY_1E, $EE, $FF ; Mew
+	mon_cry SFX_CRY_13, $00, $80 ; MissingNo.
 	mon_cry SFX_CRY_17, $00, $80 ; Gyarados
 	mon_cry SFX_CRY_18, $00, $80 ; Shellder
 	mon_cry SFX_CRY_1A, $00, $80 ; Tentacool
@@ -36,7 +36,7 @@ CryData::
 	mon_cry SFX_CRY_13, $00, $80 ; Blastoise
 	mon_cry SFX_CRY_14, $00, $80 ; Pinsir
 	mon_cry SFX_CRY_12, $00, $80 ; Tangela
-	mon_cry SFX_CRY_00, $00, $00 ; MissingNo.
+	mon_cry SFX_CRY_0F, $00, $80 ; MissingNo.
 	mon_cry SFX_CRY_00, $00, $00 ; MissingNo.
 	mon_cry SFX_CRY_1F, $20, $40 ; Growlithe
 	mon_cry SFX_CRY_17, $FF, $C0 ; Onix
@@ -55,7 +55,7 @@ CryData::
 	mon_cry SFX_CRY_21, $20, $60 ; Psyduck
 	mon_cry SFX_CRY_0D, $88, $20 ; Drowzee
 	mon_cry SFX_CRY_12, $E0, $40 ; Golem
-	mon_cry SFX_CRY_00, $00, $00 ; MissingNo.
+	mon_cry SFX_CRY_0E, $00, $80 ; MissingNo.
 	mon_cry SFX_CRY_04, $FF, $30 ; Magmar
 	mon_cry SFX_CRY_00, $00, $00 ; MissingNo.
 	mon_cry SFX_CRY_06, $8F, $FF ; Electabuzz
@@ -151,7 +151,7 @@ CryData::
 	mon_cry SFX_CRY_12, $FF, $FF ; Weezing
 	mon_cry SFX_CRY_19, $99, $FF ; Persian
 	mon_cry SFX_CRY_08, $4F, $60 ; Marowak
-	mon_cry SFX_CRY_00, $00, $00 ; MissingNo.
+	mon_cry SFX_CRY_08, $00, $80 ; MissingNo.
 	mon_cry SFX_CRY_1C, $30, $40 ; Haunter
 	mon_cry SFX_CRY_1C, $C0, $01 ; Abra
 	mon_cry SFX_CRY_1C, $98, $FF ; Alakazam
@@ -196,4 +196,5 @@ CryData::
 	mon_cry SFX_CRY_21, $55, $01 ; Bellsprout
 	mon_cry SFX_CRY_25, $44, $20 ; Weepinbell
 	mon_cry SFX_CRY_25, $66, $CC ; Victreebel
+	mon_cry SFX_CRY_1E, $EE, $FF ; Mew
 	assert_table_length NUM_POKEMON_INDEXES

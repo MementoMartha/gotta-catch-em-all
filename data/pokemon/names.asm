@@ -20,7 +20,7 @@ MonsterNames::
 	dname "RHYHORN"
 	dname "LAPRAS"
 	dname "ARCANINE"
-	dname "MEW"
+	dname "MISSINGNO."
 	dname "GYARADOS"
 	dname "SHELLDER"
 	dname "TENTACOOL"
@@ -190,4 +190,5 @@ MonsterNames::
 	dname "BELLSPROUT"
 	dname "WEEPINBELL"
 	dname "VICTREEBEL"
+	dname "MEW"
 	assert_table_length NUM_POKEMON_INDEXES

@@ -27,7 +27,7 @@
 	const RHYHORN            ; $12
 	const LAPRAS             ; $13
 	const ARCANINE           ; $14
-	const MEW                ; $15
+	const_skip               ; $15
 	const GYARADOS           ; $16
 	const SHELLDER           ; $17
 	const TENTACOOL          ; $18
@@ -197,6 +197,7 @@
 	const BELLSPROUT         ; $BC
 	const WEEPINBELL         ; $BD
 	const VICTREEBEL         ; $BE
+	const MEW                ; $BF
 
 DEF NUM_POKEMON_INDEXES EQU const_value - 1
 

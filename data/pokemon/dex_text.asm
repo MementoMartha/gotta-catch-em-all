@@ -198,16 +198,6 @@ _ArcanineDexEntry::
 	next "as if on wings"
 	dex
 
-_MewDexEntry::
-	text "So rare that it"
-	next "is still said to"
-	next "be a mirage by"
-
-	page "many experts. Only"
-	next "a few people have"
-	next "seen it worldwide"
-	dex
-
 _GyaradosDexEntry::
 	text "Rarely seen in"
 	next "the wild. Huge"
@@ -1506,6 +1496,16 @@ _VictreebelDexEntry::
 	page "although no one"
 	next "has ever returned"
 	next "from there"
+	dex
+
+_MewDexEntry::
+	text "So rare that it"
+	next "is still said to"
+	next "be a mirage by"
+
+	page "many experts. Only"
+	next "a few people have"
+	next "seen it worldwide"
 	dex
 
 _MissingNoDexEntry::

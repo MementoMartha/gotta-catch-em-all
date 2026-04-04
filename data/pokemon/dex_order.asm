@@ -20,7 +20,7 @@ PokedexOrder:
 	db DEX_RHYHORN
 	db DEX_LAPRAS
 	db DEX_ARCANINE
-	db DEX_MEW
+	db 0 ; MISSINGNO.
 	db DEX_GYARADOS
 	db DEX_SHELLDER
 	db DEX_TENTACOOL
@@ -190,4 +190,5 @@ PokedexOrder:
 	db DEX_BELLSPROUT
 	db DEX_WEEPINBELL
 	db DEX_VICTREEBEL
+	db DEX_MEW
 	assert_table_length NUM_POKEMON_INDEXES

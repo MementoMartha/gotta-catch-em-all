@@ -20,7 +20,7 @@ PokedexEntryPointers:
 	dw RhyhornDexEntry
 	dw LaprasDexEntry
 	dw ArcanineDexEntry
-	dw MewDexEntry
+	dw MissingNoDexEntry
 	dw GyaradosDexEntry
 	dw ShellderDexEntry
 	dw TentacoolDexEntry
@@ -190,6 +190,7 @@ PokedexEntryPointers:
 	dw BellsproutDexEntry
 	dw WeepinbellDexEntry
 	dw VictreebelDexEntry
+	dw MewDexEntry
 	assert_table_length NUM_POKEMON_INDEXES
 
 ; string: species name
@@ -335,13 +336,6 @@ ArcanineDexEntry:
 	db 6,3
 	dw 3420
 	text_far _ArcanineDexEntry
-	text_end
-
-MewDexEntry:
-	db "NEW SPECIE@"
-	db 1,4
-	dw 90
-	text_far _MewDexEntry
 	text_end
 
 GyaradosDexEntry:
@@ -1252,6 +1246,13 @@ VictreebelDexEntry:
 	db 5,7
 	dw 340
 	text_far _VictreebelDexEntry
+	text_end
+
+MewDexEntry:
+	db "NEWSPECIES@"
+	db 1,4
+	dw 90
+	text_far _MewDexEntry
 	text_end
 
 MissingNoDexEntry:

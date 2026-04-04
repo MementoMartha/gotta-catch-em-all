@@ -30,7 +30,7 @@ EvosMovesPointerTable:
 	dw RhyhornEvosMoves
 	dw LaprasEvosMoves
 	dw ArcanineEvosMoves
-	dw MewEvosMoves
+	dw MissingNo15EvosMoves
 	dw GyaradosEvosMoves
 	dw ShellderEvosMoves
 	dw TentacoolEvosMoves
@@ -200,6 +200,7 @@ EvosMovesPointerTable:
 	dw BellsproutEvosMoves
 	dw WeepinbellEvosMoves
 	dw VictreebelEvosMoves
+	dw MewEvosMoves
 	assert_table_length NUM_POKEMON_INDEXES
 
 RhydonEvosMoves:
@@ -460,19 +461,10 @@ ArcanineEvosMoves:
 	db 60, FLAMETHROWER
 	db 0
 
-MewEvosMoves:
+MissingNo15EvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 10, CONFUSION
-	db 20, SWIFT
-	db 30, METRONOME
-	db 40, TELEPORT
-	db 50, PSYCHIC_M
-	db 60, BARRIER
-	db 70, RECOVER
-	db 80, AMNESIA
-	db 90, TRANSFORM
 	db 0
 
 GyaradosEvosMoves:
@@ -2402,4 +2394,19 @@ VictreebelEvosMoves:
 	db 37, ACID
 	db 49, RAZOR_LEAF
 	db 63, SLAM
+	db 0
+
+MewEvosMoves:
+; Evolutions
+	db 0
+; Learnset
+	db 10, CONFUSION
+	db 20, SWIFT
+	db 30, METRONOME
+	db 40, TELEPORT
+	db 50, PSYCHIC_M
+	db 60, BARRIER
+	db 70, RECOVER
+	db 80, AMNESIA
+	db 90, TRANSFORM
 	db 0
