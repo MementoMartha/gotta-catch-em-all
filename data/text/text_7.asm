@@ -72,10 +72,10 @@ _WannaTrade1Text::
 	text "I'm looking for"
 	line "@"
 	text_ram wInGameTradeGiveMonName
-	text "! Wanna"
+	text "!"
 
-	para "trade one for"
-	line "@"
+	para "Wanna trade for"
+	line "my @"
 	text_ram wInGameTradeReceiveMonName
 	text "? "
 	done
@@ -96,7 +96,7 @@ _WrongMon1Text::
 	done
 
 _Thanks1Text::
-	text "Hey thanks!"
+	text "Hey, thanks!"
 	done
 
 _AfterTrade1Text::
@@ -107,7 +107,7 @@ _AfterTrade1Text::
 	done
 
 _WannaTrade2Text::
-	text "Hello there! Do"
+	text "Hello, there! Do"
 	line "you want to trade"
 
 	para "your @"
@@ -134,16 +134,15 @@ _WrongMon2Text::
 	done
 
 _Thanks2Text::
-	text "Thanks!"
+	text "Thank you!"
 	done
 
 _AfterTrade2Text::
-	text "The @"
-	text_ram wInGameTradeGiveMonName
-	text " you"
-	line "traded to me"
-
-	para "went and evolved!"
+	text "Is the @"
+	text_ram wInGameTradeReceiveMonName
+	text " "
+	line "that I traded you"
+	cont "any stronger?"
 	done
 
 _WannaTrade3Text::
@@ -173,7 +172,7 @@ _WrongMon3Text::
 	done
 
 _Thanks3Text::
-	text "Thanks pal!"
+	text "Thanks, pal!"
 	done
 
 _AfterTrade3Text::

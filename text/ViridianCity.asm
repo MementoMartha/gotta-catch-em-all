@@ -43,10 +43,12 @@ ViridianCityYoungster2CaterpieAndWeedleDescriptionText::
 	done
 
 _ViridianCityGirlHasntHadHisCoffeeYetText::
-	text "Oh Grandpa! Don't"
-	line "be so mean!"
-	cont "He hasn't had his"
-	cont "coffee yet."
+	text "Oh, Grandpa!"
+	line "Don't be so mean!"
+
+	para "I'm sorry, but"
+	line "he hasn't sobered"
+	cont "up yet..."
 	done
 
 _ViridianCityGirlWhenIGoShopText::
@@ -58,8 +60,8 @@ _ViridianCityGirlWhenIGoShopText::
 	done
 
 _ViridianCityOldManSleepyPrivatePropertyText::
-	text "You can't go"
-	line "through here!"
+	text "Hey, you! Hic..."
+	line "Get outta here!"
 
 	para "This is private"
 	line "property!"
@@ -99,15 +101,15 @@ _ViridianCityFisherTM42NoRoomText::
 	done
 
 _ViridianCityOldManHadMyCoffeeNowText::
-	text "Ahh, I've had my"
-	line "coffee now and I"
-	cont "feel great!"
+	text "Well then..."
+	line "Looks like I was"
+	cont "pretty drunk!"
 
-	para "Sure you can go"
-	line "through!"
+	para "My head hurts,"
+	line "though..."
 
-	para "Are you in a"
-	line "hurry?"
+	para "Say, are you in"
+	line "a hurry?"
 	done
 
 _ViridianCityOldManKnowHowToCatchPokemonText::

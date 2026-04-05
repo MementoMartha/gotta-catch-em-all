@@ -53,9 +53,10 @@ _Museum1FScientist1TakePlentyOfTimeText::
 	done
 
 _Museum1FGamblerText::
-	text "That is one"
-	line "magnificent"
-	cont "fossil!"
+	text "Never did I think"
+	line "I would get to"
+	cont "see the bones of"
+	cont "a dragon!"
 	done
 
 _Museum1FScientist2TakeThisToAPokemonLabText::

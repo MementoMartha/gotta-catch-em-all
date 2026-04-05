@@ -220,9 +220,11 @@ _CeruleanCityTrainerTipsText::
 	done
 
 _CeruleanCityBikeShopSign::
-	text "Grass and caves"
+	text "MIRACLE CYCLE"
+	line "BIKE SHOP"
+
+	para "Grass and caves"
 	line "handled easily!"
-	cont "BIKE SHOP"
 	done
 
 _CeruleanCityGymSign::
