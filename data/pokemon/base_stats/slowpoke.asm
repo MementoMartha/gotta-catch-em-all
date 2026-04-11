@@ -15,12 +15,12 @@
 
 	; tm/hm learnset
 	tmhm HEADBUTT,     TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  \
-	     BUBBLEBEAM,   FLAMETHROWER, ICE_BEAM,     BLIZZARD,     PAY_DAY,      \
-	     RAGE,         EARTHQUAKE,   FISSURE,      DIG,          PSYCHIC_M,    \
-	     MIMIC,        DOUBLE_TEAM,  LIGHT_SCREEN, REFLECT,      BIDE,         \
-	     FIRE_BLAST,   SWIFT,        SKULL_BASH,   DREAM_EATER,  REST,         \
-	     THUNDER_WAVE, PSYWAVE,      TRI_ATTACK,   SUBSTITUTE,   SURF,         \
-	     STRENGTH,     FLASH
+	     BUBBLEBEAM,   FLAMETHROWER, ICE_BEAM,     BLIZZARD,     RAGE,         \
+	     EARTHQUAKE,   FISSURE,      DIG,          PSYCHIC_M,    MIMIC,        \
+	     DOUBLE_TEAM,  LIGHT_SCREEN, REFLECT,      BIDE,         FIRE_BLAST,   \
+	     SWIFT,        SKULL_BASH,   DREAM_EATER,  REST,         THUNDER_WAVE, \
+	     PSYWAVE,      TRI_ATTACK,   SUBSTITUTE,   SURF,         STRENGTH,     \
+	     FLASH
 	; end
 
 	db BANK(SlowpokePicFront)

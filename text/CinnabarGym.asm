@@ -42,17 +42,17 @@ _CinnabarGymBlaineVolcanoBadgeInfoText::
 	line "have this too!"
 	done
 
-_CinnabarGymBlaineReceivedTM38Text::
+_CinnabarGymBlaineReceivedTM39Text::
 	text "<PLAYER> received"
 	line "@"
 	text_ram wStringBuffer
 	text "!@"
 	text_end
 
-_CinnabarGymBlaineTM38ExplanationText::
+_CinnabarGymBlaineTM39ExplanationText::
 	text_start
 
-	para "TM38 contains"
+	para "TM39 contains"
 	line "FIRE BLAST!"
 
 	para "Teach it to fire-"
@@ -63,7 +63,7 @@ _CinnabarGymBlaineTM38ExplanationText::
 	cont "good bets!"
 	done
 
-_CinnabarGymBlaineTM38NoRoomText::
+_CinnabarGymBlaineTM39NoRoomText::
 	text "Make room for my"
 	line "gift!"
 	done

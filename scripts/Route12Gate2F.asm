@@ -9,23 +9,23 @@ Route12Gate2F_TextPointers:
 
 Route12Gate2FBrunetteGirlText:
 	text_asm
-	CheckEvent EVENT_GOT_TM39, 1
+	CheckEvent EVENT_GOT_TM40, 1
 	jr c, .got_item
 	ld hl, .YouCanHaveThisText
 	call PrintText
 	lb bc, TM_SWIFT, 1
 	call GiveItem
 	jr nc, .bag_full
-	ld hl, .ReceivedTM39Text
+	ld hl, .ReceivedTM40Text
 	call PrintText
-	SetEvent EVENT_GOT_TM39
+	SetEvent EVENT_GOT_TM40
 	jr .done
 .bag_full
-	ld hl, .TM39NoRoomText
+	ld hl, .TM40NoRoomText
 	call PrintText
 	jr .done
 .got_item
-	ld hl, .TM39ExplanationText
+	ld hl, .TM40ExplanationText
 	call PrintText
 .done
 	jp TextScriptEnd
@@ -34,17 +34,17 @@ Route12Gate2FBrunetteGirlText:
 	text_far _Route12Gate2FBrunetteGirlYouCanHaveThisText
 	text_end
 
-.ReceivedTM39Text:
-	text_far _Route12Gate2FBrunetteGirlReceivedTM39Text
+.ReceivedTM40Text:
+	text_far _Route12Gate2FBrunetteGirlReceivedTM40Text
 	sound_get_item_1
 	text_end
 
-.TM39ExplanationText:
-	text_far _Route12Gate2FBrunetteGirlTM39ExplanationText
+.TM40ExplanationText:
+	text_far _Route12Gate2FBrunetteGirlTM40ExplanationText
 	text_end
 
-.TM39NoRoomText:
-	text_far _Route12Gate2FBrunetteGirlTM39NoRoomText
+.TM40NoRoomText:
+	text_far _Route12Gate2FBrunetteGirlTM40NoRoomText
 	text_end
 
 Route12Gate2FLeftBinocularsText:

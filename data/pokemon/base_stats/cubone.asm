@@ -14,12 +14,13 @@
 	db GROWTH_MEDIUM_SLOW ; growth rate
 
 	; tm/hm learnset
-	tmhm MEGA_PUNCH,   SWORDS_DANCE, MEGA_KICK,    HEADBUTT,     TOXIC,        \
-	     BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  BUBBLEBEAM,   FLAMETHROWER, \
-	     ICE_BEAM,     BLIZZARD,     SUBMISSION,   COUNTER,      SEISMIC_TOSS, \
-	     RAGE,         EARTHQUAKE,   FISSURE,      DIG,          MIMIC,        \
-	     DOUBLE_TEAM,  BIDE,         FIRE_BLAST,   SWIFT,        SKULL_BASH,   \   
-	     REST,         ROCK_SLIDE,   SUBSTITUTE,   STRENGTH
+	tmhm MEGA_PUNCH,   FIRE_PUNCH,   THUNDERPUNCH, SWORDS_DANCE, MEGA_KICK,    \
+	     HEADBUTT,     TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  \
+	     BUBBLEBEAM,   FLAMETHROWER, ICE_BEAM,     BLIZZARD,     SUBMISSION,   \
+	     COUNTER,      SEISMIC_TOSS, RAGE,         EARTHQUAKE,   FISSURE,      \
+	     DIG,          MIMIC,        DOUBLE_TEAM,  BIDE,         FIRE_BLAST,   \   
+	     SWIFT,        SKULL_BASH,   REST,         ROCK_SLIDE,   SUBSTITUTE,   \
+	     STRENGTH
 	; end
 
 	db BANK(CubonePicFront)

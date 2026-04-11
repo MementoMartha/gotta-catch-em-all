@@ -114,19 +114,19 @@ SilphCo2TrainerHeader3:
 
 SilphCo2FSilphWorkerFText:
 	text_asm
-	CheckEvent EVENT_GOT_TM36
+	CheckEvent EVENT_GOT_TM38
 	jr nz, .already_have_tm
 	ld hl, .PleaseTakeThisText
 	call PrintText
 	lb bc, TM_SELFDESTRUCT, 1
 	call GiveItem
-	ld hl, .TM36NoRoomText
+	ld hl, .TM38NoRoomText
 	jr nc, .print_text
-	SetEvent EVENT_GOT_TM36
-	ld hl, .ReceivedTM36Text
+	SetEvent EVENT_GOT_TM38
+	ld hl, .ReceivedTM38Text
 	jr .print_text
 .already_have_tm
-	ld hl, .TM36ExplanationText
+	ld hl, .TM38ExplanationText
 .print_text
 	call PrintText
 	jp TextScriptEnd
@@ -135,17 +135,17 @@ SilphCo2FSilphWorkerFText:
 	text_far SilphCo2FSilphWorkerFPleaseTakeThisText
 	text_end
 
-.ReceivedTM36Text:
-	text_far _SilphCo2FSilphWorkerFReceivedTM36Text
+.ReceivedTM38Text:
+	text_far _SilphCo2FSilphWorkerFReceivedTM38Text
 	sound_get_item_1
 	text_end
 
-.TM36ExplanationText:
-	text_far _SilphCo2FSilphWorkerFTM36ExplanationText
+.TM38ExplanationText:
+	text_far _SilphCo2FSilphWorkerFTM38ExplanationText
 	text_end
 
-.TM36NoRoomText:
-	text_far _SilphCo2FSilphWorkerFTM36NoRoomText
+.TM38NoRoomText:
+	text_far _SilphCo2FSilphWorkerFTM38NoRoomText
 	text_end
 
 SilphCo2FScientist1Text:

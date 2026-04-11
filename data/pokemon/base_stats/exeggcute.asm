@@ -17,8 +17,8 @@
 	tmhm SWORDS_DANCE, HEADBUTT,     TOXIC,        TAKE_DOWN,    DOUBLE_EDGE,  \
 	     RAGE,         MEGA_DRAIN,   SOLARBEAM,    PSYCHIC_M,    MIMIC,        \
 	     DOUBLE_TEAM,  LIGHT_SCREEN, REFLECT,      BIDE,         SELFDESTRUCT, \
-	     EGG_BOMB,     DREAM_EATER,  REST,         PSYWAVE,      EXPLOSION,    \
-	     SUBSTITUTE,   STRENGTH,     FLASH
+	     DREAM_EATER,  REST,         PSYWAVE,      EXPLOSION,    SUBSTITUTE,   \
+	     STRENGTH,     FLASH
 	; end
 
 	db BANK(ExeggcutePicFront)

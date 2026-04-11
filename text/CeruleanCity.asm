@@ -68,9 +68,9 @@ _CeruleanCityRocketText::
 	cont "you believe me?"
 	done
 
-_CeruleanCityRocketReceivedTM28Text::
+_CeruleanCityRocketReceivedTM30Text::
 	text "<PLAYER> recovered"
-	line "TM28!@"
+	line "TM30!@"
 	text_end
 
 _CeruleanCityRocketIBetterGetMovingText::
@@ -80,7 +80,7 @@ _CeruleanCityRocketIBetterGetMovingText::
 	line "moving! Bye!@"
 	text_end
 
-_CeruleanCityRocketTM28NoRoomText::
+_CeruleanCityRocketTM30NoRoomText::
 	text "Make room for"
 	line "this!"
 

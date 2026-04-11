@@ -86,43 +86,43 @@ CeladonMartRoofScript_GiveDrinkToGirl:
 	cp SODA_POP
 	jr z, .gaveSodaPop
 ; gave Lemonade
-	CheckEvent EVENT_GOT_TM49
+	CheckEvent EVENT_GOT_TM04
 	jr nz, .alreadyGaveDrink
 	ld hl, CeladonMartRoofLittleGirlYayLemonadeText
 	call PrintText
 	call RemoveItemByIDBank12
-	lb bc, TM_TRI_ATTACK, 1
+	lb bc, TM_THUNDERPUNCH, 1
 	call GiveItem
 	jr nc, .bagFull
-	ld hl, CeladonMartRoofLittleGirlReceivedTM49Text
+	ld hl, CeladonMartRoofLittleGirlReceivedTM04Text
 	call PrintText
-	SetEvent EVENT_GOT_TM49
+	SetEvent EVENT_GOT_TM04
 	ret
 .gaveSodaPop
-	CheckEvent EVENT_GOT_TM48
+	CheckEvent EVENT_GOT_TM03
 	jr nz, .alreadyGaveDrink
 	ld hl, CeladonMartRoofLittleGirlYaySodaPopText
 	call PrintText
 	call RemoveItemByIDBank12
-	lb bc, TM_ROCK_SLIDE, 1
+	lb bc, TM_ICE_PUNCH, 1
 	call GiveItem
 	jr nc, .bagFull
-	ld hl, CeladonMartRoofLittleGirlReceivedTM48Text
+	ld hl, CeladonMartRoofLittleGirlReceivedTM03Text
 	call PrintText
-	SetEvent EVENT_GOT_TM48
+	SetEvent EVENT_GOT_TM03
 	ret
 .gaveFreshWater
-	CheckEvent EVENT_GOT_TM13
+	CheckEvent EVENT_GOT_TM02
 	jr nz, .alreadyGaveDrink
 	ld hl, CeladonMartRoofLittleGirlYayFreshWaterText
 	call PrintText
 	call RemoveItemByIDBank12
-	lb bc, TM_ICE_BEAM, 1
+	lb bc, TM_FIRE_PUNCH, 1
 	call GiveItem
 	jr nc, .bagFull
-	ld hl, CeladonMartRoofLittleGirlReceivedTM13Text
+	ld hl, CeladonMartRoofLittleGirlReceivedTM02Text
 	call PrintText
-	SetEvent EVENT_GOT_TM13
+	SetEvent EVENT_GOT_TM02
 	ret
 .bagFull
 	ld hl, CeladonMartRoofLittleGirlNoRoomText
@@ -143,10 +143,10 @@ CeladonMartRoofLittleGirlYayFreshWaterText:
 	text_waitbutton
 	text_end
 
-CeladonMartRoofLittleGirlReceivedTM13Text:
-	text_far _CeladonMartRoofLittleGirlReceivedTM13Text
+CeladonMartRoofLittleGirlReceivedTM02Text:
+	text_far _CeladonMartRoofLittleGirlReceivedTM02Text
 	sound_get_item_1
-	text_far _CeladonMartRoofLittleGirlTM13ExplanationText
+	text_far _CeladonMartRoofLittleGirlTM02ExplanationText
 	text_waitbutton
 	text_end
 
@@ -155,10 +155,10 @@ CeladonMartRoofLittleGirlYaySodaPopText:
 	text_waitbutton
 	text_end
 
-CeladonMartRoofLittleGirlReceivedTM48Text:
-	text_far _CeladonMartRoofLittleGirlReceivedTM48Text
+CeladonMartRoofLittleGirlReceivedTM03Text:
+	text_far _CeladonMartRoofLittleGirlReceivedTM03Text
 	sound_get_item_1
-	text_far _CeladonMartRoofLittleGirlTM48ExplanationText
+	text_far _CeladonMartRoofLittleGirlTM03ExplanationText
 	text_waitbutton
 	text_end
 
@@ -167,10 +167,10 @@ CeladonMartRoofLittleGirlYayLemonadeText:
 	text_waitbutton
 	text_end
 
-CeladonMartRoofLittleGirlReceivedTM49Text:
-	text_far _CeladonMartRoofLittleGirlReceivedTM49Text
+CeladonMartRoofLittleGirlReceivedTM04Text:
+	text_far _CeladonMartRoofLittleGirlReceivedTM04Text
 	sound_get_item_1
-	text_far _CeladonMartRoofLittleGirlTM49ExplanationText
+	text_far _CeladonMartRoofLittleGirlTM04ExplanationText
 	text_waitbutton
 	text_end
 

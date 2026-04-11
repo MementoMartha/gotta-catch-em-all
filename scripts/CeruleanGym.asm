@@ -43,7 +43,7 @@ CeruleanGymMistyPostBattleScript:
 	ld a, PAD_CTRL_PAD
 	ld [wJoyIgnore], a
 
-CeruleanGymReceiveTM11:
+CeruleanGymReceiveTM14:
 	ld a, TEXT_CERULEANGYM_MISTY_CASCADE_BADGE_INFO
 	ldh [hTextID], a
 	call DisplayTextID
@@ -51,13 +51,13 @@ CeruleanGymReceiveTM11:
 	lb bc, TM_BUBBLEBEAM, 1
 	call GiveItem
 	jr nc, .BagFull
-	ld a, TEXT_CERULEANGYM_MISTY_RECEIVED_TM11
+	ld a, TEXT_CERULEANGYM_MISTY_RECEIVED_TM14
 	ldh [hTextID], a
 	call DisplayTextID
-	SetEvent EVENT_GOT_TM11
+	SetEvent EVENT_GOT_TM14
 	jr .gymVictory
 .BagFull
-	ld a, TEXT_CERULEANGYM_MISTY_TM11_NO_ROOM
+	ld a, TEXT_CERULEANGYM_MISTY_TM14_NO_ROOM
 	ldh [hTextID], a
 	call DisplayTextID
 .gymVictory
@@ -78,8 +78,8 @@ CeruleanGym_TextPointers:
 	dw_const CeruleanGymSwimmerText,               TEXT_CERULEANGYM_SWIMMER
 	dw_const CeruleanGymGymGuideText,              TEXT_CERULEANGYM_GYM_GUIDE
 	dw_const CeruleanGymMistyCascadeBadgeInfoText, TEXT_CERULEANGYM_MISTY_CASCADE_BADGE_INFO
-	dw_const CeruleanGymMistyReceivedTM11Text,     TEXT_CERULEANGYM_MISTY_RECEIVED_TM11
-	dw_const CeruleanGymMistyTM11NoRoomText,       TEXT_CERULEANGYM_MISTY_TM11_NO_ROOM
+	dw_const CeruleanGymMistyReceivedTM14Text,     TEXT_CERULEANGYM_MISTY_RECEIVED_TM14
+	dw_const CeruleanGymMistyTM14NoRoomText,       TEXT_CERULEANGYM_MISTY_TM14_NO_ROOM
 
 CeruleanGymTrainerHeaders:
 	def_trainers 2
@@ -93,13 +93,13 @@ CeruleanGymMistyText:
 	text_asm
 	CheckEvent EVENT_BEAT_MISTY
 	jr z, .beforeBeat
-	CheckEventReuseA EVENT_GOT_TM11
+	CheckEventReuseA EVENT_GOT_TM14
 	jr nz, .afterBeat
-	call z, CeruleanGymReceiveTM11
+	call z, CeruleanGymReceiveTM14
 	call DisableWaitingAfterTextDisplay
 	jr .done
 .afterBeat
-	ld hl, .TM11ExplanationText
+	ld hl, .TM14ExplanationText
 	call PrintText
 	jr .done
 .beforeBeat
@@ -128,21 +128,21 @@ CeruleanGymMistyText:
 	text_far _CeruleanGymMistyPreBattleText
 	text_end
 
-.TM11ExplanationText:
-	text_far _CeruleanGymMistyTM11ExplanationText
+.TM14ExplanationText:
+	text_far _CeruleanGymMistyTM14ExplanationText
 	text_end
 
 CeruleanGymMistyCascadeBadgeInfoText:
 	text_far _CeruleanGymMistyCascadeBadgeInfoText
 	text_end
 
-CeruleanGymMistyReceivedTM11Text:
-	text_far _CeruleanGymMistyReceivedTM11Text
+CeruleanGymMistyReceivedTM14Text:
+	text_far _CeruleanGymMistyReceivedTM14Text
 	sound_get_item_1
 	text_end
 
-CeruleanGymMistyTM11NoRoomText:
-	text_far _CeruleanGymMistyTM11NoRoomText
+CeruleanGymMistyTM14NoRoomText:
+	text_far _CeruleanGymMistyTM14NoRoomText
 	text_end
 
 CeruleanGymMistyReceivedCascadeBadgeText:

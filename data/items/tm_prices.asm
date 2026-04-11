@@ -2,46 +2,46 @@ TechnicalMachinePrices:
 ; In thousands (nybbles).
 	nybble_array TechnicalMachinePrices
 	nybble 3 ; TM01
-	nybble 2 ; TM02
-	nybble 2 ; TM03
+	nybble 3 ; TM02
+	nybble 3 ; TM03
 	nybble 3 ; TM04
 	nybble 2 ; TM05
-	nybble 4 ; TM06
-	nybble 2 ; TM07
-	nybble 4 ; TM08
-	nybble 3 ; TM09
-	nybble 4 ; TM10
-	nybble 2 ; TM11
-	nybble 4 ; TM12
+	nybble 2 ; TM06
+	nybble 3 ; TM07
+	nybble 2 ; TM08
+	nybble 4 ; TM09
+	nybble 2 ; TM10
+	nybble 4 ; TM11
+	nybble 3 ; TM12
 	nybble 4 ; TM13
-	nybble 5 ; TM14
-	nybble 5 ; TM15
-	nybble 5 ; TM16
-	nybble 3 ; TM17
-	nybble 2 ; TM18
+	nybble 2 ; TM14
+	nybble 4 ; TM15
+	nybble 4 ; TM16
+	nybble 5 ; TM17
+	nybble 5 ; TM18
 	nybble 3 ; TM19
 	nybble 2 ; TM20
-	nybble 5 ; TM21
-	nybble 5 ; TM22
+	nybble 3 ; TM21
+	nybble 2 ; TM22
 	nybble 5 ; TM23
-	nybble 4 ; TM24
+	nybble 5 ; TM24
 	nybble 5 ; TM25
 	nybble 4 ; TM26
 	nybble 5 ; TM27
-	nybble 2 ; TM28
-	nybble 4 ; TM29
+	nybble 4 ; TM28
+	nybble 5 ; TM29
 	nybble 2 ; TM30
-	nybble 1 ; TM31
-	nybble 1 ; TM32
+	nybble 4 ; TM31
+	nybble 2 ; TM32
 	nybble 1 ; TM33
-	nybble 2 ; TM34
-	nybble 4 ; TM35
+	nybble 1 ; TM34
+	nybble 1 ; TM35
 	nybble 2 ; TM36
-	nybble 2 ; TM37
-	nybble 5 ; TM38
-	nybble 2 ; TM39
-	nybble 4 ; TM40
-	nybble 2 ; TM41
+	nybble 4 ; TM37
+	nybble 2 ; TM38
+	nybble 5 ; TM39
+	nybble 2 ; TM40
+	nybble 4 ; TM41
 	nybble 2 ; TM42
 	nybble 5 ; TM43
 	nybble 2 ; TM44

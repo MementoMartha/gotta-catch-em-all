@@ -23,40 +23,40 @@ CeladonMart3F_TextPointers:
 
 CeladonMart3FClerkText:
 	text_asm
-	CheckEvent EVENT_GOT_TM18
+	CheckEvent EVENT_GOT_TM20
 	jr nz, .got_item
-	ld hl, .TM18PreReceiveText
+	ld hl, .TM20PreReceiveText
 	call PrintText
 	lb bc, TM_COUNTER, 1
 	call GiveItem
 	jr nc, .bag_full
-	SetEvent EVENT_GOT_TM18
-	ld hl, .ReceivedTM18Text
+	SetEvent EVENT_GOT_TM20
+	ld hl, .ReceivedTM20Text
 	jr .done
 .bag_full
-	ld hl, .TM18NoRoomText
+	ld hl, .TM20NoRoomText
 	jr .done
 .got_item
-	ld hl, .TM18ExplanationText
+	ld hl, .TM20ExplanationText
 .done
 	call PrintText
 	jp TextScriptEnd
 
-.TM18PreReceiveText:
-	text_far _CeladonMart3FClerkTM18PreReceiveText
+.TM20PreReceiveText:
+	text_far _CeladonMart3FClerkTM20PreReceiveText
 	text_end
 
-.ReceivedTM18Text:
-	text_far _CeladonMart3FClerkReceivedTM18Text
+.ReceivedTM20Text:
+	text_far _CeladonMart3FClerkReceivedTM20Text
 	sound_get_item_1
 	text_end
 
-.TM18ExplanationText:
-	text_far _CeladonMart3FClerkTM18ExplanationText
+.TM20ExplanationText:
+	text_far _CeladonMart3FClerkTM20ExplanationText
 	text_end
 
-.TM18NoRoomText:
-	text_far _CeladonMart3FClerkTM18NoRoomText
+.TM20NoRoomText:
+	text_far _CeladonMart3FClerkTM20NoRoomText
 	text_end
 
 CeladonMart3FGameBoyKid1Text:

@@ -13,7 +13,7 @@ CopycatsHouse2F_TextPointers:
 
 CopycatsHouse2FCopycatText:
 	text_asm
-	CheckEvent EVENT_GOT_TM30
+	CheckEvent EVENT_GOT_TM32
 	jr nz, .got_item
 	ld a, TRUE
 	ld [wDoNotWaitForButtonPressAfterDisplayingText], a
@@ -22,24 +22,24 @@ CopycatsHouse2FCopycatText:
 	ld b, POKE_DOLL
 	call IsItemInBag
 	jr z, .done
-	ld hl, .TM30PreReceiveText
+	ld hl, .TM32PreReceiveText
 	call PrintText
 	lb bc, TM_MIMIC, 1
 	call GiveItem
 	jr nc, .bag_full
-	ld hl, .ReceivedTM30Text
+	ld hl, .ReceivedTM32Text
 	call PrintText
 	ld a, POKE_DOLL
 	ldh [hItemToRemoveID], a
 	farcall RemoveItemByID
-	SetEvent EVENT_GOT_TM30
+	SetEvent EVENT_GOT_TM32
 	jr .done
 .bag_full
-	ld hl, .TM30NoRoomText
+	ld hl, .TM32NoRoomText
 	call PrintText
 	jr .done
 .got_item
-	ld hl, .TM30Explanation2Text
+	ld hl, .TM32Explanation2Text
 	call PrintText
 .done
 	jp TextScriptEnd
@@ -48,24 +48,24 @@ CopycatsHouse2FCopycatText:
 	text_far _CopycatsHouse2FCopycatDoYouLikePokemonText
 	text_end
 
-.TM30PreReceiveText:
-	text_far _CopycatsHouse2FCopycatTM30PreReceiveText
+.TM32PreReceiveText:
+	text_far _CopycatsHouse2FCopycatTM32PreReceiveText
 	text_end
 
-.ReceivedTM30Text:
-	text_far _CopycatsHouse2FCopycatReceivedTM30Text
+.ReceivedTM32Text:
+	text_far _CopycatsHouse2FCopycatReceivedTM32Text
 	sound_get_item_1
-.TM30Explanation1Text:
-	text_far _CopycatsHouse2FCopycatTM30Explanation1Text
+.TM32Explanation1Text:
+	text_far _CopycatsHouse2FCopycatTM32Explanation1Text
 	text_waitbutton
 	text_end
 
-.TM30Explanation2Text:
-	text_far _CopycatsHouse2FCopycatTM30Explanation2Text
+.TM32Explanation2Text:
+	text_far _CopycatsHouse2FCopycatTM32Explanation2Text
 	text_end
 
-.TM30NoRoomText:
-	text_far _CopycatsHouse2FCopycatTM30NoRoomText
+.TM32NoRoomText:
+	text_far _CopycatsHouse2FCopycatTM32NoRoomText
 	text_waitbutton
 	text_end
 

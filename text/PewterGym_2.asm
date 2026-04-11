@@ -17,12 +17,12 @@ _PewterGymBrockWaitTakeThisText::
 	line "with you!"
 	done
 
-_PewterGymReceivedTM34Text::
+_PewterGymReceivedTM36Text::
 	text "<PLAYER> received"
-	line "TM34!@"
+	line "TM36!@"
 	text_end
 
-_TM34ExplanationText::
+_TM36ExplanationText::
 	text_start
 
 	para "A TM contains a"
@@ -37,7 +37,7 @@ _TM34ExplanationText::
 	cont "pick the #MON"
 	cont "carefully!"
 
-	para "TM34 contains"
+	para "TM36 contains"
 	line "BIDE!"
 
 	para "Your #MON will"
@@ -46,7 +46,7 @@ _TM34ExplanationText::
 	cont "it back double!"
 	done
 
-_PewterGymTM34NoRoomText::
+_PewterGymTM36NoRoomText::
 	text "You don't have"
 	line "room for this!"
 	done

@@ -135,7 +135,7 @@ ViridianGymGiovanniPostBattle:
 	ld a, PAD_CTRL_PAD
 	ld [wJoyIgnore], a
 ; fallthrough
-ViridianGymReceiveTM27:
+ViridianGymReceiveTM29:
 	ld a, TEXT_VIRIDIANGYM_GIOVANNI_EARTH_BADGE_INFO
 	ldh [hTextID], a
 	call DisplayTextID
@@ -143,13 +143,13 @@ ViridianGymReceiveTM27:
 	lb bc, TM_FISSURE, 1
 	call GiveItem
 	jr nc, .bag_full
-	ld a, TEXT_VIRIDIANGYM_GIOVANNI_RECEIVED_TM27
+	ld a, TEXT_VIRIDIANGYM_GIOVANNI_RECEIVED_TM29
 	ldh [hTextID], a
 	call DisplayTextID
-	SetEvent EVENT_GOT_TM27
+	SetEvent EVENT_GOT_TM29
 	jr .gym_victory
 .bag_full
-	ld a, TEXT_VIRIDIANGYM_GIOVANNI_TM27_NO_ROOM
+	ld a, TEXT_VIRIDIANGYM_GIOVANNI_TM29_NO_ROOM
 	ldh [hTextID], a
 	call DisplayTextID
 .gym_victory
@@ -181,8 +181,8 @@ ViridianGym_TextPointers:
 	dw_const ViridianGymGymGuideText,               TEXT_VIRIDIANGYM_GYM_GUIDE
 	dw_const PickUpItemText,                        TEXT_VIRIDIANGYM_REVIVE
 	dw_const ViridianGymGiovanniEarthBadgeInfoText, TEXT_VIRIDIANGYM_GIOVANNI_EARTH_BADGE_INFO
-	dw_const ViridianGymGiovanniReceivedTM27Text,   TEXT_VIRIDIANGYM_GIOVANNI_RECEIVED_TM27
-	dw_const ViridianGymGiovanniTM27NoRoomText,     TEXT_VIRIDIANGYM_GIOVANNI_TM27_NO_ROOM
+	dw_const ViridianGymGiovanniReceivedTM29Text,   TEXT_VIRIDIANGYM_GIOVANNI_RECEIVED_TM29
+	dw_const ViridianGymGiovanniTM29NoRoomText,     TEXT_VIRIDIANGYM_GIOVANNI_TM29_NO_ROOM
 
 ViridianGymTrainerHeaders:
 	def_trainers 2
@@ -208,9 +208,9 @@ ViridianGymGiovanniText:
 	text_asm
 	CheckEvent EVENT_BEAT_VIRIDIAN_GYM_GIOVANNI
 	jr z, .beforeBeat
-	CheckEventReuseA EVENT_GOT_TM27
+	CheckEventReuseA EVENT_GOT_TM29
 	jr nz, .afterBeat
-	call z, ViridianGymReceiveTM27
+	call z, ViridianGymReceiveTM29
 	call DisableWaitingAfterTextDisplay
 	jr .text_script_end
 .afterBeat
@@ -264,16 +264,16 @@ ViridianGymGiovanniEarthBadgeInfoText:
 	text_far _ViridianGymGiovanniEarthBadgeInfoText
 	text_end
 
-ViridianGymGiovanniReceivedTM27Text:
-	text_far _ViridianGymGiovanniReceivedTM27Text
+ViridianGymGiovanniReceivedTM29Text:
+	text_far _ViridianGymGiovanniReceivedTM29Text
 	sound_get_item_1
 
-ViridianGymGiovanniTM27ExplanationText:
-	text_far _ViridianGymGiovanniTM27ExplanationText
+ViridianGymGiovanniTM29ExplanationText:
+	text_far _ViridianGymGiovanniTM29ExplanationText
 	text_end
 
-ViridianGymGiovanniTM27NoRoomText:
-	text_far _ViridianGymGiovanniTM27NoRoomText
+ViridianGymGiovanniTM29NoRoomText:
+	text_far _ViridianGymGiovanniTM29NoRoomText
 	text_end
 
 ViridianGymCooltrainerM1Text:

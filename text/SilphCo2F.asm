@@ -9,15 +9,15 @@ SilphCo2FSilphWorkerFPleaseTakeThisText::
 	cont "please take this!"
 	prompt
 
-_SilphCo2FSilphWorkerFReceivedTM36Text::
+_SilphCo2FSilphWorkerFReceivedTM38Text::
 	text "<PLAYER> got"
 	line "@"
 	text_ram wStringBuffer
 	text "!@"
 	text_end
 
-_SilphCo2FSilphWorkerFTM36ExplanationText::
-	text "TM36 is"
+_SilphCo2FSilphWorkerFTM38ExplanationText::
+	text "TM38 is"
 	line "SELFDESTRUCT!"
 
 	para "It's powerful, but"
@@ -26,7 +26,7 @@ _SilphCo2FSilphWorkerFTM36ExplanationText::
 	cont "Be careful."
 	done
 
-_SilphCo2FSilphWorkerFTM36NoRoomText::
+_SilphCo2FSilphWorkerFTM38NoRoomText::
 	text "You don't have any"
 	line "room for this."
 	done

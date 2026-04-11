@@ -19,8 +19,8 @@ _CeruleanGymMistyPreBattleText::
 	para "Are you ready?"
 	done
 
-_CeruleanGymMistyTM11ExplanationText::
-	text "TM11 teaches"
+_CeruleanGymMistyTM14ExplanationText::
+	text "TM14 teaches"
 	line "BUBBLEBEAM!"
 
 	para "Use it on an"
@@ -47,12 +47,12 @@ _CeruleanGymMistyCascadeBadgeInfoText::
 	line "my favorite TM!"
 	done
 
-_CeruleanGymMistyReceivedTM11Text::
+_CeruleanGymMistyReceivedTM14Text::
 	text "<PLAYER> received"
-	line "TM11!@"
+	line "TM14!@"
 	text_end
 
-_CeruleanGymMistyTM11NoRoomText::
+_CeruleanGymMistyTM14NoRoomText::
 	text "You better make"
 	line "room for this!"
 	done

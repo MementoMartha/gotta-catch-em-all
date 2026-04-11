@@ -8,13 +8,13 @@ _Route12Gate2FBrunetteGirlYouCanHaveThisText::
 	cont "it anymore..."
 	prompt
 
-_Route12Gate2FBrunetteGirlReceivedTM39Text::
+_Route12Gate2FBrunetteGirlReceivedTM40Text::
 	text "<PLAYER> received"
-	line "TM39!@"
+	line "TM40!@"
 	text_end
 
-_Route12Gate2FBrunetteGirlTM39ExplanationText::
-	text "TM39 is a move"
+_Route12Gate2FBrunetteGirlTM40ExplanationText::
+	text "TM40 is a move"
 	line "called SWIFT."
 
 	para "It's very accurate,"
@@ -23,7 +23,7 @@ _Route12Gate2FBrunetteGirlTM39ExplanationText::
 	cont "afford to lose."
 	done
 
-_Route12Gate2FBrunetteGirlTM39NoRoomText::
+_Route12Gate2FBrunetteGirlTM40NoRoomText::
 	text "You don't have"
 	line "room for this."
 	done

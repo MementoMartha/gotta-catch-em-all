@@ -312,13 +312,13 @@ CeruleanCityRocketText:
 	lb bc, TM_DIG, 1
 	call GiveItem
 	jr c, .Success
-	ld hl, .TM28NoRoomText
+	ld hl, .TM30NoRoomText
 	call PrintText
 	jr .Done
 .Success
 	ld a, $1
 	ld [wDoNotWaitForButtonPressAfterDisplayingText], a
-	ld hl, .ReceivedTM28Text
+	ld hl, .ReceivedTM30Text
 	call PrintText
 	farcall CeruleanHideRocket
 .Done
@@ -328,15 +328,15 @@ CeruleanCityRocketText:
 	text_far _CeruleanCityRocketText
 	text_end
 
-.ReceivedTM28Text:
-	text_far _CeruleanCityRocketReceivedTM28Text
+.ReceivedTM30Text:
+	text_far _CeruleanCityRocketReceivedTM30Text
 	sound_get_item_1
 	text_far _CeruleanCityRocketIBetterGetMovingText
 	text_waitbutton
 	text_end
 
-.TM28NoRoomText:
-	text_far _CeruleanCityRocketTM28NoRoomText
+.TM30NoRoomText:
+	text_far _CeruleanCityRocketTM30NoRoomText
 	text_end
 
 .IGiveUpText:

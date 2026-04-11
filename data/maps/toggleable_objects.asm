@@ -88,9 +88,9 @@ ToggleableObjectStates:
 	toggle_object_state ROUTE9_TM_DOUBLE_TEAM, ON
 
 	toggleable_objects_for ROUTE_12
-	toggle_object_state ROUTE12_SNORLAX,    ON
-	toggle_object_state ROUTE12_TM_PAY_DAY, ON
-	toggle_object_state ROUTE12_IRON,       ON
+	toggle_object_state ROUTE12_SNORLAX,       ON
+	toggle_object_state ROUTE12_TM_TRI_ATTACK, ON
+	toggle_object_state ROUTE12_IRON,          ON
 
 	toggleable_objects_for ROUTE_15
 	toggle_object_state ROUTE15_TM_RAGE, ON
@@ -362,11 +362,11 @@ ToggleableObjectStates:
 	toggle_object_state SAFARIZONEEAST_FULL_RESTORE, ON
 	toggle_object_state SAFARIZONEEAST_MAX_RESTORE,  ON
 	toggle_object_state SAFARIZONEEAST_CARBOS,       ON
-	toggle_object_state SAFARIZONEEAST_TM_EGG_BOMB,  ON
+	toggle_object_state SAFARIZONEEAST_TM_ICE_BEAM,  ON
 
 	toggleable_objects_for SAFARI_ZONE_NORTH
-	toggle_object_state SAFARIZONENORTH_PROTEIN,       ON
-	toggle_object_state SAFARIZONENORTH_TM_SKULL_BASH, ON
+	toggle_object_state SAFARIZONENORTH_PROTEIN,         ON
+	toggle_object_state SAFARIZONENORTH_TM_FLAMETHROWER, ON
 
 	toggleable_objects_for SAFARI_ZONE_WEST
 	toggle_object_state SAFARIZONEWEST_MAX_POTION,      ON

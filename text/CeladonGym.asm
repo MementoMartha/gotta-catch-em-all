@@ -61,17 +61,17 @@ _CeladonGymRainbowBadgeInfoText::
 	line "this with you."
 	done
 
-_CeladonGymReceivedTM21Text::
+_CeladonGymReceivedTM23Text::
 	text "<PLAYER> received"
 	line "@"
 	text_ram wStringBuffer
 	text "!@"
 	text_end
 
-_TM21ExplanationText::
+_TM23ExplanationText::
 	text_start
 
-	para "TM21 contains"
+	para "TM23 contains"
 	line "MEGA DRAIN."
 
 	para "Half the damage"
@@ -80,7 +80,7 @@ _TM21ExplanationText::
 	cont "your #MON!"
 	done
 
-_CeladonGymTM21NoRoomText::
+_CeladonGymTM23NoRoomText::
 	text "You should make"
 	line "room for this."
 	done

@@ -61,15 +61,15 @@ _ViridianGymGiovanniEarthBadgeInfoText::
 	cont "LEAGUE challenge!"
 	done
 
-_ViridianGymGiovanniReceivedTM27Text::
+_ViridianGymGiovanniReceivedTM29Text::
 	text "<PLAYER> received"
-	line "TM27!@"
+	line "TM29!@"
 	text_end
 
-_ViridianGymGiovanniTM27ExplanationText::
+_ViridianGymGiovanniTM29ExplanationText::
 	text_start
 
-	para "TM27 is FISSURE!"
+	para "TM29 is FISSURE!"
 	line "It will take out"
 	cont "#MON with just"
 	cont "one hit!"
@@ -79,7 +79,7 @@ _ViridianGymGiovanniTM27ExplanationText::
 	cont "too long ago..."
 	done
 
-_ViridianGymGiovanniTM27NoRoomText::
+_ViridianGymGiovanniTM29NoRoomText::
 	text "You do not have"
 	line "space for this!"
 	done

@@ -43,7 +43,7 @@ CeladonGymErikaPostBattleScript:
 	ld a, PAD_CTRL_PAD
 	ld [wJoyIgnore], a
 
-CeladonGymReceiveTM21:
+CeladonGymReceiveTM23:
 	ld a, TEXT_CELADONGYM_RAINBOWBADGE_INFO
 	ldh [hTextID], a
 	call DisplayTextID
@@ -51,13 +51,13 @@ CeladonGymReceiveTM21:
 	lb bc, TM_MEGA_DRAIN, 1
 	call GiveItem
 	jr nc, .BagFull
-	ld a, TEXT_CELADONGYM_RECEIVED_TM21
+	ld a, TEXT_CELADONGYM_RECEIVED_TM23
 	ldh [hTextID], a
 	call DisplayTextID
-	SetEvent EVENT_GOT_TM21
+	SetEvent EVENT_GOT_TM23
 	jr .gymVictory
 .BagFull
-	ld a, TEXT_CELADONGYM_TM21_NO_ROOM
+	ld a, TEXT_CELADONGYM_TM23_NO_ROOM
 	ldh [hTextID], a
 	call DisplayTextID
 .gymVictory
@@ -82,8 +82,8 @@ CeladonGym_TextPointers:
 	dw_const CeladonGymBeauty3Text,          TEXT_CELADONGYM_BEAUTY3
 	dw_const CeladonGymCooltrainerF4Text,    TEXT_CELADONGYM_COOLTRAINER_F4
 	dw_const CeladonGymRainbowBadgeInfoText, TEXT_CELADONGYM_RAINBOWBADGE_INFO
-	dw_const CeladonGymReceivedTM21Text,     TEXT_CELADONGYM_RECEIVED_TM21
-	dw_const CeladonGymTM21NoRoomText,       TEXT_CELADONGYM_TM21_NO_ROOM
+	dw_const CeladonGymReceivedTM23Text,     TEXT_CELADONGYM_RECEIVED_TM23
+	dw_const CeladonGymTM23NoRoomText,       TEXT_CELADONGYM_TM23_NO_ROOM
 
 CeladonGymTrainerHeaders:
 	def_trainers 2
@@ -107,9 +107,9 @@ CeladonGymErikaText:
 	text_asm
 	CheckEvent EVENT_BEAT_ERIKA
 	jr z, .beforeBeat
-	CheckEventReuseA EVENT_GOT_TM21
+	CheckEventReuseA EVENT_GOT_TM23
 	jr nz, .afterBeat
-	call z, CeladonGymReceiveTM21
+	call z, CeladonGymReceiveTM23
 	call DisableWaitingAfterTextDisplay
 	jr .done
 .afterBeat
@@ -153,14 +153,14 @@ CeladonGymRainbowBadgeInfoText:
 	text_far _CeladonGymRainbowBadgeInfoText
 	text_end
 
-CeladonGymReceivedTM21Text:
-	text_far _CeladonGymReceivedTM21Text
+CeladonGymReceivedTM23Text:
+	text_far _CeladonGymReceivedTM23Text
 	sound_get_item_1
-	text_far _TM21ExplanationText
+	text_far _TM23ExplanationText
 	text_end
 
-CeladonGymTM21NoRoomText:
-	text_far _CeladonGymTM21NoRoomText
+CeladonGymTM23NoRoomText:
+	text_far _CeladonGymTM23NoRoomText
 	text_end
 
 CeladonGymCooltrainerF1Text:

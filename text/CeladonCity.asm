@@ -39,25 +39,23 @@ _CeladonCityGramps3Text::
 	line "dropping by!"
 	prompt
 
-_CeladonCityGramps3ReceivedTM41Text::
+_CeladonCityGramps3ReceivedTM48Text::
 	text "<PLAYER> received"
 	line "@"
 	text_ram wStringBuffer
 	text "!@"
 	text_end
 
-_CeladonCityGramps3TM41ExplanationText::
-	text "TM41 teaches"
-	line "SOFTBOILED!"
+_CeladonCityGramps3TM48ExplanationText::
+	text "TM48 teaches"
+	line "ROCK SLIDE!"
 
-	para "Only one #MON"
-	line "can use it!"
-
-	para "That #MON is"
-	line "CHANSEY!"
+	para "It can sometimes"
+	line "cause the target"
+	cont "to flinch!"
 	done
 
-_CeladonCityGramps3TM41NoRoomText::
+_CeladonCityGramps3TM48NoRoomText::
 	text "Oh, your pack is"
 	line "full of items!"
 	done

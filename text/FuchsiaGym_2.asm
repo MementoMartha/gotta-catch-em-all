@@ -24,16 +24,16 @@ _FuchsiaGymKogaMarshBadgeInfoText::
 	line "too!"
 	done
 
-_FuchsiaGymKogaReceivedTM06Text::
+_FuchsiaGymKogaReceivedTM09Text::
 	text "<PLAYER> received"
 	line "@"
 	text_ram wStringBuffer
 	text "!@"
 	text_end
 
-_FuchsiaGymKogaTM06ExplanationText::
+_FuchsiaGymKogaTM09ExplanationText::
 	text_start
-	para "TM06 contains"
+	para "TM09 contains"
 	line "TOXIC!"
 
 	para "It is a secret"
@@ -41,7 +41,7 @@ _FuchsiaGymKogaTM06ExplanationText::
 	cont "400 years old!"
 	done
 
-_FuchsiaGymKogaTM06NoRoomText::
+_FuchsiaGymKogaTM09NoRoomText::
 	text "Make space for"
 	line "this, child!"
 	done

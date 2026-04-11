@@ -143,7 +143,7 @@ CinnabarGymBlainePostBattleScript:
 	ld a, PAD_CTRL_PAD
 	ld [wJoyIgnore], a
 ; fallthrough
-CinnabarGymReceiveTM38:
+CinnabarGymReceiveTM39:
 	ld a, TEXT_CINNABARGYM_BLAINE_VOLCANO_BADGE_INFO
 	ldh [hTextID], a
 	call DisplayTextID
@@ -151,13 +151,13 @@ CinnabarGymReceiveTM38:
 	lb bc, TM_FIRE_BLAST, 1
 	call GiveItem
 	jr nc, .BagFull
-	ld a, TEXT_CINNABARGYM_BLAINE_RECEIVED_TM38
+	ld a, TEXT_CINNABARGYM_BLAINE_RECEIVED_TM39
 	ldh [hTextID], a
 	call DisplayTextID
-	SetEvent EVENT_GOT_TM38
+	SetEvent EVENT_GOT_TM39
 	jr .gymVictory
 .BagFull
-	ld a, TEXT_CINNABARGYM_BLAINE_TM38_NO_ROOM
+	ld a, TEXT_CINNABARGYM_BLAINE_TM39_NO_ROOM
 	ldh [hTextID], a
 	call DisplayTextID
 .gymVictory
@@ -186,8 +186,8 @@ CinnabarGym_TextPointers:
 	dw_const CinnabarGymSuperNerd7,                 TEXT_CINNABARGYM_SUPER_NERD7
 	dw_const CinnabarGymGymGuideText,               TEXT_CINNABARGYM_GYM_GUIDE
 	dw_const CinnabarGymBlaineVolcanoBadgeInfoText, TEXT_CINNABARGYM_BLAINE_VOLCANO_BADGE_INFO
-	dw_const CinnabarGymBlaineReceivedTM38Text,     TEXT_CINNABARGYM_BLAINE_RECEIVED_TM38
-	dw_const CinnabarGymBlaineTM38NoRoomText,       TEXT_CINNABARGYM_BLAINE_TM38_NO_ROOM
+	dw_const CinnabarGymBlaineReceivedTM39Text,     TEXT_CINNABARGYM_BLAINE_RECEIVED_TM39
+	dw_const CinnabarGymBlaineTM39NoRoomText,       TEXT_CINNABARGYM_BLAINE_TM39_NO_ROOM
 
 CinnabarGymStartBattleScript:
 	ldh a, [hSpriteIndex]
@@ -213,9 +213,9 @@ CinnabarGymBlaineText:
 	text_asm
 	CheckEvent EVENT_BEAT_BLAINE
 	jr z, .beforeBeat
-	CheckEventReuseA EVENT_GOT_TM38
+	CheckEventReuseA EVENT_GOT_TM39
 	jr nz, .afterBeat
-	call z, CinnabarGymReceiveTM38
+	call z, CinnabarGymReceiveTM39
 	call DisableWaitingAfterTextDisplay
 	jp TextScriptEnd
 .afterBeat
@@ -250,14 +250,14 @@ CinnabarGymBlaineVolcanoBadgeInfoText:
 	text_far _CinnabarGymBlaineVolcanoBadgeInfoText
 	text_end
 
-CinnabarGymBlaineReceivedTM38Text:
-	text_far _CinnabarGymBlaineReceivedTM38Text
+CinnabarGymBlaineReceivedTM39Text:
+	text_far _CinnabarGymBlaineReceivedTM39Text
 	sound_get_item_1
-	text_far _CinnabarGymBlaineTM38ExplanationText
+	text_far _CinnabarGymBlaineTM39ExplanationText
 	text_end
 
-CinnabarGymBlaineTM38NoRoomText:
-	text_far _CinnabarGymBlaineTM38NoRoomText
+CinnabarGymBlaineTM39NoRoomText:
+	text_far _CinnabarGymBlaineTM39NoRoomText
 	text_end
 
 CinnabarGymSuperNerd1:
