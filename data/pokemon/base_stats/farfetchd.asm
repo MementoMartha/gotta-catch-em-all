@@ -16,8 +16,8 @@
 	; tm/hm learnset
 	tmhm RAZOR_WIND,   SWORDS_DANCE, HEADBUTT,     TOXIC,        BODY_SLAM,    \
 	     TAKE_DOWN,    DOUBLE_EDGE,  RAGE,         MIMIC,        DOUBLE_TEAM,  \
-	     REFLECT,      BIDE,         SWIFT,        SKULL_BASH,   SKY_ATTACK,   \
-	     REST,         SUBSTITUTE,   CUT,          FLY
+	     REFLECT,      BIDE,         SWIFT,        SKY_ATTACK,   REST,         \
+	     SUBSTITUTE,   CUT,          FLY
 	; end
 
 	db BANK(FarfetchdPicFront)

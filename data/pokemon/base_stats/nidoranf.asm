@@ -17,8 +17,7 @@
 	tmhm HEADBUTT,     TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  \
 	     ICE_BEAM,     BLIZZARD,     COUNTER,      RAGE,         THUNDERBOLT,  \
 	     THUNDER,      DIG,          MIMIC,        DOUBLE_TEAM,  REFLECT,      \
-	     BIDE,         SKULL_BASH,   REST,         SUBSTITUTE,   CUT,          \
-	     STRENGTH
+	     BIDE,         REST,         SUBSTITUTE,   CUT,          STRENGTH
 	; end
 
 	db BANK(NidoranFPicFront)

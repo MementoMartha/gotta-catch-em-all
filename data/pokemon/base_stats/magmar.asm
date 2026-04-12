@@ -18,8 +18,7 @@
 	     TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  FLAMETHROWER, \
 	     HYPER_BEAM,   SUBMISSION,   COUNTER,      SEISMIC_TOSS, RAGE,         \
 	     PSYCHIC_M,    MIMIC,        DOUBLE_TEAM,  BIDE,         METRONOME,    \
-	     FIRE_BLAST,   SKULL_BASH,   REST,         PSYWAVE,      SUBSTITUTE,   \
-	     STRENGTH
+	     FIRE_BLAST,   REST,         PSYWAVE,      SUBSTITUTE,   STRENGTH
 	; end
 
 	db BANK(MagmarPicFront)

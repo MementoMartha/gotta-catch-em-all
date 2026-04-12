@@ -19,8 +19,8 @@
 	     HYPER_BEAM,   SUBMISSION,   COUNTER,      SEISMIC_TOSS, RAGE,         \
 	     SOLARBEAM,    THUNDERBOLT,  THUNDER,      PSYCHIC_M,    MIMIC,        \
 	     DOUBLE_TEAM,  LIGHT_SCREEN, REFLECT,      BIDE,         METRONOME,    \
-	     SKULL_BASH,   DREAM_EATER,  REST,         THUNDER_WAVE, PSYWAVE,      \
-	     SUBSTITUTE,   FLASH
+	     DREAM_EATER,  REST,         THUNDER_WAVE, PSYWAVE,      SUBSTITUTE,   \
+	     FLASH
 	; end
 
 	db BANK(MrMimePicFront)

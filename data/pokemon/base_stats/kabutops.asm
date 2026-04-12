@@ -18,7 +18,7 @@
 	     BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  BUBBLEBEAM,   ICE_BEAM,     \
 	     BLIZZARD,     HYPER_BEAM,   SUBMISSION,   SEISMIC_TOSS, RAGE,         \
 	     MEGA_DRAIN,   DIG,          MIMIC,        DOUBLE_TEAM,  REFLECT,      \
-	     BIDE,         SKULL_BASH,   REST,         ROCK_SLIDE,   SUBSTITUTE,   \
+	     BIDE,         WATERFALL,    REST,         ROCK_SLIDE,   SUBSTITUTE,   \
 	     CUT,          SURF
 	; end
 

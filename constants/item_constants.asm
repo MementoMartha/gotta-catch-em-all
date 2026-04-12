@@ -197,8 +197,8 @@ DEF TM01 EQU const_value
 	add_tm METRONOME    ; $ED
 	add_tm SELFDESTRUCT ; $EE
 	add_tm FIRE_BLAST   ; $EF
-	add_tm SWIFT        ; $F0
-	add_tm SKULL_BASH   ; $F1
+	add_tm WATERFALL    ; $F0
+	add_tm SWIFT        ; $F1
 	add_tm DREAM_EATER  ; $F2
 	add_tm SKY_ATTACK   ; $F3
 	add_tm REST         ; $F4

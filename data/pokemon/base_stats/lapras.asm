@@ -18,7 +18,7 @@
 	     DOUBLE_EDGE,  BUBBLEBEAM,   ICE_BEAM,     BLIZZARD,     HYPER_BEAM,   \
 	     RAGE,         SOLARBEAM,    DRAGON_RAGE,  THUNDERBOLT,  THUNDER,      \
 	     EARTHQUAKE,   FISSURE,      PSYCHIC_M,    MIMIC,        DOUBLE_TEAM,  \
-	     REFLECT,      BIDE,         SKULL_BASH,   DREAM_EATER,  REST,         \
+	     REFLECT,      BIDE,         WATERFALL,    DREAM_EATER,  REST,         \
 	     PSYWAVE,      SUBSTITUTE,   SURF,         STRENGTH
 	; end
 

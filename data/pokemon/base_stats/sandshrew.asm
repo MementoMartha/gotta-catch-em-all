@@ -17,8 +17,8 @@
 	tmhm SWORDS_DANCE, HEADBUTT,     TOXIC,        BODY_SLAM,    TAKE_DOWN,    \
 	     DOUBLE_EDGE,  SUBMISSION,   COUNTER,      SEISMIC_TOSS, RAGE,         \
 	     EARTHQUAKE,   FISSURE,      DIG,          MIMIC,        DOUBLE_TEAM,  \
-	     BIDE,         SWIFT,        SKULL_BASH,   REST,         ROCK_SLIDE,   \
-	     SUBSTITUTE,   CUT,          STRENGTH
+	     BIDE,         SWIFT,        REST,         ROCK_SLIDE,   SUBSTITUTE,   \
+	     CUT,          STRENGTH
 	; end
 
 	db BANK(SandshrewPicFront)

@@ -17,7 +17,7 @@
 	tmhm HEADBUTT,     TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  \
 	     FLAMETHROWER, HYPER_BEAM,   RAGE,         DIG,          MIMIC,        \
 	     DOUBLE_TEAM,  REFLECT,      BIDE,         FIRE_BLAST,   SWIFT,        \
-	     SKULL_BASH,   REST,         SUBSTITUTE,   STRENGTH
+	     REST,         SUBSTITUTE,   STRENGTH
 	; end
 
 	db BANK(FlareonPicFront)

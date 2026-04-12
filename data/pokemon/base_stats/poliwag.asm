@@ -16,8 +16,8 @@
 	; tm/hm learnset
 	tmhm HEADBUTT,     TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  \
 	     BUBBLEBEAM,   ICE_BEAM,     BLIZZARD,     RAGE,         DIG,          \
-	     PSYCHIC_M,    MIMIC,        DOUBLE_TEAM,  BIDE,         SWIFT,        \
-	     SKULL_BASH,   REST,         PSYWAVE,      SUBSTITUTE,   SURF
+	     PSYCHIC_M,    MIMIC,        DOUBLE_TEAM,  BIDE,         WATERFALL,    \
+	     SWIFT,        REST,         PSYWAVE,      SUBSTITUTE,   SURF
 	; end
 
 	db BANK(PoliwagPicFront)

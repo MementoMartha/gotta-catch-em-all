@@ -19,8 +19,8 @@
 	     HYPER_BEAM,   SUBMISSION,   COUNTER,      SEISMIC_TOSS, RAGE,         \
 	     THUNDERBOLT,  THUNDER,      PSYCHIC_M,    MIMIC,        DOUBLE_TEAM,  \
 	     LIGHT_SCREEN, REFLECT,      BIDE,         METRONOME,    SWIFT,        \
-	     SKULL_BASH,   REST,         THUNDER_WAVE, PSYWAVE,      SUBSTITUTE,   \
-	     STRENGTH,     FLASH
+	     REST,         THUNDER_WAVE, PSYWAVE,      SUBSTITUTE,   STRENGTH,     \
+	     FLASH
 	; end
 
 	db BANK(ElectabuzzPicFront)

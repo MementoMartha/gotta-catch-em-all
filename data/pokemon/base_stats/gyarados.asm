@@ -18,7 +18,7 @@
 	     BUBBLEBEAM,   FLAMETHROWER, ICE_BEAM,     BLIZZARD,     HYPER_BEAM,   \
 	     RAGE,         DRAGON_RAGE,  THUNDERBOLT,  THUNDER,      EARTHQUAKE,   \
 	     MIMIC,        DOUBLE_TEAM,  REFLECT,      BIDE,         FIRE_BLAST,   \
-	     SKULL_BASH,   REST,         THUNDER_WAVE, SUBSTITUTE,   SURF,         \
+	     WATERFALL,    REST,         THUNDER_WAVE, SUBSTITUTE,   SURF,         \
 	     STRENGTH		 
 	; end
 

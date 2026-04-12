@@ -18,8 +18,8 @@
 	     BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  BUBBLEBEAM,   ICE_BEAM,     \
 	     BLIZZARD,     HYPER_BEAM,   SUBMISSION,   COUNTER,      SEISMIC_TOSS, \
 	     RAGE,         PSYCHIC_M,    MIMIC,        DOUBLE_TEAM,  LIGHT_SCREEN, \
-	     REFLECT,      BIDE,         METRONOME,    SKULL_BASH,   DREAM_EATER,  \
-	     REST,         PSYWAVE,      SUBSTITUTE,   FLASH
+	     REFLECT,      BIDE,         METRONOME,    DREAM_EATER,  REST,         \
+	     PSYWAVE,      SUBSTITUTE,   FLASH
 	; end
 
 	db BANK(JynxPicFront)

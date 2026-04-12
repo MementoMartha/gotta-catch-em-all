@@ -17,7 +17,7 @@
 	tmhm HEADBUTT,     TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  \
 	     FLAMETHROWER, HYPER_BEAM,   RAGE,         SOLARBEAM,    DIG,          \
 	     MIMIC,        DOUBLE_TEAM,  REFLECT,      BIDE,         FIRE_BLAST,   \
-	     SWIFT,        SKULL_BASH,   DREAM_EATER,  REST,         SUBSTITUTE
+	     SWIFT,        DREAM_EATER,  REST,         SUBSTITUTE
 	; end
 
 	db BANK(NinetalesPicFront)

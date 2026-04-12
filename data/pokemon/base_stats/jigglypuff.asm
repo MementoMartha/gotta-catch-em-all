@@ -20,9 +20,8 @@
 	     COUNTER,      SEISMIC_TOSS, RAGE,         SOLARBEAM,    THUNDERBOLT,  \
 	     THUNDER,      DIG,          PSYCHIC_M,    MIMIC,        DOUBLE_TEAM,  \
 	     LIGHT_SCREEN, REFLECT,      BIDE,         METRONOME,    SELFDESTRUCT, \
-	     FIRE_BLAST,   SWIFT,        SKULL_BASH,   DREAM_EATER,  REST,         \
-	     THUNDER_WAVE, PSYWAVE,      TRI_ATTACK,   SUBSTITUTE,   STRENGTH,     \
-	     FLASH
+	     FIRE_BLAST,   SWIFT,        DREAM_EATER,  REST,         THUNDER_WAVE, \
+	     PSYWAVE,      TRI_ATTACK,   SUBSTITUTE,   STRENGTH,     FLASH
 	; end
 
 	db BANK(JigglypuffPicFront)

@@ -18,7 +18,7 @@
 	     BUBBLEBEAM,   FLAMETHROWER, ICE_BEAM,     BLIZZARD,     RAGE,         \
 	     EARTHQUAKE,   FISSURE,      DIG,          PSYCHIC_M,    MIMIC,        \
 	     DOUBLE_TEAM,  LIGHT_SCREEN, REFLECT,      BIDE,         FIRE_BLAST,   \
-	     SWIFT,        SKULL_BASH,   DREAM_EATER,  REST,         THUNDER_WAVE, \
+	     WATERFALL,    SWIFT,        DREAM_EATER,  REST,         THUNDER_WAVE, \
 	     PSYWAVE,      TRI_ATTACK,   SUBSTITUTE,   SURF,         STRENGTH,     \
 	     FLASH
 	; end

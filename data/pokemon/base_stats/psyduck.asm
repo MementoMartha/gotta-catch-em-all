@@ -18,7 +18,7 @@
 	     BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  BUBBLEBEAM,   ICE_BEAM,     \
 	     BLIZZARD,     SUBMISSION,   COUNTER,      SEISMIC_TOSS, RAGE,         \
 	     DIG,          PSYCHIC_M,    MIMIC,        DOUBLE_TEAM,  LIGHT_SCREEN, \
-	     BIDE,         METRONOME,    SWIFT,        SKULL_BASH,   REST,         \
+	     BIDE,         METRONOME,    WATERFALL,    SWIFT,        REST,         \
 	     TRI_ATTACK,   SUBSTITUTE,   SURF,         STRENGTH,     FLASH
 	; end
 

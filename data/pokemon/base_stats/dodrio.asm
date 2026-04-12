@@ -16,8 +16,8 @@
 	; tm/hm learnset
 	tmhm SWORDS_DANCE, HEADBUTT,     TOXIC,        BODY_SLAM,    TAKE_DOWN,    \
 	     DOUBLE_EDGE,  HYPER_BEAM,   RAGE,         MIMIC,        DOUBLE_TEAM,  \
-	     REFLECT,      BIDE,         SWIFT,        SKULL_BASH,   SKY_ATTACK,   \
-	     REST,         TRI_ATTACK,   SUBSTITUTE,   FLY
+	     REFLECT,      BIDE,         SWIFT,        SKY_ATTACK,   REST,         \
+	     TRI_ATTACK,   SUBSTITUTE,   FLY
 	; end
 
 	db BANK(DodrioPicFront)

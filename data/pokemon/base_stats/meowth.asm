@@ -16,9 +16,8 @@
 	; tm/hm learnset
 	tmhm HEADBUTT,     TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  \
 	     BUBBLEBEAM,   RAGE,         THUNDERBOLT,  THUNDER,      DIG,          \
-	     MIMIC,        DOUBLE_TEAM,  BIDE,         SWIFT,        SKULL_BASH,   \
-	     DREAM_EATER,  REST,         THUNDER_WAVE, SUBSTITUTE,   CUT,          \
-	     FLASH
+	     MIMIC,        DOUBLE_TEAM,  BIDE,         SWIFT,        DREAM_EATER,  \
+	     REST,         THUNDER_WAVE, SUBSTITUTE,   CUT,          FLASH
 	; end
 
 	db BANK(MeowthPicFront)

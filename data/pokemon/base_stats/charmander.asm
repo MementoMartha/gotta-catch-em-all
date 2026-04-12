@@ -18,8 +18,8 @@
 	     HEADBUTT,     TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  \
 	     FLAMETHROWER, SUBMISSION,   COUNTER,      SEISMIC_TOSS, RAGE,         \
 	     DRAGON_RAGE,  DIG,          MIMIC,        DOUBLE_TEAM,  REFLECT,      \
-	     BIDE,         FIRE_BLAST,   SWIFT,        SKULL_BASH,   REST,         \
-	     ROCK_SLIDE,   SUBSTITUTE,   CUT,          STRENGTH
+	     BIDE,         FIRE_BLAST,   SWIFT,        REST,         ROCK_SLIDE,   \
+	     SUBSTITUTE,   CUT,          STRENGTH
 	; end
 
 	db BANK(CharmanderPicFront)

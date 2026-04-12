@@ -17,8 +17,8 @@
 	tmhm HEADBUTT,     TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  \
 	     BUBBLEBEAM,   HYPER_BEAM,   RAGE,         THUNDERBOLT,  THUNDER,      \
 	     DIG,          MIMIC,        DOUBLE_TEAM,  BIDE,         SWIFT,        \
-	     SKULL_BASH,   DREAM_EATER,  REST,         THUNDER_WAVE, SUBSTITUTE,   \
-	     CUT,          FLASH
+	     DREAM_EATER,  REST,         THUNDER_WAVE, SUBSTITUTE,   CUT,          \
+	     FLASH
 	; end
 
 	db BANK(PersianPicFront)

@@ -17,8 +17,8 @@
 	tmhm HEADBUTT,     TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  \
 	     HYPER_BEAM,   RAGE,         THUNDERBOLT,  THUNDER,      DIG,          \
 	     MIMIC,        DOUBLE_TEAM,  LIGHT_SCREEN, REFLECT,      BIDE,         \
-	     SWIFT,        SKULL_BASH,   REST,         THUNDER_WAVE, SUBSTITUTE,   \
-	     STRENGTH,     FLASH
+	     SWIFT,        REST,         THUNDER_WAVE, SUBSTITUTE,   STRENGTH,     \
+	     FLASH
 	; end
 
 	db BANK(JolteonPicFront)

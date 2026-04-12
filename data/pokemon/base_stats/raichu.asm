@@ -18,8 +18,8 @@
 	     BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  HYPER_BEAM,   SUBMISSION,   \
 	     COUNTER,      SEISMIC_TOSS, RAGE,         THUNDERBOLT,  THUNDER,      \
 	     DIG,          MIMIC,        DOUBLE_TEAM,  LIGHT_SCREEN, REFLECT,      \
-	     BIDE,         SWIFT,        SKULL_BASH,   REST,         THUNDER_WAVE, \
-	     SUBSTITUTE,   FLY,          SURF,         STRENGTH,     FLASH
+	     BIDE,         SWIFT,        REST,         THUNDER_WAVE, SUBSTITUTE,   \
+	     FLY,          SURF,         STRENGTH,     FLASH
 	; end
 
 	db BANK(RaichuPicFront)

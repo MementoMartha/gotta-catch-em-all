@@ -19,8 +19,7 @@
 	     BUBBLEBEAM,   FLAMETHROWER, ICE_BEAM,     BLIZZARD,     SUBMISSION,   \
 	     COUNTER,      SEISMIC_TOSS, RAGE,         EARTHQUAKE,   FISSURE,      \
 	     DIG,          MIMIC,        DOUBLE_TEAM,  BIDE,         FIRE_BLAST,   \   
-	     SWIFT,        SKULL_BASH,   REST,         ROCK_SLIDE,   SUBSTITUTE,   \
-	     STRENGTH
+	     SWIFT,        REST,         ROCK_SLIDE,   SUBSTITUTE,   STRENGTH
 	; end
 
 	db BANK(CubonePicFront)

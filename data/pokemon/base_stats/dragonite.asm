@@ -19,8 +19,8 @@
 	     TAKE_DOWN,    DOUBLE_EDGE,  BUBBLEBEAM,   FLAMETHROWER, ICE_BEAM,     \
 	     BLIZZARD,     HYPER_BEAM,   RAGE,         DRAGON_RAGE,  THUNDERBOLT,  \
 	     THUNDER,      EARTHQUAKE,   MIMIC,        DOUBLE_TEAM,  LIGHT_SCREEN, \
-	     REFLECT,      BIDE,         METRONOME,    FIRE_BLAST,   SWIFT,        \
-	     SKULL_BASH,   REST,         THUNDER_WAVE, ROCK_SLIDE,   SUBSTITUTE,   \
+	     REFLECT,      BIDE,         METRONOME,    FIRE_BLAST,   WATERFALL,    \
+	     SWIFT,        REST,         THUNDER_WAVE, ROCK_SLIDE,   SUBSTITUTE,   \
 	     CUT,          FLY,          SURF,         STRENGTH
 	; end
 

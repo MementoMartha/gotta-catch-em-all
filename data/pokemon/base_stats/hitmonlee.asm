@@ -17,8 +17,8 @@
 	tmhm MEGA_PUNCH,   SWORDS_DANCE, MEGA_KICK,    HEADBUTT,     TOXIC,        \
 	     BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  SUBMISSION,   COUNTER,      \
 	     SEISMIC_TOSS, RAGE,         EARTHQUAKE,   MIMIC,        DOUBLE_TEAM,  \
-	     BIDE,         METRONOME,    SWIFT,        SKULL_BASH,   REST,         \
-	     ROCK_SLIDE,   SUBSTITUTE,   STRENGTH
+	     BIDE,         METRONOME,    SWIFT,        REST,         ROCK_SLIDE,   \
+	     SUBSTITUTE,   STRENGTH
 	; end
 
 	db BANK(HitmonleePicFront)

@@ -17,8 +17,8 @@
 	tmhm HEADBUTT,     TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  \
 	     BUBBLEBEAM,   ICE_BEAM,     BLIZZARD,     COUNTER,      RAGE,         \
 	     THUNDERBOLT,  THUNDER,      DIG,          MIMIC,        DOUBLE_TEAM,  \
-	     BIDE,         SWIFT,        SKULL_BASH,   REST,         THUNDER_WAVE, \
-	     SUBSTITUTE,   CUT
+	     BIDE,         SWIFT,        REST,         THUNDER_WAVE, SUBSTITUTE,   \
+	     CUT
 	; end
 
 	db BANK(RattataPicFront)

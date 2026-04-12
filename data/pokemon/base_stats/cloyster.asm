@@ -17,8 +17,8 @@
 	tmhm HEADBUTT,     TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  \
 	     BUBBLEBEAM,   ICE_BEAM,     BLIZZARD,     HYPER_BEAM,   RAGE,         \
 	     MIMIC,        DOUBLE_TEAM,  LIGHT_SCREEN, REFLECT,      BIDE,         \
-	     SELFDESTRUCT, SWIFT,        REST,         EXPLOSION,    TRI_ATTACK,   \
-	     SUBSTITUTE,   SURF
+	     SELFDESTRUCT, WATERFALL,    SWIFT,        REST,         EXPLOSION,    \
+	     TRI_ATTACK,   SUBSTITUTE,   SURF
 	; end
 
 	db BANK(CloysterPicFront)

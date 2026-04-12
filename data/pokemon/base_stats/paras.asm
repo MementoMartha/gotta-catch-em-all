@@ -17,8 +17,7 @@
 	tmhm SWORDS_DANCE, HEADBUTT,     TOXIC,        BODY_SLAM,    TAKE_DOWN,    \
 	     DOUBLE_EDGE,  COUNTER,      RAGE,         MEGA_DRAIN,   SOLARBEAM,    \
 	     DIG,          MIMIC,        DOUBLE_TEAM,  LIGHT_SCREEN, REFLECT,      \
-	     BIDE,         SKULL_BASH,   REST,         SUBSTITUTE,   CUT,          \
-	     FLASH
+	     BIDE,         REST,         SUBSTITUTE,   CUT,          FLASH
 	; end
 
 	db BANK(ParasPicFront)

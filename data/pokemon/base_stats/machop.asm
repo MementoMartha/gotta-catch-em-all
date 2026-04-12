@@ -18,8 +18,8 @@
 	     HEADBUTT,     TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  \
 	     FLAMETHROWER, SUBMISSION,   COUNTER,      SEISMIC_TOSS, RAGE,         \
 	     EARTHQUAKE,   FISSURE,      DIG,          MIMIC,        DOUBLE_TEAM,  \
-	     LIGHT_SCREEN, BIDE,         METRONOME,    FIRE_BLAST,   SKULL_BASH,   \
-	     REST,         ROCK_SLIDE,   SUBSTITUTE,   STRENGTH
+	     LIGHT_SCREEN, BIDE,         METRONOME,    FIRE_BLAST,   REST,         \
+	     ROCK_SLIDE,   SUBSTITUTE,   STRENGTH
 	; end
 
 	db BANK(MachopPicFront)

@@ -21,8 +21,8 @@
 	     SEISMIC_TOSS, RAGE,         MEGA_DRAIN,   SOLARBEAM,    DRAGON_RAGE,  \
 	     THUNDERBOLT,  THUNDER,      EARTHQUAKE,   FISSURE,      DIG,          \
 	     PSYCHIC_M,    MIMIC,        DOUBLE_TEAM,  LIGHT_SCREEN, REFLECT,      \
-	     BIDE,         METRONOME,    SELFDESTRUCT, FIRE_BLAST,   SWIFT,        \
-	     SKULL_BASH,   DREAM_EATER,  SKY_ATTACK,   REST,         THUNDER_WAVE, \
+	     BIDE,         METRONOME,    SELFDESTRUCT, FIRE_BLAST,   WATERFALL,    \
+	     SWIFT,        DREAM_EATER,  SKY_ATTACK,   REST,         THUNDER_WAVE, \
 	     PSYWAVE,      EXPLOSION,    ROCK_SLIDE,   TRI_ATTACK,   SUBSTITUTE,   \
 	     CUT,          FLY,          SURF,         STRENGTH,     FLASH
 	; end

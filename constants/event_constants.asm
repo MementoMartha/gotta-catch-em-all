@@ -327,7 +327,7 @@
 
 ; Route 12 events
 	const_next $480
-	const EVENT_GOT_TM40
+	const EVENT_GOT_TM41
 	const_skip
 	const EVENT_BEAT_ROUTE_12_TRAINER_0
 	const EVENT_BEAT_ROUTE_12_TRAINER_1

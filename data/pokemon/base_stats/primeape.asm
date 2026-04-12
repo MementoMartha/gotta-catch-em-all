@@ -18,8 +18,8 @@
 	     HEADBUTT,     TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  \
 	     HYPER_BEAM,   SUBMISSION,   COUNTER,      SEISMIC_TOSS, RAGE,         \
 	     THUNDERBOLT,  THUNDER,      EARTHQUAKE,   DIG,          MIMIC,        \
-	     DOUBLE_TEAM,  BIDE,         METRONOME,    SWIFT,        SKULL_BASH,   \   
-	     REST,         ROCK_SLIDE,   SUBSTITUTE,   STRENGTH
+	     DOUBLE_TEAM,  BIDE,         METRONOME,    SWIFT,        REST,         \   
+	     ROCK_SLIDE,   SUBSTITUTE,   STRENGTH
 	; end
 
 	db BANK(PrimeapePicFront)

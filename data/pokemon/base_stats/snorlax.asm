@@ -20,8 +20,8 @@
 	     SUBMISSION,   COUNTER,      SEISMIC_TOSS, RAGE,         SOLARBEAM,    \
 	     THUNDERBOLT,  THUNDER,      EARTHQUAKE,   FISSURE,      DIG,          \
 	     PSYCHIC_M,    MIMIC,        DOUBLE_TEAM,  REFLECT,      BIDE,         \
-	     METRONOME,    SELFDESTRUCT, FIRE_BLAST,   SKULL_BASH,   REST,         \
-	     PSYWAVE,      ROCK_SLIDE,   SUBSTITUTE,   SURF,         STRENGTH
+	     METRONOME,    SELFDESTRUCT, FIRE_BLAST,   REST,         PSYWAVE,      \
+	     ROCK_SLIDE,   SUBSTITUTE,   SURF,         STRENGTH
 	; end
 
 	db BANK(SnorlaxPicFront)

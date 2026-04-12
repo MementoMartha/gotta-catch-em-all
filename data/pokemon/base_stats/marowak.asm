@@ -19,8 +19,8 @@
 	     BUBBLEBEAM,   FLAMETHROWER, ICE_BEAM,     BLIZZARD,     HYPER_BEAM,   \
 	     SUBMISSION,   COUNTER,      SEISMIC_TOSS, RAGE,         EARTHQUAKE,   \
 	     FISSURE,      DIG,          MIMIC,        DOUBLE_TEAM,  BIDE,         \
-	     FIRE_BLAST,   SWIFT,        SKULL_BASH,   REST,         ROCK_SLIDE,   \
-	     SUBSTITUTE,   STRENGTH
+	     FIRE_BLAST,   SWIFT,        REST,         ROCK_SLIDE,   SUBSTITUTE,   \
+	     STRENGTH
 	; end
 
 	db BANK(MarowakPicFront)

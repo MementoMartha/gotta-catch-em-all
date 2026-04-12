@@ -18,8 +18,8 @@
 	     HEADBUTT,     TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  \
 	     SUBMISSION,   COUNTER,      SEISMIC_TOSS, RAGE,         PSYCHIC_M,    \
 	     MIMIC,        DOUBLE_TEAM,  LIGHT_SCREEN, REFLECT,      BIDE,         \
-	     METRONOME,    SWIFT,        SKULL_BASH,   DREAM_EATER,  REST,         \
-	     THUNDER_WAVE, PSYWAVE,      TRI_ATTACK,   SUBSTITUTE,   FLASH
+	     METRONOME,    SWIFT,        DREAM_EATER,  REST,         THUNDER_WAVE, \
+	     PSYWAVE,      TRI_ATTACK,   SUBSTITUTE,   FLASH
 	; end
 
 	db BANK(AbraPicFront)

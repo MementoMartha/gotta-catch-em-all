@@ -18,7 +18,7 @@
 	     BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  BUBBLEBEAM,   ICE_BEAM,     \
 	     BLIZZARD,     SUBMISSION,   COUNTER,      SEISMIC_TOSS, RAGE,         \
 	     DIG,          MIMIC,        DOUBLE_TEAM,  REFLECT,      BIDE,         \
-	     SKULL_BASH,   REST,         SUBSTITUTE,   SURF,         STRENGTH
+	     WATERFALL,    REST,         SUBSTITUTE,   SURF,         STRENGTH
 	; end
 
 	db BANK(SquirtlePicFront)
