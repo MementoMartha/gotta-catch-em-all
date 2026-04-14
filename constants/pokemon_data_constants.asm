@@ -79,6 +79,9 @@ DEF HOF_TEAM_CAPACITY EQU 50
 	const EVOLVE_ITEM  ; 2
 	const EVOLVE_TRADE ; 3
 
+; Evolution Moves
+DEF EVOLUTION_MOVE EQU 254
+
 ; evolution data (see data/pokemon/evos_moves.asm)
 DEF NUM_EVOS_IN_BUFFER EQU 3
 
