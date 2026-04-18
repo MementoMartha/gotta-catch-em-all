@@ -11,7 +11,7 @@
 	dw ButterfreePicFront, ButterfreePicBack
 
 	db TACKLE, STRING_SHOT, HARDEN, CONFUSION ; level 1 learnset
-	db GROWTH_MEDIUM_FAST ; growth rate
+	db GROWTH_MEDIUM_SLOW ; growth rate
 
 	; tm/hm learnset
 	tmhm RAZOR_WIND,   HEADBUTT,     TOXIC,        TAKE_DOWN,    DOUBLE_EDGE,  \

@@ -11,7 +11,7 @@
 	dw BeedrillPicFront, BeedrillPicBack
 
 	db POISON_STING, STRING_SHOT, HARDEN, FURY_ATTACK ; level 1 learnset
-	db GROWTH_MEDIUM_FAST ; growth rate
+	db GROWTH_MEDIUM_SLOW ; growth rate
 
 	; tm/hm learnset
 	tmhm SWORDS_DANCE, HEADBUTT,     TOXIC,        TAKE_DOWN,    DOUBLE_EDGE,  \

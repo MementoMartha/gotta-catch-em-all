@@ -11,7 +11,7 @@
 	dw MetapodPicFront, MetapodPicBack
 
 	db TACKLE, STRING_SHOT, HARDEN, NO_MOVE ; level 1 learnset
-	db GROWTH_MEDIUM_FAST ; growth rate
+	db GROWTH_MEDIUM_SLOW ; growth rate
 
 	; tm/hm learnset
 	tmhm
