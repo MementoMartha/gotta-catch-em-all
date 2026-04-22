@@ -815,6 +815,12 @@ MissingNo32EvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
+	db 17, WHIRLWIND
+	db 21, SWIFT
+	db 26, SCREECH
+	db 32, SELFDESTRUCT
+	db 39, MINIMIZE
+	db 47, EXPLOSION
 	db 0
 
 MagmarEvosMoves:
@@ -887,6 +893,13 @@ MissingNo38EvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
+	db 20, SUPERSONIC
+	db 24, QUICK_ATTACK
+	db 28, SAND_ATTACK
+	db 33, STOMP
+	db 38, AGILITY
+	db 44, JUMP_KICK
+	db 50, THRASH
 	db 0
 
 MankeyEvosMoves:
@@ -943,6 +956,12 @@ MissingNo3DEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
+	db 20, HORN_ATTACK
+	db 24, STOMP
+	db 29, FURY_ATTACK
+	db 35, SLAM
+	db 42, TAKE_DOWN
+	db 50, BODY_SLAM
 	db 0
 
 MissingNo3EEvosMoves:
@@ -1001,6 +1020,12 @@ MissingNo43EvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
+	db 20, POISON_STING
+	db 23, SAND_ATTACK
+	db 27, BARRAGE
+	db 32, MEGA_DRAIN
+	db 38, GROWTH
+	db 45, PIN_MISSILE
 	db 0
 
 MissingNo44EvosMoves:
@@ -2042,18 +2067,42 @@ MissingNo9FEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
+	db 10, QUICK_ATTACK
+	db 14, THUNDER_WAVE
+	db 18, ROAR
+	db 23, BITE
+	db 28, THUNDERBOLT
+	db 34, LIGHT_SCREEN
+	db 40, AGILITY
+	db 47, THUNDER
 	db 0
 
 MissingNoA0EvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
+	db 10, QUICK_ATTACK
+	db 14, THUNDER_WAVE
+	db 18, ROAR
+	db 25, BITE
+	db 31, THUNDERBOLT
+	db 38, LIGHT_SCREEN
+	db 45, AGILITY
+	db 53, THUNDER
 	db 0
 
 MissingNoA1EvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
+	db 10, QUICK_ATTACK
+	db 14, THUNDER_WAVE
+	db 18, ROAR
+	db 25, BITE
+	db 31, THUNDERBOLT
+	db 42, LIGHT_SCREEN
+	db 50, AGILITY
+	db 59, THUNDER
 	db 0
 
 MissingNoA2EvosMoves:
@@ -2092,8 +2141,8 @@ RapidashEvosMoves:
 	db 25, STOMP
 	db 31, FIRE_SPIN
 	db 37, LOW_KICK
-	db 49, TAKE_DOWN
-	db 57, AGILITY
+	db 48, TAKE_DOWN
+	db 56, AGILITY
 	db EVOLUTION_MOVE, FURY_ATTACK
 	db 0
 

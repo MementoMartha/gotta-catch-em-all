@@ -1,6 +1,6 @@
 	db DEX_PIKACHU ; pokedex id
 
-	db  35,  55,  30,  90,  50
+	db  35,  55,  40,  90,  50
 	;   hp  atk  def  spd  spc
 
 	db ELECTRIC, ELECTRIC ; type
@@ -11,7 +11,7 @@
 	dw PikachuPicFront, PikachuPicBack
 
 	db THUNDERSHOCK, GROWL, NO_MOVE, NO_MOVE ; level 1 learnset
-	db GROWTH_MEDIUM_SLOW ; growth rate
+	db GROWTH_SLOW ; growth rate
 
 	; tm/hm learnset
 	tmhm MEGA_PUNCH,   THUNDERPUNCH, MEGA_KICK,    HEADBUTT,     TOXIC,        \
