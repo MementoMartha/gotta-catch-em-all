@@ -8,7 +8,7 @@ SafariZoneCenterWildMons:
 	db 28, NIDORINO	 	; 10%
 	db 30, PARASECT		;  5%
 	db 30, SCYTHER		;  5%
-	db 30, TANGELA		;  4%
+	db 30, FARFETCHD	;  4%
 	db 30, DITTO		;  4%
 	db 32, LICKITUNG	;  1%
 	db 32, CHANSEY		;  1%
@@ -26,7 +26,7 @@ SafariZoneCenterWildMons:
 	; NIDORINO  	- 10% (LV 28)
 	; PARASECT  	-  5% (LV 30)
 	; SCYTHER   	-  5% (LV 30)
-	; TANGELA   	-  4% (LV 30)
+	; FARFETCHD   	-  4% (LV 30)
 	; DITTO     	-  4% (LV 30)
 	; LICKITUNG 	-  1% (LV 32)
 	; CHANSEY   	-  1% (LV 32)

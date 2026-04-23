@@ -7,7 +7,7 @@ SafariZoneNorthWildMons:
 	db 28, NIDORINA		; 10%
 	db 28, NIDORINO	 	; 10%
 	db 30, VENOMOTH		;  5%
-	db 30, TANGELA		;  5%
+	db 30, FARFETCHD	;  5%
 	db 30, SCYTHER		;  4%
 	db 30, CHANSEY		;  4%
 	db 32, PINSIR	 	;  1%
@@ -25,7 +25,7 @@ SafariZoneNorthWildMons:
 	; NIDORINA  	- 10% (LV 28)
 	; NIDORINO  	- 10% (LV 28)
 	; VENOMOTH  	-  5% (LV 30)
-	; TANGELA   	-  5% (LV 30)
+	; FARFETCHD   	-  5% (LV 30)
 	; SCYTHER   	-  4% (LV 30)
 	; CHANSEY   	-  4% (LV 30)
 	; PINSIR    	-  1% (LV 32)

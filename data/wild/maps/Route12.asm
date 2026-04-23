@@ -9,9 +9,9 @@ Route12WildMons:
 	db 26, ODDISH		;  5%
 	db 26, BELLSPROUT	;  5%
 	db 27, PIDGEOTTO	;  4%
-	db 24, FARFETCHD	;  4%
+	db 24, TANGELA		;  4%
 	db 27, PIDGEOTTO	;  1%
-	db 25, FARFETCHD	;  1%
+	db 25, TANGELA		;  1%
 	end_grass_wildmons
 
 	def_water_wildmons 0 ; encounter rate
@@ -24,4 +24,4 @@ Route12WildMons:
 	; KRABBY    	- 10% (LV 25)
 	; GLOOM     	- 10% (LV 26)
 	; WEEPINBELL	- 10% (LV 26)
-	; FARFETCHD 	-  5% (LV 24-25)
+	; TANGELA    	-  5% (LV 24-25)

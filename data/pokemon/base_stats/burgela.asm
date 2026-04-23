@@ -1,16 +1,16 @@
-	db DEX_TANGELA ; pokedex id
+	db DEX_BURGELA ; pokedex id
 
-	db  65,  55, 100,  60,  85
+	db  50,  35,  75,  60,  70
 	;   hp  atk  def  spd  spc
 
 	db GRASS, GRASS ; type
-	db 90 ; catch rate
-	db 153 ; base exp
+	db 190 ; catch rate
+	db 96 ; base exp
 
-	INCBIN "gfx/pokemon/front/tangela.pic", 0, 1 ; sprite dimensions
-	dw TangelaPicFront, TangelaPicBack
+	INCBIN "gfx/pokemon/front/burgela.pic", 0, 1 ; sprite dimensions
+	dw BurgelaPicFront, BurgelaPicBack
 
-	db CONSTRICT, BIND, ABSORB, NO_MOVE ; level 1 learnset
+	db CONSTRICT, BIND, NO_MOVE, NO_MOVE ; level 1 learnset
 	db GROWTH_SLOW ; growth rate
 
 	; tm/hm learnset
@@ -20,5 +20,5 @@
 	     CUT,          FLASH
 	; end
 
-	db BANK(TangelaPicFront)
-	assert BANK(TangelaPicFront) == BANK(TangelaPicBack)
+	db BANK(BurgelaPicFront)
+	assert BANK(BurgelaPicFront) == BANK(BurgelaPicBack)

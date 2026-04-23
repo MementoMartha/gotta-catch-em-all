@@ -10,7 +10,7 @@ SafariZoneWestWildMons:
 	db 30, PINSIR		;  5%
 	db 30, LICKITUNG	;  4%
 	db 30, TAUROS		;  4%
-	db 32, TANGELA	 	;  1%
+	db 32, FARFETCHD	;  1%
 	db 32, KANGASKHAN	;  1%
 	end_grass_wildmons
 
@@ -28,5 +28,5 @@ SafariZoneWestWildMons:
 	; PINSIR    	-  5% (LV 30)
 	; LICKITUNG 	-  4% (LV 30)
 	; TAUROS    	-  4% (LV 30)
-	; TANGELA   	-  1% (LV 32)
+	; FARFETCHD   	-  1% (LV 32)
 	; KANGASKHAN	-  1% (LV 32)

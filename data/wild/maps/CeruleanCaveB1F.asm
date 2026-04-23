@@ -6,11 +6,11 @@ CeruleanCaveB1FWildMons:
 	db 57, RHYDON		; 10%
 	db 57, RAICHU   	; 10%
 	db 58, DITTO		; 10%
-	db 58, TANGELA  	;  5%
-	db 59, DITTO		;  5%
-	db 58, LICKITUNG  	;  4%
-	db 59, DITTO 		;  4%
-	db 58, LICKITUNG 	;  1%
+	db 58, LICKITUNG  	;  5%
+	db 58, FARFETCHD  	;  5%
+	db 59, DITTO		;  4%
+	db 60, DITTO 		;  4%
+	db 59, DITTO		;  1%
 	db 60, DITTO 		;  1%
 	end_grass_wildmons
 
@@ -24,5 +24,5 @@ CeruleanCaveB1FWildMons:
 	; CLEFAIRY  	- 10% (LV 57)
 	; RHYDON    	- 10% (LV 57)
 	; RAICHU    	- 10% (LV 57)
-	; TANGELA   	-  5% (LV 58)
-	; LICKITUNG 	-  5% (LV 58)
+	; LICKITUNG   	-  5% (LV 58)
+	; FARFETCHD 	-  5% (LV 58)
